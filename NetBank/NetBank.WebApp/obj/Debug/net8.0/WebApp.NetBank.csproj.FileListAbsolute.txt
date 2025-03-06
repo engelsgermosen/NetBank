@@ -1,0 +1,8 @@
+C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank.WebApp\NetBank.WebApp\obj\Debug\net8.0\WebApp.NetBank.csproj.AssemblyReference.cache
+C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank.WebApp\NetBank.WebApp\obj\Debug\net8.0\WebApp.NetBank.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank.WebApp\NetBank.WebApp\obj\Debug\net8.0\WebApp.NetBank.AssemblyInfoInputs.cache
+C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank.WebApp\NetBank.WebApp\obj\Debug\net8.0\WebApp.NetBank.AssemblyInfo.cs
+C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank.WebApp\NetBank.WebApp\obj\Debug\net8.0\WebApp.NetBank.csproj.CoreCompileInputs.cache
+C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank.WebApp\NetBank.WebApp\obj\Debug\net8.0\WebApp.NetBank.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank.WebApp\NetBank.WebApp\obj\Debug\net8.0\WebApp.NetBank.RazorAssemblyInfo.cache
+C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank.WebApp\NetBank.WebApp\obj\Debug\net8.0\WebApp.NetBank.RazorAssemblyInfo.cs
