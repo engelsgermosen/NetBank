@@ -14,6 +14,7 @@ namespace NetBank.Core.Application
             service.AddTransient<IProductService,ProductService>();
             service.AddTransient<IBeneficiareService,BeneficiareService>();
             service.AddTransient<ITransactionService,TransactionService>();
+            service.AddTransient<IRolService,RolService>();
         }
     }
 }

@@ -2,9 +2,11 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using NetBank.Core.Application.Interfaces.Services;
 using NetBank.Infraestructure.Identity.Context;
 using NetBank.Infraestructure.Identity.Entities;
 using NetBank.Infraestructure.Identity.Seeds;
+using NetBank.Infraestructure.Identity.Services;
 
 namespace NetBank.Infraestructure.Identity
 {
@@ -52,6 +54,10 @@ namespace NetBank.Infraestructure.Identity
                 opt.AccessDeniedPath = "/User/AccessDenied";
             });
 
+            #endregion
+
+            #region DI
+            services.AddTransient<IAccountService, AccountService>();
             #endregion
         }
 

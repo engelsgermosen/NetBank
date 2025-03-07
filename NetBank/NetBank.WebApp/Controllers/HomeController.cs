@@ -1,6 +1,4 @@
-
 using Microsoft.AspNetCore.Mvc;
-
 
 namespace NetBank.WebApp.Controllers
 {
@@ -8,12 +6,7 @@ namespace NetBank.WebApp.Controllers
     {
 
 
-        public HomeController()
-        {
-
-        }
-
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
             return View();
         }

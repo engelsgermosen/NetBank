@@ -1,25 +1,31 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using NetBank.Core.Application.Dtos.Account;
 using NetBank.Core.Application.Dtos.Email;
+using NetBank.Core.Application.Dtos.Rol;
 using NetBank.Core.Application.Interfaces.Services;
 using NetBank.Infraestructure.Identity.Entities;
 
 namespace NetBank.Infraestructure.Identity.Services
 {
-    public class AccountService 
+    public class AccountService : IAccountService
     {
         private readonly UserManager<ApplicationUser> _userManager;
+
+        private readonly RoleManager<IdentityRole> _roleManager;
 
         private readonly SignInManager<ApplicationUser> _signInManager;
 
         private readonly IEmailService _emailService;
 
-        public AccountService(UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager, IEmailService emailService)
+        public AccountService(UserManager<ApplicationUser> userManager, RoleManager<IdentityRole> roleManager, SignInManager<ApplicationUser> signInManager, IEmailService emailService)
         {
             _userManager = userManager;
             _signInManager = signInManager;
             _emailService = emailService;
+            _roleManager = roleManager;
+
         }
 
 
@@ -39,14 +45,14 @@ namespace NetBank.Infraestructure.Identity.Services
 
             var result = await _signInManager.PasswordSignInAsync(user.UserName, request.Password, false, false);
 
-            if(!result.Succeeded)
+            if (!result.Succeeded)
             {
                 response.HasError = true;
                 response.Error = "Usuario o contraseña incorrectos";
                 return response;
             }
 
-            if(!user.EmailConfirmed)
+            if (!user.EmailConfirmed)
             {
                 response.HasError = true;
                 response.Error = $"El correo electronico de esa cuenta no ha sido confirmado";
@@ -70,12 +76,12 @@ namespace NetBank.Infraestructure.Identity.Services
 
         public async Task<RegisterResponse> RegisterAsync(RegisterRequest request)
         {
-            RegisterResponse response = new ();
+            RegisterResponse response = new();
             response.HasError = false;
 
             var userSameUserName = await _userManager.FindByNameAsync(request.UserName);
 
-            if(userSameUserName != null)
+            if (userSameUserName != null)
             {
                 response.HasError = true;
                 response.Error = $"Ya existe un registro con ese nombre de usuario {request.UserName}";
@@ -103,11 +109,11 @@ namespace NetBank.Infraestructure.Identity.Services
 
             };
 
-            var result = await _userManager.CreateAsync(userNew,request.Password);
+            var result = await _userManager.CreateAsync(userNew, request.Password);
 
-            if(result.Succeeded)
+            if (result.Succeeded)
             {
-                await _userManager.AddToRoleAsync(userNew,request.Rol.ToString());
+                await _userManager.AddToRoleAsync(userNew, request.Rol.ToString());
                 await _emailService.SendAsync(new EmailRequest
                 {
                     Subject = "NetBank-App",
@@ -123,6 +129,17 @@ namespace NetBank.Infraestructure.Identity.Services
 
 
             return response;
+        }
+
+        public async Task<List<RolList>> GetRolesAsync()
+        {
+            var roles = await _roleManager.Roles.ToListAsync();
+            return roles
+                .Select(role => new RolList
+                {
+                    Id = role.Id,
+                    Name = role?.Name,
+                }).ToList();
         }
     }
 }

@@ -27,6 +27,7 @@ C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Infraestr
 C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Infraestructure.Persistence\obj\Debug\net8.0\NetBank.Infraestructure.Persistence.AssemblyInfoInputs.cache
 C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Infraestructure.Persistence\obj\Debug\net8.0\NetBank.Infraestructure.Persistence.AssemblyInfo.cs
 C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Infraestructure.Persistence\obj\Debug\net8.0\NetBank.Infraestructure.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Infraestructure.Persistence\obj\Debug\net8.0\NetBank.Infraestructure.Persistence.sourcelink.json
 C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Infraestructure.Persistence\obj\Debug\net8.0\NetBank..A9E87787.Up2Date
 C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Infraestructure.Persistence\obj\Debug\net8.0\NetBank.Infraestructure.Persistence.dll
 C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Infraestructure.Persistence\obj\Debug\net8.0\refint\NetBank.Infraestructure.Persistence.dll

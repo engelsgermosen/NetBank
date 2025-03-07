@@ -16,6 +16,7 @@ C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Core.Doma
 C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Core.Domain\obj\Debug\net8.0\NetBank.Core.Domain.AssemblyInfoInputs.cache
 C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Core.Domain\obj\Debug\net8.0\NetBank.Core.Domain.AssemblyInfo.cs
 C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Core.Domain\obj\Debug\net8.0\NetBank.Core.Domain.csproj.CoreCompileInputs.cache
+C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Core.Domain\obj\Debug\net8.0\NetBank.Core.Domain.sourcelink.json
 C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Core.Domain\obj\Debug\net8.0\NetBank.Core.Domain.dll
 C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Core.Domain\obj\Debug\net8.0\refint\NetBank.Core.Domain.dll
 C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Core.Domain\obj\Debug\net8.0\NetBank.Core.Domain.pdb

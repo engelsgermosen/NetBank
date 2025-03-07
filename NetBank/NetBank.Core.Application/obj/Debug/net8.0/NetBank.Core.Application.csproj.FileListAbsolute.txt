@@ -23,6 +23,7 @@ C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Core.Appl
 C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Core.Application\obj\Debug\net8.0\NetBank.Core.Application.AssemblyInfoInputs.cache
 C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Core.Application\obj\Debug\net8.0\NetBank.Core.Application.AssemblyInfo.cs
 C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Core.Application\obj\Debug\net8.0\NetBank.Core.Application.csproj.CoreCompileInputs.cache
+C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Core.Application\obj\Debug\net8.0\NetBank.Core.Application.sourcelink.json
 C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Core.Application\obj\Debug\net8.0\NetBank..7BD59F1D.Up2Date
 C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Core.Application\obj\Debug\net8.0\NetBank.Core.Application.dll
 C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Core.Application\obj\Debug\net8.0\refint\NetBank.Core.Application.dll

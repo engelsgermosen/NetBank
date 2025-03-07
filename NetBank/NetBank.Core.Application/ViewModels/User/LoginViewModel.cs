@@ -6,10 +6,14 @@ namespace NetBank.Core.Application.ViewModels.User
     {
         [Required(ErrorMessage ="El nombre de usuario es obligatorio")]
         [DataType(DataType.Text)]
-        public required string Username { get; set; }
+        public string UserName { get; set; }
 
         [Required(ErrorMessage = "La contraseña es obligatorio")]
         [DataType(DataType.Password)]
-        public required string Password { get; set; }
+        public string Password { get; set; }
+
+        public bool HasError { get; set; }
+
+        public string? Error {  get; set; }
     }
 }

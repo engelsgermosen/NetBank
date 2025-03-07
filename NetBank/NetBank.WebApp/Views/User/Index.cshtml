@@ -1,0 +1,32 @@
+﻿@{
+    ViewData["Title"] = "Login";
+}
+@using NetBank.Core.Application.ViewModels.User;
+@model LoginViewModel;
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12 col-md-6 col-lg-4 mx-auto">
+            <h2 class="text-center">Login</h2>
+            @Html.ValidationSummary(false,"",new {@class="text-danger"})
+            @if(Model.HasError)
+            {
+                <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                    <p>@Model.Error</p>
+
+                </div>
+            }
+            <form method="post" asp-controller="User" asp-action="Index">
+                <div class="mb-3">
+                    <label asp-for="UserName" class="form-label">Usuario:</label>
+                    <input asp-for="UserName" class="form-control" />
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Password" class="form-label">Contraseña:</label>
+                    <input asp-for="Password" class="form-control" />
+                </div>
+                <button type="submit" class="btn btn-primary w-100">Ingresar</button>
+            </form>
+        </div>
+    </div>
+</div>
