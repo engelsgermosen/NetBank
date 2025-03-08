@@ -1,4 +1,15 @@
-﻿<!DOCTYPE html>
+﻿@using NetBank.Core.Application.Dtos.Account
+@using NetBank.Core.Application.ViewModels;
+@using NetBank.Core.Application.Helpers;
+@using NetBank.Core.Application.Enums;
+@inject IHttpContextAccessor http;
+
+@{
+    var usuario = http?.HttpContext?.Session.Get<AuthenticationResponse>("user");
+}
+
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -14,18 +25,51 @@
             <div class="container-fluid">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">NetBank.WebApp</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
+                aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
+
+                        @if(usuario != null)
+                        {
+
+                            switch(usuario.Rol)
+                            {
+                                case (int)Roles.Admin:
+                                    <li class="nav-item">
+                                        <a class="nav-link text-dark" asp-area="" asp-controller="Admin" asp-action="Index">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-dark" asp-area="" asp-controller="User" asp-action="">Administracion de usuarios</a>
+                                    </li>
+                                    break;
+                                case (int)Roles.Client:
+                                    <li class="nav-item">
+                                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Pagos</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Beneficiarios</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Avance de efectivo</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Transferencia</a>
+                                    </li>
+                                    break;
+
+                            }
+                        }
+
                     </ul>
+                    @if(usuario != null)
+                    {
+                        <a asp-action="LogOut" asp-controller="User" class="btn btn-danger text-light">LogOut</a>
+                    }
                 </div>
             </div>
         </nav>

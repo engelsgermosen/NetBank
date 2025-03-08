@@ -1,9 +1,9 @@
-﻿using AutoMapper;
-using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using NetBank.Core.Application.Dtos.Account;
 using NetBank.Core.Application.Dtos.Email;
 using NetBank.Core.Application.Dtos.Rol;
+using NetBank.Core.Application.Enums;
 using NetBank.Core.Application.Interfaces.Services;
 using NetBank.Infraestructure.Identity.Entities;
 
@@ -25,7 +25,6 @@ namespace NetBank.Infraestructure.Identity.Services
             _signInManager = signInManager;
             _emailService = emailService;
             _roleManager = roleManager;
-
         }
 
 
@@ -38,7 +37,7 @@ namespace NetBank.Infraestructure.Identity.Services
             if (user == null)
             {
                 response.HasError = true;
-                response.Error = $"No existe una cuenta con el nombre de usuario {response.UserName}";
+                response.Error = $"No existe una cuenta con el nombre de usuario {request.UserName}";
                 return response;
             }
 
@@ -62,8 +61,10 @@ namespace NetBank.Infraestructure.Identity.Services
             response.Id = user.Id;
             response.UserName = user.UserName;
             response.Email = user.Email;
+            response.LastName = user.LastName;
+            response.Identification = user.Identification;
             var rolesList = await _userManager.GetRolesAsync(user).ConfigureAwait(false);
-            response.Roles = rolesList.ToList();
+            response.Rol = (Enum.TryParse<Roles>(rolesList.FirstOrDefault(), out Roles rolEnum)) ? (int)rolEnum : 0;
             response.IsVerified = user.EmailConfirmed;
 
             return response;
@@ -140,6 +141,49 @@ namespace NetBank.Infraestructure.Identity.Services
                     Id = role.Id,
                     Name = role?.Name,
                 }).ToList();
+        }
+
+        public async Task<List<AuthenticationResponse>> GetAllUsersAsync()
+        {
+            var usuarios = await _userManager.Users.ToListAsync();
+
+
+            var usuariosWithRoles = await Task.WhenAll(usuarios.Select(async user =>
+            {
+                var roles = await _userManager.GetRolesAsync(user).ConfigureAwait(false);
+
+                return new AuthenticationResponse
+                {
+                    Id = user.Id,
+                    LastName = user.LastName,
+                    UserName = user.Name,
+                    Name = user.Name,
+                    Identification = user.Identification,
+                    Email = user.Email,
+                    IsActive = user.IsActive,
+                    Rol = (Enum.TryParse<Roles>(roles.FirstOrDefault(), out Roles rolEnum)) ? (int)rolEnum : 0
+
+
+                };
+
+            }));
+
+            return usuariosWithRoles.ToList();
+            //return usuarios
+            //    .Select(async user => new AuthenticationResponse
+            //    {
+            //        Id =user.Id,
+            //        LastName=user.LastName,
+            //        UserName    = user.Name,
+            //        Name = user.Name,
+            //        Identification = user.Identification,
+            //        Email = user.Email,
+            //        IsActive = user.IsActive,
+
+            //        Rol = (Enum.TryParse<Roles>(await _userManager.GetRolesAsync(user).ConfigureAwait(false), out Roles rolEnum)). ? (int)rolEnum : 0;
+
+
+            //    }).ToList();
         }
     }
 }

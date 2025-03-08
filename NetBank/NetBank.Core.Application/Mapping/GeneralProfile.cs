@@ -14,7 +14,9 @@ namespace NetBank.Core.Application.Mapping
         {
             CreateMap<AuthenticationRequest, LoginViewModel>()
                 .ForMember(x => x.Error, opt => opt.Ignore())
-                .ForMember(x => x.HasError, opt => opt.Ignore());
+                .ForMember(x => x.HasError, opt => opt.Ignore())
+                .ReverseMap();
+
 
             CreateMap<RegisterRequest, SaveUserViewModel>()
                 .ForMember(x => x.Error, opt => opt.Ignore())
@@ -29,6 +31,15 @@ namespace NetBank.Core.Application.Mapping
                 .ReverseMap()
                 .ForMember(x => x.OriginTransactions, opt => opt.Ignore())
                 .ForMember(x => x.DestinationTransactions, opt => opt.Ignore());
+
+            CreateMap<AuthenticationResponse, UserViewModel>()
+                .ReverseMap()
+                .ForMember(x => x.IsVerified, opt => opt.Ignore())
+                .ForMember(x => x.UserName, opt => opt.Ignore())
+
+                .ForMember(x => x.Error, opt => opt.Ignore())
+                .ForMember(x => x.HasError, opt => opt.Ignore());
+
         }
     }
 }

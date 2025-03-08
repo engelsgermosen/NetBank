@@ -12,8 +12,8 @@ using NetBank.Infraestructure.Identity.Context;
 namespace NetBank.Infraestructure.Identity.Migrations
 {
     [DbContext(typeof(IdentityContext))]
-    [Migration("20250306154610_InitialMigration")]
-    partial class InitialMigration
+    [Migration("20250308183634_InitialIdentityMigration")]
+    partial class InitialIdentityMigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

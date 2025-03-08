@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NetBank.Infraestructure.Persistence")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1b6d237599adcc93e2abf654a88d508c88acf5ff")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f20f42b4f33aba23b0e75bb9b4f477ec4efcc1e5")]
 [assembly: System.Reflection.AssemblyProductAttribute("NetBank.Infraestructure.Persistence")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NetBank.Infraestructure.Persistence")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

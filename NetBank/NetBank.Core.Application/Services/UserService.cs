@@ -35,5 +35,11 @@ namespace NetBank.Core.Application.Services
         {
             await _accountService.SignOutAsync();
         }
+
+        public async Task<List<UserViewModel>> GetAllUsersViewModel()
+        {
+            var response = await _accountService.GetAllUsersAsync();
+            return _mapper.Map<List<UserViewModel>>(response);
+        }
     }
 }

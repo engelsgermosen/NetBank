@@ -7,7 +7,6 @@ namespace NetBank.WebApp.Controllers
     [Authorize(Roles = "Admin")]
     public class AdminController : Controller
     {
-
         private readonly ITransactionService _transactionService;
 
         public AdminController(ITransactionService transactionService)
@@ -15,8 +14,9 @@ namespace NetBank.WebApp.Controllers
             _transactionService = transactionService;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
+            ViewBag.Transacciones = await _transactionService.GetTransaccionCount();
             return View();
         }
     }

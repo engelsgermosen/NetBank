@@ -3,8 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\mreng\\OneDrive\\Escritorio\\PracticasP3\\NetBank\\NetBank\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F38CEEF2-B199-4BEE-8EFB-9348890CD23C}|NetBank.WebApp\\NetBank.WebApp.csproj|c:\\users\\mreng\\onedrive\\escritorio\\practicasp3\\netbank\\netbank\\netbank.webapp\\views\\user\\main.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F38CEEF2-B199-4BEE-8EFB-9348890CD23C}|NetBank.WebApp\\NetBank.WebApp.csproj|solutionrelative:netbank.webapp\\views\\user\\main.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B30F6FC-9ED7-499F-BE96-FC8E8B62BEF9}|NetBank.Core.Application\\NetBank.Core.Application.csproj|c:\\users\\mreng\\onedrive\\escritorio\\practicasp3\\netbank\\netbank\\netbank.core.application\\mapping\\generalprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B30F6FC-9ED7-499F-BE96-FC8E8B62BEF9}|NetBank.Core.Application\\NetBank.Core.Application.csproj|solutionrelative:netbank.core.application\\mapping\\generalprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F38CEEF2-B199-4BEE-8EFB-9348890CD23C}|NetBank.WebApp\\NetBank.WebApp.csproj|c:\\users\\mreng\\onedrive\\escritorio\\practicasp3\\netbank\\netbank\\netbank.webapp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F38CEEF2-B199-4BEE-8EFB-9348890CD23C}|NetBank.WebApp\\NetBank.WebApp.csproj|solutionrelative:netbank.webapp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B30F6FC-9ED7-499F-BE96-FC8E8B62BEF9}|NetBank.Core.Application\\NetBank.Core.Application.csproj|c:\\users\\mreng\\onedrive\\escritorio\\practicasp3\\netbank\\netbank\\netbank.core.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B30F6FC-9ED7-499F-BE96-FC8E8B62BEF9}|NetBank.Core.Application\\NetBank.Core.Application.csproj|solutionrelative:netbank.core.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B30F6FC-9ED7-499F-BE96-FC8E8B62BEF9}|NetBank.Core.Application\\NetBank.Core.Application.csproj|c:\\users\\mreng\\onedrive\\escritorio\\practicasp3\\netbank\\netbank\\netbank.core.application\\interfaces\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B30F6FC-9ED7-499F-BE96-FC8E8B62BEF9}|NetBank.Core.Application\\NetBank.Core.Application.csproj|solutionrelative:netbank.core.application\\interfaces\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B30F6FC-9ED7-499F-BE96-FC8E8B62BEF9}|NetBank.Core.Application\\NetBank.Core.Application.csproj|c:\\users\\mreng\\onedrive\\escritorio\\practicasp3\\netbank\\netbank\\netbank.core.application\\interfaces\\services\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B30F6FC-9ED7-499F-BE96-FC8E8B62BEF9}|NetBank.Core.Application\\NetBank.Core.Application.csproj|solutionrelative:netbank.core.application\\interfaces\\services\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71C2FF98-CF92-4B0E-B584-2AADAAE3F872}|NetBank.Infraestructure.Identity\\NetBank.Infraestructure.Identity.csproj|c:\\users\\mreng\\onedrive\\escritorio\\practicasp3\\netbank\\netbank\\netbank.infraestructure.identity\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71C2FF98-CF92-4B0E-B584-2AADAAE3F872}|NetBank.Infraestructure.Identity\\NetBank.Infraestructure.Identity.csproj|solutionrelative:netbank.infraestructure.identity\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B30F6FC-9ED7-499F-BE96-FC8E8B62BEF9}|NetBank.Core.Application\\NetBank.Core.Application.csproj|c:\\users\\mreng\\onedrive\\escritorio\\practicasp3\\netbank\\netbank\\netbank.core.application\\helpers\\validateusersessionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B30F6FC-9ED7-499F-BE96-FC8E8B62BEF9}|NetBank.Core.Application\\NetBank.Core.Application.csproj|solutionrelative:netbank.core.application\\helpers\\validateusersessionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F38CEEF2-B199-4BEE-8EFB-9348890CD23C}|NetBank.WebApp\\NetBank.WebApp.csproj|c:\\users\\mreng\\onedrive\\escritorio\\practicasp3\\netbank\\netbank\\netbank.webapp\\middlewares\\loginauthorize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F38CEEF2-B199-4BEE-8EFB-9348890CD23C}|NetBank.WebApp\\NetBank.WebApp.csproj|solutionrelative:netbank.webapp\\middlewares\\loginauthorize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -13,8 +45,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "DockedWidth": 506,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,15 +54,119 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\mreng\\OneDrive\\Escritorio\\PracticasP3\\NetBank\\NetBank\\NetBank.WebApp\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "NetBank.WebApp\\Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\mreng\\OneDrive\\Escritorio\\PracticasP3\\NetBank\\NetBank\\NetBank.WebApp\\Controllers\\UserController.cs",
               "RelativeToolTip": "NetBank.WebApp\\Controllers\\UserController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwCQAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAuwHgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T15:54:30.863Z",
+              "WhenOpened": "2025-03-08T23:26:36.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GeneralProfile.cs",
+              "DocumentMoniker": "C:\\Users\\mreng\\OneDrive\\Escritorio\\PracticasP3\\NetBank\\NetBank\\NetBank.Core.Application\\Mapping\\GeneralProfile.cs",
+              "RelativeDocumentMoniker": "NetBank.Core.Application\\Mapping\\GeneralProfile.cs",
+              "ToolTip": "C:\\Users\\mreng\\OneDrive\\Escritorio\\PracticasP3\\NetBank\\NetBank\\NetBank.Core.Application\\Mapping\\GeneralProfile.cs",
+              "RelativeToolTip": "NetBank.Core.Application\\Mapping\\GeneralProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T23:24:44.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IAccountService.cs",
+              "DocumentMoniker": "C:\\Users\\mreng\\OneDrive\\Escritorio\\PracticasP3\\NetBank\\NetBank\\NetBank.Core.Application\\Interfaces\\Services\\IAccountService.cs",
+              "RelativeDocumentMoniker": "NetBank.Core.Application\\Interfaces\\Services\\IAccountService.cs",
+              "ToolTip": "C:\\Users\\mreng\\OneDrive\\Escritorio\\PracticasP3\\NetBank\\NetBank\\NetBank.Core.Application\\Interfaces\\Services\\IAccountService.cs",
+              "RelativeToolTip": "NetBank.Core.Application\\Interfaces\\Services\\IAccountService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T23:22:48.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AccountService.cs",
+              "DocumentMoniker": "C:\\Users\\mreng\\OneDrive\\Escritorio\\PracticasP3\\NetBank\\NetBank\\NetBank.Infraestructure.Identity\\Services\\AccountService.cs",
+              "RelativeDocumentMoniker": "NetBank.Infraestructure.Identity\\Services\\AccountService.cs",
+              "ToolTip": "C:\\Users\\mreng\\OneDrive\\Escritorio\\PracticasP3\\NetBank\\NetBank\\NetBank.Infraestructure.Identity\\Services\\AccountService.cs",
+              "RelativeToolTip": "NetBank.Infraestructure.Identity\\Services\\AccountService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T23:00:23.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\mreng\\OneDrive\\Escritorio\\PracticasP3\\NetBank\\NetBank\\NetBank.Core.Application\\Interfaces\\Services\\IUserService.cs",
+              "RelativeDocumentMoniker": "NetBank.Core.Application\\Interfaces\\Services\\IUserService.cs",
+              "ToolTip": "C:\\Users\\mreng\\OneDrive\\Escritorio\\PracticasP3\\NetBank\\NetBank\\NetBank.Core.Application\\Interfaces\\Services\\IUserService.cs",
+              "RelativeToolTip": "NetBank.Core.Application\\Interfaces\\Services\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T22:56:28.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\mreng\\OneDrive\\Escritorio\\PracticasP3\\NetBank\\NetBank\\NetBank.Core.Application\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "NetBank.Core.Application\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\mreng\\OneDrive\\Escritorio\\PracticasP3\\NetBank\\NetBank\\NetBank.Core.Application\\Services\\UserService.cs",
+              "RelativeToolTip": "NetBank.Core.Application\\Services\\UserService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T22:54:45.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoginAuthorize.cs",
+              "DocumentMoniker": "C:\\Users\\mreng\\OneDrive\\Escritorio\\PracticasP3\\NetBank\\NetBank\\NetBank.WebApp\\Middlewares\\LoginAuthorize.cs",
+              "RelativeDocumentMoniker": "NetBank.WebApp\\Middlewares\\LoginAuthorize.cs",
+              "ToolTip": "C:\\Users\\mreng\\OneDrive\\Escritorio\\PracticasP3\\NetBank\\NetBank\\NetBank.WebApp\\Middlewares\\LoginAuthorize.cs",
+              "RelativeToolTip": "NetBank.WebApp\\Middlewares\\LoginAuthorize.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAIwB4AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T22:26:34.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ValidateUserSessionHelper.cs",
+              "DocumentMoniker": "C:\\Users\\mreng\\OneDrive\\Escritorio\\PracticasP3\\NetBank\\NetBank\\NetBank.Core.Application\\Helpers\\ValidateUserSessionHelper.cs",
+              "RelativeDocumentMoniker": "NetBank.Core.Application\\Helpers\\ValidateUserSessionHelper.cs",
+              "ToolTip": "C:\\Users\\mreng\\OneDrive\\Escritorio\\PracticasP3\\NetBank\\NetBank\\NetBank.Core.Application\\Helpers\\ValidateUserSessionHelper.cs",
+              "RelativeToolTip": "NetBank.Core.Application\\Helpers\\ValidateUserSessionHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T22:26:12.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Main.cshtml",
+              "DocumentMoniker": "C:\\Users\\mreng\\OneDrive\\Escritorio\\PracticasP3\\NetBank\\NetBank\\NetBank.WebApp\\Views\\User\\Main.cshtml",
+              "RelativeDocumentMoniker": "NetBank.WebApp\\Views\\User\\Main.cshtml",
+              "ToolTip": "C:\\Users\\mreng\\OneDrive\\Escritorio\\PracticasP3\\NetBank\\NetBank\\NetBank.WebApp\\Views\\User\\Main.cshtml",
+              "RelativeToolTip": "NetBank.WebApp\\Views\\User\\Main.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACEAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-08T22:15:40.408Z",
               "EditorCaption": ""
             }
           ]
