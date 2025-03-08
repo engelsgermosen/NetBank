@@ -22,5 +22,7 @@ namespace NetBank.Core.Domain.Entities
 
         public int? DestinationProductId { get; set; }
 
+        public string? UserId { get; set; }
+
     }
 }

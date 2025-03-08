@@ -54,6 +54,12 @@ namespace NetBank.Infraestructure.Identity
                 opt.AccessDeniedPath = "/User/AccessDenied";
             });
 
+            services.ConfigureApplicationCookie(options =>
+            {
+                options.LoginPath = "/User";
+                options.AccessDeniedPath = "/User/AccesDenied";
+            });
+
             #endregion
 
             #region DI

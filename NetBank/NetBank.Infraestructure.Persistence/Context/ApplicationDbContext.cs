@@ -7,8 +7,6 @@ namespace NetBank.Infraestructure.Persistence.Context
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { } 
 
-        public DbSet<User> Users { get; set; }
-
         public DbSet<Product> Products { get; set; }
 
         public DbSet<Beneficiarie> Beneficiaries { get; set; }
@@ -21,9 +19,8 @@ namespace NetBank.Infraestructure.Persistence.Context
 
 
 
-            #region
+            #region tables names
 
-            modelBuilder.Entity<User>().ToTable("Usuarios");
             modelBuilder.Entity<Product>().ToTable("Productos");
             modelBuilder.Entity<Beneficiarie>().ToTable("Beneficiarios");
             modelBuilder.Entity<Transaction>().ToTable("Transacciones");
@@ -32,11 +29,6 @@ namespace NetBank.Infraestructure.Persistence.Context
 
             #region Primary Keys and AutoIncrement
 
-            modelBuilder.Entity<User>(x =>
-            {
-                x.HasKey(k => k.Id);
-                x.Property(k => k.Id).ValueGeneratedOnAdd();
-            });
 
             modelBuilder.Entity<Product>(x =>
             {
@@ -61,18 +53,7 @@ namespace NetBank.Infraestructure.Persistence.Context
 
             #region Configuration properties
 
-            #region Users
-            modelBuilder.Entity<User>(config =>
-            {
-                config.HasIndex(k => k.Email).IsUnique();
-                config.HasIndex(k => k.Identification).IsUnique();
-
-                config.Property(k => k.InitialAmount).HasColumnType("decimal(14,4)");
-
-                config.Property(k => k.UserType).HasConversion<byte>();
-
-            });
-            #endregion
+         
 
             #region Product
             modelBuilder.Entity<Product>(config =>
@@ -100,22 +81,6 @@ namespace NetBank.Infraestructure.Persistence.Context
 
 
             #region Foreign keys
-
-            modelBuilder.Entity<User>(config =>
-            {
-
-                config.HasMany<Beneficiarie>(x => x.Beneficiaries)
-                .WithOne(u => u.User)
-                .HasForeignKey(u => u.UserId)
-                .OnDelete(DeleteBehavior.Restrict);
-
-
-                config.HasMany<Product>(x => x.Products)
-               .WithOne(u => u.User)
-               .HasForeignKey(u => u.UserId)
-               .OnDelete(DeleteBehavior.Restrict);
-
-            });
 
 
             modelBuilder.Entity<Product>(config =>

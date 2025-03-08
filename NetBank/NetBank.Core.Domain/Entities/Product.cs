@@ -14,9 +14,8 @@ namespace NetBank.Core.Domain.Entities
 
         public required bool IsMain { get; set; } = false;
 
-        public User? User { get; set; }
 
-        public int? UserId { get; set; }
+        public string? UserId { get; set; }
 
         public ICollection<Transaction>? OriginTransactions { get; set; }
 

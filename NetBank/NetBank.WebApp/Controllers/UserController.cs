@@ -3,11 +3,13 @@ using NetBank.Core.Application.Dtos.Account;
 using NetBank.Core.Application.Helpers;
 using NetBank.Core.Application.Interfaces.Services;
 using NetBank.Core.Application.ViewModels.User;
+using NetBank.WebApp.Middlewares;
 
 namespace NetBank.WebApp.Controllers
 {
     public class UserController : Controller
     {
+
         private readonly IUserService _userService;
         private readonly IRolService _rolService;
         private readonly IHttpContextAccessor _httpContextAccessor;
@@ -18,11 +20,14 @@ namespace NetBank.WebApp.Controllers
             _httpContextAccessor = httpContextAccessor;
             _rolService = rolService;
         }
+
+        [ServiceFilter(typeof(LoginAuthorize))]
         public IActionResult Index()
         {
             return View(new LoginViewModel());
         }
 
+        [ServiceFilter(typeof(LoginAuthorize))]
         [HttpPost]
 
         public async Task<IActionResult> Index(LoginViewModel loginVm)
@@ -49,12 +54,14 @@ namespace NetBank.WebApp.Controllers
            
         }
 
+        [ServiceFilter(typeof(LoginAuthorize))]
         public async Task<IActionResult> Register()
         {
             ViewBag.Roles = await _rolService.GetAllrolesAsync();
             return View(new SaveUserViewModel());
         }
 
+        [ServiceFilter(typeof(LoginAuthorize))]
         [HttpPost]
 
         public async Task<IActionResult> Register(SaveUserViewModel userVm)
@@ -78,6 +85,11 @@ namespace NetBank.WebApp.Controllers
                 return View(userVm);
             }
 
+        }
+
+        public IActionResult AccesDenied()
+        {
+            return View();
         }
 
         public async Task<IActionResult> LogOut()
