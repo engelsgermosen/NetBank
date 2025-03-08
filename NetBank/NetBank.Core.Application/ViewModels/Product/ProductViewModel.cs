@@ -16,6 +16,6 @@ namespace NetBank.Core.Application.ViewModels.Product
 
         public required bool IsMain { get; set; } = false;
 
-        public int? UserId { get; set; }
+        public string? UserId { get; set; }
     }
 }
