@@ -1,12 +1,143 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\mreng\\OneDrive\\Escritorio\\PracticasP3\\NetBank\\NetBank\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\natan\\OneDrive\\Escritorio\\Archivos\\ITLA\\5to Cuatrimestre\\Programacion III\\Nueva carpeta\\NetBank\\NetBank\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F38CEEF2-B199-4BEE-8EFB-9348890CD23C}|NetBank.WebApp\\NetBank.WebApp.csproj|c:\\users\\natan\\onedrive\\escritorio\\archivos\\itla\\5to cuatrimestre\\programacion iii\\nueva carpeta\\netbank\\netbank\\netbank.webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F38CEEF2-B199-4BEE-8EFB-9348890CD23C}|NetBank.WebApp\\NetBank.WebApp.csproj|solutionrelative:netbank.webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F38CEEF2-B199-4BEE-8EFB-9348890CD23C}|NetBank.WebApp\\NetBank.WebApp.csproj|c:\\users\\natan\\onedrive\\escritorio\\archivos\\itla\\5to cuatrimestre\\programacion iii\\nueva carpeta\\netbank\\netbank\\netbank.webapp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F38CEEF2-B199-4BEE-8EFB-9348890CD23C}|NetBank.WebApp\\NetBank.WebApp.csproj|solutionrelative:netbank.webapp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71C2FF98-CF92-4B0E-B584-2AADAAE3F872}|NetBank.Infraestructure.Identity\\NetBank.Infraestructure.Identity.csproj|c:\\users\\natan\\onedrive\\escritorio\\archivos\\itla\\5to cuatrimestre\\programacion iii\\nueva carpeta\\netbank\\netbank\\netbank.infraestructure.identity\\seeds\\defaultbasicclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71C2FF98-CF92-4B0E-B584-2AADAAE3F872}|NetBank.Infraestructure.Identity\\NetBank.Infraestructure.Identity.csproj|solutionrelative:netbank.infraestructure.identity\\seeds\\defaultbasicclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B30F6FC-9ED7-499F-BE96-FC8E8B62BEF9}|NetBank.Core.Application\\NetBank.Core.Application.csproj|c:\\users\\natan\\onedrive\\escritorio\\archivos\\itla\\5to cuatrimestre\\programacion iii\\nueva carpeta\\netbank\\netbank\\netbank.core.application\\viewmodels\\product\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B30F6FC-9ED7-499F-BE96-FC8E8B62BEF9}|NetBank.Core.Application\\NetBank.Core.Application.csproj|solutionrelative:netbank.core.application\\viewmodels\\product\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B30F6FC-9ED7-499F-BE96-FC8E8B62BEF9}|NetBank.Core.Application\\NetBank.Core.Application.csproj|c:\\users\\natan\\onedrive\\escritorio\\archivos\\itla\\5to cuatrimestre\\programacion iii\\nueva carpeta\\netbank\\netbank\\netbank.core.application\\mapping\\generalprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B30F6FC-9ED7-499F-BE96-FC8E8B62BEF9}|NetBank.Core.Application\\NetBank.Core.Application.csproj|solutionrelative:netbank.core.application\\mapping\\generalprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F38CEEF2-B199-4BEE-8EFB-9348890CD23C}|NetBank.WebApp\\NetBank.WebApp.csproj|c:\\users\\natan\\onedrive\\escritorio\\archivos\\itla\\5to cuatrimestre\\programacion iii\\nueva carpeta\\netbank\\netbank\\netbank.webapp\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F38CEEF2-B199-4BEE-8EFB-9348890CD23C}|NetBank.WebApp\\NetBank.WebApp.csproj|solutionrelative:netbank.webapp\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F38CEEF2-B199-4BEE-8EFB-9348890CD23C}|NetBank.WebApp\\NetBank.WebApp.csproj|c:\\users\\natan\\onedrive\\escritorio\\archivos\\itla\\5to cuatrimestre\\programacion iii\\nueva carpeta\\netbank\\netbank\\netbank.webapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F38CEEF2-B199-4BEE-8EFB-9348890CD23C}|NetBank.WebApp\\NetBank.WebApp.csproj|solutionrelative:netbank.webapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DefaultBasicClient.cs",
+              "DocumentMoniker": "C:\\Users\\natan\\OneDrive\\Escritorio\\Archivos\\ITLA\\5to Cuatrimestre\\Programacion III\\Nueva carpeta\\NetBank\\NetBank\\NetBank.Infraestructure.Identity\\Seeds\\DefaultBasicClient.cs",
+              "RelativeDocumentMoniker": "NetBank.Infraestructure.Identity\\Seeds\\DefaultBasicClient.cs",
+              "ToolTip": "C:\\Users\\natan\\OneDrive\\Escritorio\\Archivos\\ITLA\\5to Cuatrimestre\\Programacion III\\Nueva carpeta\\NetBank\\NetBank\\NetBank.Infraestructure.Identity\\Seeds\\DefaultBasicClient.cs",
+              "RelativeToolTip": "NetBank.Infraestructure.Identity\\Seeds\\DefaultBasicClient.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAB0AAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T14:33:53.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\natan\\OneDrive\\Escritorio\\Archivos\\ITLA\\5to Cuatrimestre\\Programacion III\\Nueva carpeta\\NetBank\\NetBank\\NetBank.Core.Application\\ViewModels\\Product\\ProductViewModel.cs",
+              "RelativeDocumentMoniker": "NetBank.Core.Application\\ViewModels\\Product\\ProductViewModel.cs",
+              "ToolTip": "C:\\Users\\natan\\OneDrive\\Escritorio\\Archivos\\ITLA\\5to Cuatrimestre\\Programacion III\\Nueva carpeta\\NetBank\\NetBank\\NetBank.Core.Application\\ViewModels\\Product\\ProductViewModel.cs",
+              "RelativeToolTip": "NetBank.Core.Application\\ViewModels\\Product\\ProductViewModel.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAmwBIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T14:22:05.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GeneralProfile.cs",
+              "DocumentMoniker": "C:\\Users\\natan\\OneDrive\\Escritorio\\Archivos\\ITLA\\5to Cuatrimestre\\Programacion III\\Nueva carpeta\\NetBank\\NetBank\\NetBank.Core.Application\\Mapping\\GeneralProfile.cs",
+              "RelativeDocumentMoniker": "NetBank.Core.Application\\Mapping\\GeneralProfile.cs",
+              "ToolTip": "C:\\Users\\natan\\OneDrive\\Escritorio\\Archivos\\ITLA\\5to Cuatrimestre\\Programacion III\\Nueva carpeta\\NetBank\\NetBank\\NetBank.Core.Application\\Mapping\\GeneralProfile.cs",
+              "RelativeToolTip": "NetBank.Core.Application\\Mapping\\GeneralProfile.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAAB8AAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T14:21:23.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\natan\\OneDrive\\Escritorio\\Archivos\\ITLA\\5to Cuatrimestre\\Programacion III\\Nueva carpeta\\NetBank\\NetBank\\NetBank.WebApp\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "NetBank.WebApp\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\natan\\OneDrive\\Escritorio\\Archivos\\ITLA\\5to Cuatrimestre\\Programacion III\\Nueva carpeta\\NetBank\\NetBank\\NetBank.WebApp\\Controllers\\UserController.cs",
+              "RelativeToolTip": "NetBank.WebApp\\Controllers\\UserController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T14:20:16.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\natan\\OneDrive\\Escritorio\\Archivos\\ITLA\\5to Cuatrimestre\\Programacion III\\Nueva carpeta\\NetBank\\NetBank\\NetBank.WebApp\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "NetBank.WebApp\\Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Users\\natan\\OneDrive\\Escritorio\\Archivos\\ITLA\\5to Cuatrimestre\\Programacion III\\Nueva carpeta\\NetBank\\NetBank\\NetBank.WebApp\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "NetBank.WebApp\\Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAlwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-08T14:19:47.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\natan\\OneDrive\\Escritorio\\Archivos\\ITLA\\5to Cuatrimestre\\Programacion III\\Nueva carpeta\\NetBank\\NetBank\\NetBank.WebApp\\appsettings.json",
+              "RelativeDocumentMoniker": "NetBank.WebApp\\appsettings.json",
+              "ToolTip": "C:\\Users\\natan\\OneDrive\\Escritorio\\Archivos\\ITLA\\5to Cuatrimestre\\Programacion III\\Nueva carpeta\\NetBank\\NetBank\\NetBank.WebApp\\appsettings.json",
+              "RelativeToolTip": "NetBank.WebApp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-08T14:19:21.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\natan\\OneDrive\\Escritorio\\Archivos\\ITLA\\5to Cuatrimestre\\Programacion III\\Nueva carpeta\\NetBank\\NetBank\\NetBank.WebApp\\Program.cs",
+              "RelativeDocumentMoniker": "NetBank.WebApp\\Program.cs",
+              "ToolTip": "C:\\Users\\natan\\OneDrive\\Escritorio\\Archivos\\ITLA\\5to Cuatrimestre\\Programacion III\\Nueva carpeta\\NetBank\\NetBank\\NetBank.WebApp\\Program.cs",
+              "RelativeToolTip": "NetBank.WebApp\\Program.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAACIAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T14:19:00.056Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
