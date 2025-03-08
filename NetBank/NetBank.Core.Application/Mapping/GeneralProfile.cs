@@ -27,7 +27,6 @@ namespace NetBank.Core.Application.Mapping
             //product -> ProductViewModel
             CreateMap<Product, ProductViewModel>()
                 .ReverseMap()
-                .ForMember(x => x.User, opt => opt.Ignore())
                 .ForMember(x => x.OriginTransactions, opt => opt.Ignore())
                 .ForMember(x => x.DestinationTransactions, opt => opt.Ignore());
         }
