@@ -19,7 +19,6 @@ namespace NetBank.Infraestructure.Persistence
             });
 
             services.AddTransient(typeof(IGenericRepository<>),typeof(GenericRepository<>));
-            services.AddTransient<IUserRepository, UserRepository>();
             services.AddTransient<IProductRepository, ProductRepository>();
             services.AddTransient<IBeneficiareRepository, BeneficiareRepository>();
             services.AddTransient<ITransactionRepository, TransactionRepository>();

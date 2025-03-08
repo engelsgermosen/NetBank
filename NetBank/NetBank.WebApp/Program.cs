@@ -1,17 +1,22 @@
 using NetBank.Core.Application;
+using NetBank.Core.Application.Helpers;
 using NetBank.Infraestructure.Identity;
 using NetBank.Infraestructure.Persistence;
 using NetBank.Infraestructure.Shared;
+using NetBank.WebApp.Middlewares;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddSession();
 builder.Services.AddControllersWithViews();
 builder.Services.AddPersistenceLayer(builder.Configuration);
 builder.Services.AddIdentityLayer(builder.Configuration);
 builder.Services.AddSharedLayer(builder.Configuration);
 builder.Services.AddApplicationLayer();
+builder.Services.AddScoped<LoginAuthorize>();
 builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+builder.Services.AddTransient<ValidateUserSessionHelper, ValidateUserSessionHelper>();
 
 
 
@@ -27,6 +32,7 @@ if (!app.Environment.IsDevelopment())
 
 await app.Services.RunIdentitySeeds();
 
+app.UseSession();
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
