@@ -1,0 +1,51 @@
+﻿@using NetBank.Core.Application.ViewModels.Product;
+@model List<ProductViewModel>;
+
+@{
+    ViewData["Title"] = "Home";
+}
+
+<div class="container my-5">
+    <h2 class="text-center mb-4">Mis Productos</h2>
+    @if (Model != null && Model.Any())
+    {
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            @foreach (var product in Model)
+            {
+                <div class="col">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-header bg-primary text-white text-center fs-4">
+                            @product.ProductType.ToString()
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                @if (product.IsMain)
+                                {
+                                    <span class="badge bg-success">Cuenta Principal</span>
+                                }
+                            </h5>
+                            <p class="card-text">
+                                <strong>Balance:</strong> @product.Balance.ToString("C")
+                            </p>
+                            @if (product.CreditLimit.HasValue)
+                            {
+                                <p class="card-text">
+                                    <strong>Límite de Crédito:</strong> @product.CreditLimit.Value.ToString("C")
+                                </p>
+                            }
+                        </div>
+                        <div class="card-footer text-muted">
+                            ID: @product.Id
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-info" role="alert">
+            No hay productos disponibles para este usuario.
+        </div>
+    }
+</div>
