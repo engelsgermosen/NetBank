@@ -5,5 +5,6 @@ namespace NetBank.Core.Application.Interfaces.Services
 {
     public interface ITransactionService : IGenericService<SaveTransactionViewModel, TransactionViewModel, Transaction>
     {
+        Task<TransaccionCountViewModel> GetTransaccionCount();
     }
 }

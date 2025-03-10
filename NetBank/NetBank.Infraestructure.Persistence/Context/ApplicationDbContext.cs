@@ -33,7 +33,7 @@ namespace NetBank.Infraestructure.Persistence.Context
             modelBuilder.Entity<Product>(x =>
             {
                 x.HasKey(k => k.Id);
-                x.Property(k => k.Id).ValueGeneratedOnAdd();
+                x.Property(K => K.Id).UseIdentityColumn(780000001, 1);
             });
 
             modelBuilder.Entity<Beneficiarie>(x =>
