@@ -1,11 +1,14 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using NetBank.Core.Application.Dtos.Account;
 using NetBank.Core.Application.Dtos.Email;
 using NetBank.Core.Application.Dtos.Rol;
 using NetBank.Core.Application.Enums;
+using NetBank.Core.Application.Helpers;
 using NetBank.Core.Application.Interfaces.Services;
 using NetBank.Infraestructure.Identity.Entities;
+using System.Data;
 
 namespace NetBank.Infraestructure.Identity.Services
 {
@@ -19,12 +22,18 @@ namespace NetBank.Infraestructure.Identity.Services
 
         private readonly IEmailService _emailService;
 
-        public AccountService(UserManager<ApplicationUser> userManager, RoleManager<IdentityRole> roleManager, SignInManager<ApplicationUser> signInManager, IEmailService emailService)
+        private readonly IHttpContextAccessor _httpContextAccessor;
+
+        private readonly AuthenticationResponse userInSession;
+
+        public AccountService(UserManager<ApplicationUser> userManager, RoleManager<IdentityRole> roleManager, SignInManager<ApplicationUser> signInManager, IEmailService emailService, IHttpContextAccessor httpContextAccessor)
         {
             _userManager = userManager;
             _signInManager = signInManager;
             _emailService = emailService;
             _roleManager = roleManager;
+            _httpContextAccessor = httpContextAccessor;
+            userInSession = _httpContextAccessor.HttpContext.Session.Get<AuthenticationResponse>("user");
         }
 
 
@@ -55,6 +64,13 @@ namespace NetBank.Infraestructure.Identity.Services
             {
                 response.HasError = true;
                 response.Error = $"El correo electronico de esa cuenta no ha sido confirmado";
+                return response;
+            }
+
+            if(!user.IsActive)
+            {
+                response.HasError= true;
+                response.Error = "Estas inactivo, comunicate con el administrador";
                 return response;
             }
 
@@ -114,7 +130,8 @@ namespace NetBank.Infraestructure.Identity.Services
 
             if (result.Succeeded)
             {
-                await _userManager.AddToRoleAsync(userNew, request.Rol.ToString());
+                var rol = await _roleManager.Roles.FirstOrDefaultAsync(x => x.Id == request.RolId);
+                await _userManager.AddToRoleAsync(userNew, rol?.Name);
                 await _emailService.SendAsync(new EmailRequest
                 {
                     Subject = "NetBank-App",
@@ -125,10 +142,10 @@ namespace NetBank.Infraestructure.Identity.Services
             else
             {
                 response.HasError = true;
-                response.Error = "Ocurrio un error intentando registrar este usuario";
+                response.Error = "La contraseña debe ser de minio 6 caracteres, debe tener minuscula,mayuscula y al menos un caracter especial(!#$)";
             }
 
-
+            response.Id = userNew.Id;
             return response;
         }
 
@@ -145,45 +162,137 @@ namespace NetBank.Infraestructure.Identity.Services
 
         public async Task<List<AuthenticationResponse>> GetAllUsersAsync()
         {
-            var usuarios = await _userManager.Users.ToListAsync();
+            var usuarios = await _userManager.Users.ToListAsync(); 
 
+            var usuariosWithRoles = new List<AuthenticationResponse>();
 
-            var usuariosWithRoles = await Task.WhenAll(usuarios.Select(async user =>
+            foreach (var user in usuarios) 
             {
-                var roles = await _userManager.GetRolesAsync(user).ConfigureAwait(false);
+                var roles = await _userManager.GetRolesAsync(user); 
 
-                return new AuthenticationResponse
+                usuariosWithRoles.Add(new AuthenticationResponse
                 {
                     Id = user.Id,
                     LastName = user.LastName,
-                    UserName = user.Name,
+                    UserName = user.UserName,
                     Name = user.Name,
                     Identification = user.Identification,
                     Email = user.Email,
                     IsActive = user.IsActive,
                     Rol = (Enum.TryParse<Roles>(roles.FirstOrDefault(), out Roles rolEnum)) ? (int)rolEnum : 0
+                });
+            }
+
+            return usuariosWithRoles;
+        }
 
 
-                };
-
-            }));
-
-            return usuariosWithRoles.ToList();
-            //return usuarios
-            //    .Select(async user => new AuthenticationResponse
-            //    {
-            //        Id =user.Id,
-            //        LastName=user.LastName,
-            //        UserName    = user.Name,
-            //        Name = user.Name,
-            //        Identification = user.Identification,
-            //        Email = user.Email,
-            //        IsActive = user.IsActive,
-
-            //        Rol = (Enum.TryParse<Roles>(await _userManager.GetRolesAsync(user).ConfigureAwait(false), out Roles rolEnum)). ? (int)rolEnum : 0;
+        public async Task<UserInactivate> UserInactivateAsync(string id)
+        {
+            UserInactivate response = new()
+            {
+                HasError = false
+            };
 
 
-            //    }).ToList();
+            var usuario = await _userManager.FindByIdAsync(id);
+
+
+            if(userInSession.Id == id)
+            {
+                response.HasError = true;
+                response.Error = "No puedes inactivarte o activarte ya que estas en session";
+                return response;
+            }
+
+            if(usuario == null)
+            {
+                response.HasError = true;
+                response.Error = "No existe un usuario con ese id";
+                return response;
+            }
+
+            usuario.IsActive = !usuario.IsActive;
+            await _userManager.UpdateAsync(usuario);
+
+            return response;
+        }
+
+        public async Task<UpdateUserResponse> UpdateUserAsync(UpdateUserRequest request)
+        {
+            UpdateUserResponse response = new()
+            {
+                HasError = false
+            };
+
+            ApplicationUser? user = await _userManager.Users.FirstOrDefaultAsync(x => x.Id == request.Id);
+
+            if(user == null)
+            {
+                response.HasError = true;
+                response.Error = "No existe ese usuario";
+                return response;
+            }
+
+            var UserWithSameUserName = await _userManager.FindByNameAsync(request.UserName);
+
+            if (UserWithSameUserName != null)
+            {
+                if(user.Id != UserWithSameUserName.Id)
+                {
+                    response.HasError = true;
+                    response.Error = "Ese nombre de usuario ya esta en uso";
+                    return response;
+                }
+                
+            }
+
+            var UserWithSameEmail = await _userManager.FindByEmailAsync(request.Email);
+
+            if (UserWithSameEmail != null)
+            {
+                if(user.Id != UserWithSameEmail.Id)
+                {
+                    response.HasError = true;
+                    response.Error = "Ese correo ya esta en uso";
+                    return response;
+                }
+               
+            }
+
+
+            user.Name = request.Name;
+            user.Email = request.Email;
+            user.LastName = request.LastName;
+            user.Identification = request.Identification;
+            user.UserName = request.UserName;
+            await _userManager.UpdateAsync(user);
+
+            if(!string.IsNullOrWhiteSpace(request.Password) && !string.IsNullOrWhiteSpace(request.OldPass))
+            {
+                await _userManager.ChangePasswordAsync(user,request.OldPass, request.Password);
+            }
+
+            return response;
+        }
+
+        public async Task<AuthenticationResponse> GetUserByIdAsync(string id)
+        {
+            var user = await _userManager.FindByIdAsync(id);
+            var roles = await _userManager.GetRolesAsync(user);
+
+            AuthenticationResponse response = new()
+            {
+                Id = id,
+                Name = user.Name,
+                LastName = user.LastName,
+                Email = user.Email,
+                Identification = user.Identification,
+                UserName = user.UserName,
+                Rol = (Enum.TryParse<Roles>(roles.FirstOrDefault(), out Roles rolEnum)) ? (int)rolEnum : 0
+            };
+
+            return response;
         }
     }
 }

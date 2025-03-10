@@ -24,6 +24,10 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/mreng/OneDrive/Escritorio/PracticasP3/NetBank/NetBank/NetBank.WebApp/Views/Admin/Main.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTWFpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/mreng/OneDrive/Escritorio/PracticasP3/NetBank/NetBank/NetBank.WebApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -44,12 +48,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxBY2Nlc0RlbmllZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mreng/OneDrive/Escritorio/PracticasP3/NetBank/NetBank/NetBank.WebApp/Views/User/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
+[C:/Users/mreng/OneDrive/Escritorio/PracticasP3/NetBank/NetBank/NetBank.WebApp/Views/User/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mreng/OneDrive/Escritorio/PracticasP3/NetBank/NetBank/NetBank.WebApp/Views/User/Main.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxNYWluLmNzaHRtbA==
+[C:/Users/mreng/OneDrive/Escritorio/PracticasP3/NetBank/NetBank/NetBank.WebApp/Views/User/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/mreng/OneDrive/Escritorio/PracticasP3/NetBank/NetBank/NetBank.WebApp/Views/User/Register.cshtml]

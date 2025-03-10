@@ -12,7 +12,7 @@ namespace NetBank.Core.Domain.Entities
 
         public ProductType ProductType { get; set; }
 
-        public required bool IsMain { get; set; } = false;
+        public bool IsMain { get; set; } = false;
 
 
         public string? UserId { get; set; }

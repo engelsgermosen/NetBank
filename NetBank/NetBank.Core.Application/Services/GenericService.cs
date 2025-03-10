@@ -20,38 +20,38 @@ namespace NetBank.Core.Application.Services
             _mapper = mapper;
         }
 
-        public async Task<SaveViewModel> CreateAsync(SaveViewModel viewModel)
+        public virtual async Task<SaveViewModel> CreateAsync(SaveViewModel viewModel)
         {
             Entity entity = _mapper.Map<Entity>(viewModel); 
             entity = await _repository.AddAsync(entity);
             return _mapper.Map<SaveViewModel>(entity);
         }
 
-        public async Task DeleteAsync(int id)
+        public virtual async Task DeleteAsync(int id)
         {
             Entity entity = await _repository.GetById(id);
             await _repository.Delete(entity);
         }
 
-        public async Task<List<ViewModel>> GetAllAsync()
+        public virtual async Task<List<ViewModel>> GetAllAsync()
         {
             List<Entity> entities = await _repository.GetAllAsync();
             return _mapper.Map<List<ViewModel>>(entities);
         }
 
-        public async Task<SaveViewModel> GetByIdSaveViewModel(int id)
+        public virtual async Task<SaveViewModel> GetByIdSaveViewModel(int id)
         {
             Entity entity = await _repository.GetById(id);
             return _mapper.Map<SaveViewModel>(entity);
         }
 
-        public async Task<ViewModel> GetByIdViewModel(int id)
+        public virtual async Task<ViewModel> GetByIdViewModel(int id)
         {
             Entity entity = await _repository.GetById(id);
             return _mapper.Map<ViewModel>(entity);
         }
 
-        public async Task<SaveViewModel> UpdateAsync(SaveViewModel viewModel, int id)
+        public virtual async Task<SaveViewModel> UpdateAsync(SaveViewModel viewModel, int id)
         {
             Entity entity = _mapper.Map<Entity>(viewModel);
             entity = await _repository.UpdateAsync(entity, id);

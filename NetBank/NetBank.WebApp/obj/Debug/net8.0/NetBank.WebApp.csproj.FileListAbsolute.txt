@@ -352,6 +352,15 @@ C:\Users\natan\OneDrive\Escritorio\Archivos\ITLA\5to Cuatrimestre\Programacion I
 C:\Users\natan\OneDrive\Escritorio\Archivos\ITLA\5to Cuatrimestre\Programacion III\Nueva carpeta\NetBank\NetBank\NetBank.WebApp\obj\Debug\net8.0\NetBank.WebApp.pdb
 C:\Users\natan\OneDrive\Escritorio\Archivos\ITLA\5to Cuatrimestre\Programacion III\Nueva carpeta\NetBank\NetBank\NetBank.WebApp\obj\Debug\net8.0\NetBank.WebApp.genruntimeconfig.cache
 C:\Users\natan\OneDrive\Escritorio\Archivos\ITLA\5to Cuatrimestre\Programacion III\Nueva carpeta\NetBank\NetBank\NetBank.WebApp\obj\Debug\net8.0\ref\NetBank.WebApp.dll
+C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.WebApp\obj\Debug\net8.0\NetBank.WebApp.csproj.AssemblyReference.cache
+C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.WebApp\obj\Debug\net8.0\NetBank.WebApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.WebApp\obj\Debug\net8.0\NetBank.WebApp.AssemblyInfoInputs.cache
+C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.WebApp\obj\Debug\net8.0\NetBank.WebApp.AssemblyInfo.cs
+C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.WebApp\obj\Debug\net8.0\NetBank.WebApp.csproj.CoreCompileInputs.cache
+C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.WebApp\obj\Debug\net8.0\NetBank.WebApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.WebApp\obj\Debug\net8.0\NetBank.WebApp.RazorAssemblyInfo.cache
+C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.WebApp\obj\Debug\net8.0\NetBank.WebApp.RazorAssemblyInfo.cs
+C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.WebApp\obj\Debug\net8.0\NetBank.WebApp.sourcelink.json
 C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.WebApp\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.WebApp\bin\Debug\net8.0\appsettings.json
 C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.WebApp\bin\Debug\net8.0\NetBank.WebApp.staticwebassets.runtime.json
@@ -502,15 +511,6 @@ C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.WebApp\bi
 C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.WebApp\bin\Debug\net8.0\NetBank.Infraestructure.Identity.pdb
 C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.WebApp\bin\Debug\net8.0\NetBank.Infraestructure.Persistence.pdb
 C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.WebApp\bin\Debug\net8.0\NetBank.Infraestructure.Shared.pdb
-C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.WebApp\obj\Debug\net8.0\NetBank.WebApp.csproj.AssemblyReference.cache
-C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.WebApp\obj\Debug\net8.0\NetBank.WebApp.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.WebApp\obj\Debug\net8.0\NetBank.WebApp.AssemblyInfoInputs.cache
-C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.WebApp\obj\Debug\net8.0\NetBank.WebApp.AssemblyInfo.cs
-C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.WebApp\obj\Debug\net8.0\NetBank.WebApp.csproj.CoreCompileInputs.cache
-C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.WebApp\obj\Debug\net8.0\NetBank.WebApp.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.WebApp\obj\Debug\net8.0\NetBank.WebApp.RazorAssemblyInfo.cache
-C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.WebApp\obj\Debug\net8.0\NetBank.WebApp.RazorAssemblyInfo.cs
-C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.WebApp\obj\Debug\net8.0\NetBank.WebApp.sourcelink.json
 C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.WebApp\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.WebApp\obj\Debug\net8.0\scopedcss\bundle\NetBank.WebApp.styles.css
 C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.WebApp\obj\Debug\net8.0\scopedcss\projectbundle\NetBank.WebApp.bundle.scp.css

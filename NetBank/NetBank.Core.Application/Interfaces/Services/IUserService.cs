@@ -10,6 +10,11 @@ namespace NetBank.Core.Application.Interfaces.Services
         Task LogOutAsync();
 
         Task<List<UserViewModel>> GetAllUsersViewModel();
+        Task<UserInactiveViewModel> UserInactiveViewModelAsync(string id);
+
+        Task<UpdateUserResponse> UpdateUserViewModel(UpdateUserViewModel vm);
+
+        Task<UpdateUserViewModel> GetByIdViewModel(string id);
 
     }
 }

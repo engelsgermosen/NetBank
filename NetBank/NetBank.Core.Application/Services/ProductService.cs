@@ -1,4 +1,6 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Http;
+using Microsoft.EntityFrameworkCore;
 using NetBank.Core.Application.Interfaces.Services;
 using NetBank.Core.Application.Services.Repositories;
 using NetBank.Core.Application.ViewModels.Product;
@@ -16,6 +18,22 @@ namespace NetBank.Core.Application.Services
         {
             _repository = repository;
             _mapper = mapper;
+        }
+
+        public async Task<SaveProductViewModel> GetProductMainByUserId(string id)
+        {
+            var query = await _repository.GetQuery().Where(x => x.UserId == id && x.IsMain).FirstOrDefaultAsync();
+
+            SaveProductViewModel viewModel = new()
+            {
+                Id = query.Id,
+                UserId = query.UserId,
+                IsMain = query.IsMain,
+                Balance = query.Balance,
+                CreditLimit = query.CreditLimit,
+                ProductType = query.ProductType,
+            };
+            return viewModel;
         }
     }
 }

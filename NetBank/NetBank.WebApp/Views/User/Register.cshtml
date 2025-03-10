@@ -24,7 +24,7 @@
                         </div>
                     }
 
-                    <form method="post" asp-controller="User" asp-action="Index">
+                    <form method="post" asp-controller="User" asp-action="Register">
                         <div class="mb-2">
                              <label class="form-label" asp-for="Name">Nombre:</label>
                             <input class="form-control" asp-for="Name" />
@@ -68,9 +68,9 @@
                         </div>
 
                         <div class="mb-2">
-                            <label class="form-label" asp-for="Rol">Rol:</label>
-                            <select id="Rol" asp-for="Rol" class="form-select">
-                                <option value="0">--Seleccionar--</option>
+                            <label class="form-label" asp-for="RolId">Rol:</label>
+                            <select id="Rol" asp-for="RolId" class="form-select">
+                                <option value="">--Seleccionar--</option>
                                 
                                 @if( roles != null && roles.Count > 0)
                                 {
@@ -80,6 +80,7 @@
                                     }
                                 }
                             </select>
+                            <span asp-validation-for="RolId" class="text-danger"></span>
                         </div>
 
                         <div id="monto" class="mb-2 d-none">
@@ -98,14 +99,18 @@
 
 
 <script>
+    const rolSelect = document.querySelector("#Rol");
+    const montoDiv = document.querySelector("#monto");
 
-    const rol = document.querySelector("#Rol")
-    const monto = document.querySelector("#monto")
+    rolSelect.addEventListener('change', event => {
 
-    rol.addEventListener('input',x => {
-        if(x.target.value == @NetBank.Core.Application.Enums.Roles.Client)
-        {
-            monto.classList.toggle("d-none");
-        }
-    }
+      const selectedOption = event.target.options[event.target.selectedIndex];
+
+      if (selectedOption.text === "@(NetBank.Core.Application.Enums.Roles.Client)") {
+        montoDiv.classList.remove("d-none");
+      } else {
+        montoDiv.classList.add("d-none");
+      }
+    });
 </script>
+

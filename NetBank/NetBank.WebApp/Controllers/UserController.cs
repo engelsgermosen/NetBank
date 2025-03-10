@@ -55,7 +55,6 @@ namespace NetBank.WebApp.Controllers
                         return RedirectToRoute(new { controller = "Home", action = "Index" });
                     default:
                         return null;
-                        break;
 
                 }
 
@@ -69,7 +68,6 @@ namespace NetBank.WebApp.Controllers
            
         }
 
-        [ServiceFilter(typeof(LoginAuthorize))]
         [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Register()
         {
@@ -77,11 +75,13 @@ namespace NetBank.WebApp.Controllers
             return View(new SaveUserViewModel());
         }
 
-        [ServiceFilter(typeof(LoginAuthorize))]
+        [Authorize(Roles = "Admin")]
+
         [HttpPost]
 
         public async Task<IActionResult> Register(SaveUserViewModel userVm)
         {
+            ViewBag.Roles = await _rolService.GetAllrolesAsync();
 
             if (!ModelState.IsValid)
             {
@@ -90,9 +90,9 @@ namespace NetBank.WebApp.Controllers
 
             RegisterResponse response  = await _userService.RegisterAsync(userVm);
 
-            if (userVm != null && !userVm.HasError)
+            if (response != null && !response.HasError)
             {
-                return RedirectToRoute(new { controller = "Home", action = "Index" });
+                return RedirectToRoute(new { controller = "Admin", action = "Main" });
             }
             else
             {
@@ -102,6 +102,39 @@ namespace NetBank.WebApp.Controllers
             }
 
         }
+
+        [Authorize(Roles = "Admin")]
+        public async Task<IActionResult> Edit(string id)
+        {
+            return View(await _userService.GetByIdViewModel(id));
+        }
+
+        [Authorize(Roles = "Admin")]
+        [HttpPost]
+        public async Task<IActionResult> Edit(UpdateUserViewModel userVm)
+        {
+            ModelState.Remove(nameof(userVm.Password));
+            ModelState.Remove(nameof(userVm.ConfirmPassword));
+
+            if (!ModelState.IsValid)
+            {
+                return View(userVm);
+            }
+
+            UpdateUserResponse response = await _userService.UpdateUserViewModel(userVm);
+
+            if (response != null && !response.HasError)
+            {
+                return RedirectToRoute(new { controller = "Admin", action = "Main" });
+            }
+            else
+            {
+                userVm.HasError = response.HasError;
+                userVm.Error = response.Error;
+                return View(userVm);
+            }
+        }
+
 
         public IActionResult AccesDenied()
         {
@@ -115,11 +148,6 @@ namespace NetBank.WebApp.Controllers
             return RedirectToRoute(new { controller = "User", action = "Index" });
         }
 
-        //Esta parte es la zona de administrador de usuarios
-
-        public async Task<IActionResult> Main()
-        {
-            return View(await _userService.GetAllUsersViewModel());
-        }
+        
     }
 }
