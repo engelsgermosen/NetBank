@@ -3,6 +3,7 @@ using NetBank.Core.Application.Dtos.Account;
 using NetBank.Core.Application.Dtos.Rol;
 using NetBank.Core.Application.ViewModels.Product;
 using NetBank.Core.Application.ViewModels.Role;
+using NetBank.Core.Application.ViewModels.Transaction;
 using NetBank.Core.Application.ViewModels.User;
 using NetBank.Core.Domain.Entities;
 
@@ -59,6 +60,13 @@ namespace NetBank.Core.Application.Mapping
                 .ReverseMap()
                 .ForMember(x => x.DestinationTransactions, opt => opt.Ignore())
                 .ForMember(x => x.OriginTransactions, opt => opt.Ignore());
+
+            CreateMap<Transaction, SaveTransactionViewModel>()
+                .ForMember(x => x.HasError, opt => opt.Ignore())
+                .ForMember(x => x.Error, opt => opt.Ignore())
+                .ReverseMap()
+                .ForMember(x => x.OriginProduct, opt => opt.Ignore())
+                .ForMember(x => x.DestinationProduct, opt => opt.Ignore());
 
 
         }

@@ -1,7 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using NetBank.Core.Application.Interfaces.Services;
-using NetBank.WebApp.Middlewares;
 
 namespace NetBank.WebApp.Controllers
 {
@@ -12,15 +11,20 @@ namespace NetBank.WebApp.Controllers
 
         private readonly IUserService _userService;
 
-        public AdminController(ITransactionService transactionService, IUserService userService)
+        private readonly IProductService _productService;
+
+        public AdminController(ITransactionService transactionService, IUserService userService, IProductService productService)
         {
             _transactionService = transactionService;
             _userService = userService;
+            _productService = productService;
         }
 
         public async Task<IActionResult> Index()
         {
             ViewBag.Transacciones = await _transactionService.GetTransaccionCount();
+            ViewBag.Clients = await _userService.GetAllUsersViewModel();
+            ViewBag.Products = await _productService.GetAllAsync();
             return View();
         }
 

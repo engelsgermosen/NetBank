@@ -51,7 +51,7 @@ namespace NetBank.Infraestructure.Identity
             {
                 opt.ExpireTimeSpan = TimeSpan.FromHours(24);
                 opt.LoginPath = "/User";
-                opt.AccessDeniedPath = "/User/AccessDenied";
+                opt.AccessDeniedPath = "/User/AccesDenied";
             });
 
             services.ConfigureApplicationCookie(options =>

@@ -3,6 +3,8 @@
 *@
 @{
     var transacciones = ViewBag.Transacciones as NetBank.Core.Application.ViewModels.Transaction.TransaccionCountViewModel;
+    var clientes = ViewBag.Clients as List<NetBank.Core.Application.ViewModels.User.UserViewModel>;
+    var products = ViewBag.Products as List<NetBank.Core.Application.ViewModels.Product.ProductViewModel>;
 }
 
 
@@ -77,7 +79,7 @@
                                 <h5>Clientes activos</h5>
                             </div>
                             <div class="card-body">
-                                <p>53</p>
+                                <p>@clientes?.Where(x => x.IsActive).Count()</p>
                             </div>
                         </div>
 
@@ -86,7 +88,7 @@
                                 <h5>Clientes inactivos</h5>
                             </div>
                             <div class="card-body">
-                                <p>5</p>
+                                <p>@clientes?.Where(x => !x.IsActive).Count()</p>
                             </div>
                         </div>
 
@@ -98,12 +100,10 @@
                         <h4>Cuantos productos hay registrados</h4>
                     </div>
                     <div class="card-body">
-                        <p>100 cuentas</p>
+                        <p class="fs-5 fw-bold text-dark">@products?.Count</p>
                     </div>
                 </div>
-
             </div>
-
         </div>
     </div>
 </div>

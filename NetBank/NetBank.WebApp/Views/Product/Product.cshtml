@@ -46,6 +46,9 @@
                                             {
                                                 <a asp-route-id="@i.AccountNumber" asp-route-userId="@i.UserId" asp-route-productType="@i.ProductType" asp-action="Delete" asp-controller="Product" class="btn btn-danger">Delete</a>
                                             }
+                                            <div class="card-footer">
+                                                <span>@i.AccountNumber</span>
+                                            </div>
                                         </div>
                                     </div>
                                     break;
@@ -57,6 +60,9 @@
                                         <div class="card-body">
                                             <p>@i.CreditLimit</p>
                                             <span>Debe: @(i.AmountOwed ?? 0)</span>
+                                            <div class="card-footer">
+                                                <span>@i.AccountNumber</span>
+                                            </div>
                                             <a asp-route-id="@i.AccountNumber" asp-route-userId="@i.UserId" asp-route-productType="@i.ProductType" asp-action="Delete" asp-controller="Product" class="btn btn-danger">Delete</a>
                                         </div>
                                     </div>
@@ -68,6 +74,9 @@
                                         </div>
                                         <div class="card-body">
                                             <p>Monto adeudado: @(i.AmountOwed ?? 0)</p>
+                                            <div class="card-footer">
+                                                <span>@i.AccountNumber</span>
+                                            </div>
                                             <a asp-route-id="@i.AccountNumber" asp-route-userId="@i.UserId" asp-route-productType="@i.ProductType" asp-action="Delete" asp-controller="Product" class="btn btn-danger">Delete</a>
                                         </div>
                                     </div>

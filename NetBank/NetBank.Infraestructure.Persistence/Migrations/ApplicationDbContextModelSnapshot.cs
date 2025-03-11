@@ -98,9 +98,6 @@ namespace NetBank.Infraestructure.Persistence.Migrations
                     b.Property<int?>("OriginProductId")
                         .HasColumnType("int");
 
-                    b.Property<bool>("State")
-                        .HasColumnType("bit");
-
                     b.Property<DateTime>("TransactionDate")
                         .HasColumnType("datetime2");
 
