@@ -12,8 +12,8 @@ using NetBank.Infraestructure.Persistence.Context;
 namespace NetBank.Infraestructure.Persistence.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250308183612_InitialMigration")]
-    partial class InitialMigration
+    [Migration("20250310231152_InitialDbMigration")]
+    partial class InitialDbMigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -55,11 +55,14 @@ namespace NetBank.Infraestructure.Persistence.Migrations
 
             modelBuilder.Entity("NetBank.Core.Domain.Entities.Product", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("AccountNumber")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("AccountNumber"), 780000001L);
+
+                    b.Property<decimal?>("AmountOwed")
+                        .HasColumnType("decimal(14,4)");
 
                     b.Property<decimal>("Balance")
                         .HasColumnType("decimal(14,4)");
@@ -76,7 +79,7 @@ namespace NetBank.Infraestructure.Persistence.Migrations
                     b.Property<string>("UserId")
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("Id");
+                    b.HasKey("AccountNumber");
 
                     b.ToTable("Productos", (string)null);
                 });

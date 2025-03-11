@@ -11,16 +11,17 @@ namespace NetBank.WebApp.Controllers
 {
     public class UserController : Controller
     {
-
+        private readonly IProductService _productService;
         private readonly IUserService _userService;
         private readonly IRolService _rolService;
         private readonly IHttpContextAccessor _httpContextAccessor;
 
-        public UserController(IUserService userService, IHttpContextAccessor httpContextAccessor, IRolService rolService)
+        public UserController(IUserService userService, IHttpContextAccessor httpContextAccessor, IRolService rolService, IProductService productService)
         {
             _userService = userService;
             _httpContextAccessor = httpContextAccessor;
             _rolService = rolService;
+            _productService = productService;
         }
 
         [ServiceFilter(typeof(LoginAuthorize))]

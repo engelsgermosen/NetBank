@@ -72,7 +72,7 @@ namespace NetBank.Core.Application.Services
             {
                 var cuentaMain = await _productService.GetProductMainByUserId(vm.Id);
                 cuentaMain.Balance += vm.AditionalAmount;
-                await _productService.UpdateAsync(cuentaMain, cuentaMain.Id);
+                await _productService.UpdateAsync(cuentaMain, cuentaMain.AccountNumber);
             }
 
             return response;

@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace NetBank.Infraestructure.Persistence.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialMigration : Migration
+    public partial class InitialDbMigration : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -31,17 +31,18 @@ namespace NetBank.Infraestructure.Persistence.Migrations
                 name: "Productos",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
+                    AccountNumber = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "780000001, 1"),
                     Balance = table.Column<decimal>(type: "decimal(14,4)", nullable: false),
                     CreditLimit = table.Column<decimal>(type: "decimal(14,4)", nullable: true),
+                    AmountOwed = table.Column<decimal>(type: "decimal(14,4)", nullable: true),
                     ProductType = table.Column<byte>(type: "tinyint", nullable: false),
                     IsMain = table.Column<bool>(type: "bit", nullable: false),
                     UserId = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Productos", x => x.Id);
+                    table.PrimaryKey("PK_Productos", x => x.AccountNumber);
                 });
 
             migrationBuilder.CreateTable(
@@ -65,13 +66,13 @@ namespace NetBank.Infraestructure.Persistence.Migrations
                         name: "FK_Transacciones_Productos_DestinationProductId",
                         column: x => x.DestinationProductId,
                         principalTable: "Productos",
-                        principalColumn: "Id",
+                        principalColumn: "AccountNumber",
                         onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
                         name: "FK_Transacciones_Productos_OriginProductId",
                         column: x => x.OriginProductId,
                         principalTable: "Productos",
-                        principalColumn: "Id",
+                        principalColumn: "AccountNumber",
                         onDelete: ReferentialAction.Restrict);
                 });
 

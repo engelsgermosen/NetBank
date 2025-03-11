@@ -1,10 +1,10 @@
 ﻿using AutoMapper;
-using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using NetBank.Core.Application.Interfaces.Services;
 using NetBank.Core.Application.Services.Repositories;
 using NetBank.Core.Application.ViewModels.Product;
 using NetBank.Core.Domain.Entities;
+using NetBank.Core.Domain.Enums;
 
 namespace NetBank.Core.Application.Services
 {
@@ -26,7 +26,7 @@ namespace NetBank.Core.Application.Services
 
             SaveProductViewModel viewModel = new()
             {
-                Id = query.Id,
+                AccountNumber = query.AccountNumber,
                 UserId = query.UserId,
                 IsMain = query.IsMain,
                 Balance = query.Balance,
@@ -34,6 +34,79 @@ namespace NetBank.Core.Application.Services
                 ProductType = query.ProductType,
             };
             return viewModel;
+        }
+
+        public override async Task<SaveProductViewModel> CreateAsync(SaveProductViewModel viewModel)
+        {
+            if(viewModel != null && viewModel.AmountOwed != null)
+            {
+                var cuentaPrincipal = await _repository.GetQuery().Where(x => x.UserId == viewModel.UserId && x.IsMain).FirstOrDefaultAsync();
+
+                if(cuentaPrincipal != null && cuentaPrincipal.IsMain)
+                {
+                    cuentaPrincipal.Balance += viewModel.AmountOwed;
+                    await _repository.UpdateAsync(cuentaPrincipal, cuentaPrincipal.AccountNumber);
+                }
+            }
+
+            if(viewModel != null && viewModel.CreditLimit != null)
+            {
+                viewModel.Balance = 0;
+            }
+
+            return await base.CreateAsync(viewModel);
+        }
+
+
+        public async Task<List<ProductViewModel>> GetProductsByUserId(string id)
+        {
+            var query = await _repository.GetQuery().Where(x => x.UserId == id).ToListAsync();
+            return _mapper.Map<List<ProductViewModel>>(query);
+        }
+
+        public async Task<bool> DeleteProduct(int id,ProductType type)
+        {
+            var cuenta = await _repository.GetById(id);
+
+            switch (type)
+            {
+                case ProductType.CuentaAhorro:
+                    var cuentaPrincipal = await _repository.GetQuery().Where(x => x.IsMain).FirstOrDefaultAsync();
+                    
+
+                    cuentaPrincipal.Balance += cuenta.Balance;
+
+                    await _repository.UpdateAsync(cuentaPrincipal, cuentaPrincipal.AccountNumber);
+                    await _repository.Delete(cuenta);
+                    return true;
+                    
+                case ProductType.CreditCard:
+
+                    if(cuenta.AmountOwed == null || cuenta.AmountOwed == 0)
+                    {
+                        await _repository.Delete(cuenta);
+                        return true;
+                    }
+                    else
+                    {
+                        return false;
+                    }
+                case ProductType.Prestamo:
+
+                    if(cuenta.AmountOwed == null || cuenta.AmountOwed == 0)
+                    {
+                        await _repository.Delete(cuenta);
+                        return true;
+                    }
+                    else
+                    {
+                        return false;
+                    }
+                    
+            }
+
+            
+            return false;
         }
     }
 }
