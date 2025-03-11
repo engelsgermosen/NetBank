@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using NetBank.Core.Application.Dtos.Account;
 using NetBank.Core.Application.Dtos.Rol;
+using NetBank.Core.Application.ViewModels.Beneficiare;
 using NetBank.Core.Application.ViewModels.Product;
 using NetBank.Core.Application.ViewModels.Role;
 using NetBank.Core.Application.ViewModels.User;
@@ -59,6 +60,13 @@ namespace NetBank.Core.Application.Mapping
                 .ReverseMap()
                 .ForMember(x => x.DestinationTransactions, opt => opt.Ignore())
                 .ForMember(x => x.OriginTransactions, opt => opt.Ignore());
+
+            //beneficiarie -> BeneficiareViewModel
+            CreateMap<Beneficiarie, BeneficiareViewModel>()
+                .ReverseMap();
+
+            CreateMap<Beneficiarie, SaveBeneficiareViewModel>()
+                .ReverseMap();
 
 
         }
