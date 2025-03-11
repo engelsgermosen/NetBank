@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using NetBank.Core.Application.Dtos.Account;
 using NetBank.Core.Application.Dtos.Rol;
+using NetBank.Core.Application.ViewModels.Beneficiare;
 using NetBank.Core.Application.ViewModels.Product;
 using NetBank.Core.Application.ViewModels.Role;
 using NetBank.Core.Application.ViewModels.Transaction;
@@ -61,12 +62,21 @@ namespace NetBank.Core.Application.Mapping
                 .ForMember(x => x.DestinationTransactions, opt => opt.Ignore())
                 .ForMember(x => x.OriginTransactions, opt => opt.Ignore());
 
+<<<<<<< HEAD
             CreateMap<Transaction, SaveTransactionViewModel>()
                 .ForMember(x => x.HasError, opt => opt.Ignore())
                 .ForMember(x => x.Error, opt => opt.Ignore())
                 .ReverseMap()
                 .ForMember(x => x.OriginProduct, opt => opt.Ignore())
                 .ForMember(x => x.DestinationProduct, opt => opt.Ignore());
+=======
+            //beneficiarie -> BeneficiareViewModel
+            CreateMap<Beneficiarie, BeneficiareViewModel>()
+                .ReverseMap();
+
+            CreateMap<Beneficiarie, SaveBeneficiareViewModel>()
+                .ReverseMap();
+>>>>>>> 51af201a87c22365f51fe662274b59bc37dbf245
 
 
         }

@@ -1,6 +1,10 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "Hash": "uAG1cF3WBWcp9zvlXaWUyDNI7MsOM5UBPUmhr9hpV7s=",
+=======
+  "Hash": "Sczd3pQnzPQttMW5lnVV+CNvT3zCQTwUybIn/niE7ck=",
+>>>>>>> 51af201a87c22365f51fe662274b59bc37dbf245
   "Source": "NetBank.WebApp",
   "BasePath": "_content/NetBank.WebApp",
   "Mode": "Default",
@@ -6263,7 +6267,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 11 Mar 2025 19:54:11 GMT"
+=======
+          "Value": "Tue, 11 Mar 2025 19:32:40 GMT"
+>>>>>>> 51af201a87c22365f51fe662274b59bc37dbf245
         },
         {
           "Name": "Cache-Control",
@@ -6300,7 +6308,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 11 Mar 2025 19:54:11 GMT"
+=======
+          "Value": "Tue, 11 Mar 2025 19:32:40 GMT"
+>>>>>>> 51af201a87c22365f51fe662274b59bc37dbf245
         },
         {
           "Name": "Cache-Control",
@@ -6337,7 +6349,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 11 Mar 2025 19:54:11 GMT"
+=======
+          "Value": "Tue, 11 Mar 2025 19:32:40 GMT"
+>>>>>>> 51af201a87c22365f51fe662274b59bc37dbf245
         },
         {
           "Name": "Cache-Control",
@@ -6382,7 +6398,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 11 Mar 2025 19:54:11 GMT"
+=======
+          "Value": "Tue, 11 Mar 2025 19:32:40 GMT"
+>>>>>>> 51af201a87c22365f51fe662274b59bc37dbf245
         },
         {
           "Name": "Cache-Control",

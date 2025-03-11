@@ -29,7 +29,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 11 Mar 2025 19:54:11 GMT"
+=======
+          "Value": "Tue, 11 Mar 2025 19:32:40 GMT"
+>>>>>>> 51af201a87c22365f51fe662274b59bc37dbf245
         }
       ],
       "EndpointProperties": [
@@ -66,7 +70,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 11 Mar 2025 19:54:11 GMT"
+=======
+          "Value": "Tue, 11 Mar 2025 19:32:40 GMT"
+>>>>>>> 51af201a87c22365f51fe662274b59bc37dbf245
         }
       ],
       "EndpointProperties": [
