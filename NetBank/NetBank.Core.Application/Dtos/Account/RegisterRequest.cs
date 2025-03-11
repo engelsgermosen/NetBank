@@ -4,22 +4,23 @@ namespace NetBank.Core.Application.Dtos.Account
 {
     public class RegisterRequest
     {
-        public required string Name { get; set; }
-        public required string LastName { get; set; }
-        public required string Email { get; set; }
+        public string Id { get; set; }
+        public  string Name { get; set; }
+        public  string LastName { get; set; }
+        public  string Email { get; set; }
 
-        public required string UserName { get; set; }
+        public  string UserName { get; set; }
 
-        public required string Password { get; set; }
-        //public required string ConfirmPassword { get; set; }
-        public required string Identification { get; set; }
+        public  string Password { get; set; }
+        public string ConfirmPassword { get; set; }
+        public string Identification { get; set; }
 
-        public required string Phone {  get; set; }
+        public string? Phone {  get; set; }
 
         public decimal? InitialAmount { get; set; }
 
         public bool IsActive { get; set; } = true;
 
-        public Roles Rol {  get; set; }
+        public string RolId {  get; set; }
     }
 }

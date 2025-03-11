@@ -5,6 +5,7 @@ namespace NetBank.Core.Application.ViewModels.User
 {
     public class SaveUserViewModel
     {
+        public string? Id { get; set; }
 
         [Required(ErrorMessage ="El nombre es obligatorio")]
         [DataType(DataType.Text)]
@@ -32,16 +33,17 @@ namespace NetBank.Core.Application.ViewModels.User
         public  string Password { get; set; }
 
         [Required(ErrorMessage = "El confirmar contraseña es obligatorio")]
-        [DataType(DataType.Text)]
+        [DataType(DataType.Password)]
         [Compare(nameof(Password),ErrorMessage ="No coinciden las contraseñas")]
         public  string ConfirmPassword { get; set; }
 
         [Required(ErrorMessage = "El rol es obligatorio")]
-        [Range(1,int.MaxValue,ErrorMessage ="Debe seleccionar un rol valido")]
-        public Roles Rol { get; set; }
+        public string RolId { get; set; }
 
         [DataType(DataType.Currency)]
         public decimal? InitialAmount { get; set; }
+
+        public bool IsActive { get; set; } = true;
 
         public bool HasError { get; set; }
         public string? Error { get; set; }

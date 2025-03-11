@@ -11,11 +11,11 @@ namespace NetBank.Core.Application.Helpers
         {
             this.httpContextAccessor = httpContextAccessor; 
         }
-        public bool HasUser()
+        public AuthenticationResponse HasUser()
         {
             var user = httpContextAccessor.HttpContext.Session.Get<AuthenticationResponse>("user");
 
-            return user != null;
+            return user;
         }
     }
 }

@@ -1,0 +1,77 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@using NetBank.Core.Application.ViewModels.Product;
+@using NetBank.Core.Domain.Enums
+@model SaveProductViewModel;
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12 col-md-6 mx-auto mt-4">
+
+            <form asp-action="Create" asp-controller="Product" method="post">
+
+                <div class="mb-3">
+                    <label asp-for="ProductType" class="form-label">Tipo de producto</label>
+                    <select id="productTypeSelect" asp-for="ProductType" class="form-select">
+                        <option value="">--Seleccionar--</option>
+                        <option value="1">Cuenta de ahorro</option>
+                        <option value="2">Tarjeta de credito</option>
+                        <option value="3">Prestamo</option>  
+                    </select>     
+                </div>
+
+                <div id="cuentaAhorro" class="mb-3 d-none";">
+                    <label asp-for="Balance" class="form-label">Saldo: </label>
+                    <input asp-for="Balance" class="form-control" />
+                </div>
+
+                <!-- Campo para Tarjeta de Crédito -->
+                <div id="tarjetaCredito" class="mb-3 d-none">
+                    <label asp-for="CreditLimit" class="form-label">Límite de Crédito</label>
+                    <input asp-for="CreditLimit" class="form-control" />
+                </div>
+
+                <!-- Campo para Préstamo -->
+                <div id="prestamo" class="mb-3 d-none">
+                    <label asp-for="AmountOwed" class="form-label">Monto del Préstamo</label>
+                    <input asp-for="AmountOwed" class="form-control" />
+                </div>
+
+                <input asp-for="UserId" type="hidden"/>
+
+                <div class="btn-group float-end">
+                    <a asp-route-id="@Model.UserId" asp-action="Product" asp-controller="Product" class="btn btn-warning">Volver atras</a>
+                    <button type="submit" class="btn btn-primary">Guardar</button>
+                </div>
+            </form>
+
+        </div>
+    </div>
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var productSelect = document.getElementById('productTypeSelect');
+        if (productSelect) {
+            productSelect.addEventListener('change', function (e) {
+                var value = this.options[this.selectedIndex].value;
+
+                document.getElementById('cuentaAhorro').classList.add('d-none');
+                document.getElementById('tarjetaCredito').classList.add('d-none');
+                document.getElementById('prestamo').classList.add('d-none');
+
+                // Mostrar el campo correspondiente según la opción seleccionada
+                if (value === "1") {
+                    document.getElementById('cuentaAhorro').classList.remove('d-none');
+                } else if (value === "2") {
+                    document.getElementById('tarjetaCredito').classList.remove('d-none');
+                } else if (value === "3") {
+                    document.getElementById('prestamo').classList.remove('d-none');
+                }
+            });
+        }
+    });
+</script>

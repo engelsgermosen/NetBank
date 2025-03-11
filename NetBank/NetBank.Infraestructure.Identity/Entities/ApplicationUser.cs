@@ -9,9 +9,7 @@ namespace NetBank.Infraestructure.Identity.Entities
         public required string LastName { get; set; }
 
         public required string Identification { get; set; }
+
         public bool IsActive { get; set; } = true;
-
-        public decimal? InitialAmount { get; set; }
-
     }
 }

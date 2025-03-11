@@ -4,15 +4,15 @@ using NetBank.Infraestructure.Identity.Entities;
 
 namespace NetBank.Infraestructure.Identity.Seeds
 {
-    public static class DefaultBasicUser
+    public static class DefaultBasicAdmin
     {
         public static async Task SeedAsync(UserManager<ApplicationUser> userManager,RoleManager<IdentityRole> roleManager)
         {
 
             ApplicationUser defaultUser = new()
             {
-                UserName="basicUser",
-                Email= "basicUser@gmail.com",
+                UserName="basicAdmin",
+                Email= "basicAdmin@gmail.com",
                 Name= "Lebron",
                 LastName= "James",
                 EmailConfirmed= true,

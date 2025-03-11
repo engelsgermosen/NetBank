@@ -12,32 +12,32 @@ namespace NetBank.Infraestructure.Persistence.Repositories
         {
             _context = context;
         }
-        public async Task<Entity> AddAsync(Entity entity)
+        public virtual async Task<Entity> AddAsync(Entity entity)
         {
             await _context.Set<Entity>().AddAsync(entity);
             await _context.SaveChangesAsync();
             return entity;
         }
 
-        public async Task<List<Entity>> AddRangeAsync(List<Entity> entities)
+        public virtual async Task<List<Entity>> AddRangeAsync(List<Entity> entities)
         {
             await _context.Set<Entity>().AddRangeAsync(entities);
             await _context.SaveChangesAsync();
             return entities;
         }
 
-        public async Task Delete(Entity entity)
+        public virtual async Task Delete(Entity entity)
         {
             _context.Set<Entity>().Remove(entity);
             await _context.SaveChangesAsync();
         }
 
-        public async Task<List<Entity>> GetAllAsync()
+        public virtual async Task<List<Entity>> GetAllAsync()
         {
             return await _context.Set<Entity>().ToListAsync();
         }
 
-        public async Task<List<Entity>> GetAllWithIncludesAsync(List<string> includes)
+        public virtual async Task<List<Entity>> GetAllWithIncludesAsync(List<string> includes)
         {
             var query = _context.Set<Entity>().AsQueryable();
 
@@ -49,17 +49,17 @@ namespace NetBank.Infraestructure.Persistence.Repositories
             return await query.ToListAsync();
         }
 
-        public async Task<Entity> GetById(int id)
+        public virtual async Task<Entity> GetById(int id)
         {
             return await _context.Set<Entity>().FindAsync(id);
         }
 
-        public IQueryable<Entity> GetQuery()
+        public virtual IQueryable<Entity> GetQuery()
         {
             return _context.Set<Entity>().AsQueryable();
         }
 
-        public IQueryable<Entity> GetQueryWithIncludes(List<string> includes)
+        public virtual IQueryable<Entity> GetQueryWithIncludes(List<string> includes)
         {
             var query = _context.Set<Entity>().AsQueryable();
 
@@ -71,7 +71,7 @@ namespace NetBank.Infraestructure.Persistence.Repositories
             return query;
         }
 
-        public async Task<Entity> UpdateAsync(Entity entity, int id)
+        public virtual async Task<Entity> UpdateAsync(Entity entity, int id)
         {
             Entity? entidad = await _context.Set<Entity>().FindAsync(id);
             _context.Set<Entity>().Entry(entidad).CurrentValues.SetValues(entity);

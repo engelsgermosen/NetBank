@@ -12,7 +12,7 @@ using NetBank.Infraestructure.Identity.Context;
 namespace NetBank.Infraestructure.Identity.Migrations
 {
     [DbContext(typeof(IdentityContext))]
-    [Migration("20250306154610_InitialMigration")]
+    [Migration("20250310230621_InitialMigration")]
     partial class InitialMigration
     {
         /// <inheritdoc />
@@ -181,9 +181,6 @@ namespace NetBank.Infraestructure.Identity.Migrations
                     b.Property<string>("Identification")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
-
-                    b.Property<decimal?>("InitialAmount")
-                        .HasColumnType("decimal(14,4)");
 
                     b.Property<bool>("IsActive")
                         .HasColumnType("bit");

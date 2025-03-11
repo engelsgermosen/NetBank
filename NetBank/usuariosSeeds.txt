@@ -1,0 +1,6 @@
+UserName: basicClient
+Password: 123Enm#@word!
+
+
+UserName: basicAdmin
+Password: 321Enm#@word! 

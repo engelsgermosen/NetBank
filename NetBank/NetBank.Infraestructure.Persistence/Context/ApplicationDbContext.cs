@@ -32,8 +32,9 @@ namespace NetBank.Infraestructure.Persistence.Context
 
             modelBuilder.Entity<Product>(x =>
             {
-                x.HasKey(k => k.Id);
-                x.Property(k => k.Id).ValueGeneratedOnAdd();
+                x.HasKey(x => x.AccountNumber);
+                x.Property(K => K.AccountNumber).UseIdentityColumn(780000001, 1);
+
             });
 
             modelBuilder.Entity<Beneficiarie>(x =>
@@ -61,6 +62,7 @@ namespace NetBank.Infraestructure.Persistence.Context
 
                 config.Property(k => k.Balance).HasColumnType("decimal(14,4)");
                 config.Property(k => k.CreditLimit).HasColumnType("decimal(14,4)");
+                config.Property(k => k.AmountOwed).HasColumnType("decimal(14,4)");
 
                 config.Property(k => k.ProductType).HasConversion<byte>();
 

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jose\\Desktop\\proyecto con los tigueres\\NetBank\\NetBank\\NetBank.Infraestructure.Shared\\NetBank.Infraestructure.Shared.csproj": {}
+    "C:\\Users\\natan\\OneDrive\\Escritorio\\Archivos\\ITLA\\5to Cuatrimestre\\Programacion III\\Nueva carpeta\\NetBank\\NetBank.Infraestructure.Shared\\NetBank.Infraestructure.Shared.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jose\\Desktop\\proyecto con los tigueres\\NetBank\\NetBank\\NetBank.Core.Application\\NetBank.Core.Application.csproj": {
+    "C:\\Users\\natan\\OneDrive\\Escritorio\\Archivos\\ITLA\\5to Cuatrimestre\\Programacion III\\Nueva carpeta\\NetBank\\NetBank.Core.Application\\NetBank.Core.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jose\\Desktop\\proyecto con los tigueres\\NetBank\\NetBank\\NetBank.Core.Application\\NetBank.Core.Application.csproj",
+        "projectUniqueName": "C:\\Users\\natan\\OneDrive\\Escritorio\\Archivos\\ITLA\\5to Cuatrimestre\\Programacion III\\Nueva carpeta\\NetBank\\NetBank.Core.Application\\NetBank.Core.Application.csproj",
         "projectName": "NetBank.Core.Application",
-        "projectPath": "C:\\Users\\jose\\Desktop\\proyecto con los tigueres\\NetBank\\NetBank\\NetBank.Core.Application\\NetBank.Core.Application.csproj",
-        "packagesPath": "C:\\Users\\jose\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jose\\Desktop\\proyecto con los tigueres\\NetBank\\NetBank\\NetBank.Core.Application\\obj\\",
+        "projectPath": "C:\\Users\\natan\\OneDrive\\Escritorio\\Archivos\\ITLA\\5to Cuatrimestre\\Programacion III\\Nueva carpeta\\NetBank\\NetBank.Core.Application\\NetBank.Core.Application.csproj",
+        "packagesPath": "C:\\Users\\natan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\natan\\OneDrive\\Escritorio\\Archivos\\ITLA\\5to Cuatrimestre\\Programacion III\\Nueva carpeta\\NetBank\\NetBank.Core.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\jose\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\natan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,15 +26,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\jose\\Desktop\\proyecto con los tigueres\\NetBank\\NetBank\\NetBank.Core.Domain\\NetBank.Core.Domain.csproj": {
-                "projectPath": "C:\\Users\\jose\\Desktop\\proyecto con los tigueres\\NetBank\\NetBank\\NetBank.Core.Domain\\NetBank.Core.Domain.csproj"
+              "C:\\Users\\natan\\OneDrive\\Escritorio\\Archivos\\ITLA\\5to Cuatrimestre\\Programacion III\\Nueva carpeta\\NetBank\\NetBank.Core.Domain\\NetBank.Core.Domain.csproj": {
+                "projectPath": "C:\\Users\\natan\\OneDrive\\Escritorio\\Archivos\\ITLA\\5to Cuatrimestre\\Programacion III\\Nueva carpeta\\NetBank\\NetBank.Core.Domain\\NetBank.Core.Domain.csproj"
               }
             }
           }
@@ -48,7 +47,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -99,24 +99,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\jose\\Desktop\\proyecto con los tigueres\\NetBank\\NetBank\\NetBank.Core.Domain\\NetBank.Core.Domain.csproj": {
+    "C:\\Users\\natan\\OneDrive\\Escritorio\\Archivos\\ITLA\\5to Cuatrimestre\\Programacion III\\Nueva carpeta\\NetBank\\NetBank.Core.Domain\\NetBank.Core.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jose\\Desktop\\proyecto con los tigueres\\NetBank\\NetBank\\NetBank.Core.Domain\\NetBank.Core.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\natan\\OneDrive\\Escritorio\\Archivos\\ITLA\\5to Cuatrimestre\\Programacion III\\Nueva carpeta\\NetBank\\NetBank.Core.Domain\\NetBank.Core.Domain.csproj",
         "projectName": "NetBank.Core.Domain",
-        "projectPath": "C:\\Users\\jose\\Desktop\\proyecto con los tigueres\\NetBank\\NetBank\\NetBank.Core.Domain\\NetBank.Core.Domain.csproj",
-        "packagesPath": "C:\\Users\\jose\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jose\\Desktop\\proyecto con los tigueres\\NetBank\\NetBank\\NetBank.Core.Domain\\obj\\",
+        "projectPath": "C:\\Users\\natan\\OneDrive\\Escritorio\\Archivos\\ITLA\\5to Cuatrimestre\\Programacion III\\Nueva carpeta\\NetBank\\NetBank.Core.Domain\\NetBank.Core.Domain.csproj",
+        "packagesPath": "C:\\Users\\natan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\natan\\OneDrive\\Escritorio\\Archivos\\ITLA\\5to Cuatrimestre\\Programacion III\\Nueva carpeta\\NetBank\\NetBank.Core.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\jose\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\natan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -125,7 +125,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -143,7 +142,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -164,24 +164,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\jose\\Desktop\\proyecto con los tigueres\\NetBank\\NetBank\\NetBank.Infraestructure.Shared\\NetBank.Infraestructure.Shared.csproj": {
+    "C:\\Users\\natan\\OneDrive\\Escritorio\\Archivos\\ITLA\\5to Cuatrimestre\\Programacion III\\Nueva carpeta\\NetBank\\NetBank.Infraestructure.Shared\\NetBank.Infraestructure.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jose\\Desktop\\proyecto con los tigueres\\NetBank\\NetBank\\NetBank.Infraestructure.Shared\\NetBank.Infraestructure.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\natan\\OneDrive\\Escritorio\\Archivos\\ITLA\\5to Cuatrimestre\\Programacion III\\Nueva carpeta\\NetBank\\NetBank.Infraestructure.Shared\\NetBank.Infraestructure.Shared.csproj",
         "projectName": "NetBank.Infraestructure.Shared",
-        "projectPath": "C:\\Users\\jose\\Desktop\\proyecto con los tigueres\\NetBank\\NetBank\\NetBank.Infraestructure.Shared\\NetBank.Infraestructure.Shared.csproj",
-        "packagesPath": "C:\\Users\\jose\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jose\\Desktop\\proyecto con los tigueres\\NetBank\\NetBank\\NetBank.Infraestructure.Shared\\obj\\",
+        "projectPath": "C:\\Users\\natan\\OneDrive\\Escritorio\\Archivos\\ITLA\\5to Cuatrimestre\\Programacion III\\Nueva carpeta\\NetBank\\NetBank.Infraestructure.Shared\\NetBank.Infraestructure.Shared.csproj",
+        "packagesPath": "C:\\Users\\natan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\natan\\OneDrive\\Escritorio\\Archivos\\ITLA\\5to Cuatrimestre\\Programacion III\\Nueva carpeta\\NetBank\\NetBank.Infraestructure.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\jose\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\natan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -190,18 +190,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\jose\\Desktop\\proyecto con los tigueres\\NetBank\\NetBank\\NetBank.Core.Application\\NetBank.Core.Application.csproj": {
-                "projectPath": "C:\\Users\\jose\\Desktop\\proyecto con los tigueres\\NetBank\\NetBank\\NetBank.Core.Application\\NetBank.Core.Application.csproj"
+              "C:\\Users\\natan\\OneDrive\\Escritorio\\Archivos\\ITLA\\5to Cuatrimestre\\Programacion III\\Nueva carpeta\\NetBank\\NetBank.Core.Application\\NetBank.Core.Application.csproj": {
+                "projectPath": "C:\\Users\\natan\\OneDrive\\Escritorio\\Archivos\\ITLA\\5to Cuatrimestre\\Programacion III\\Nueva carpeta\\NetBank\\NetBank.Core.Application\\NetBank.Core.Application.csproj"
               },
-              "C:\\Users\\jose\\Desktop\\proyecto con los tigueres\\NetBank\\NetBank\\NetBank.Core.Domain\\NetBank.Core.Domain.csproj": {
-                "projectPath": "C:\\Users\\jose\\Desktop\\proyecto con los tigueres\\NetBank\\NetBank\\NetBank.Core.Domain\\NetBank.Core.Domain.csproj"
+              "C:\\Users\\natan\\OneDrive\\Escritorio\\Archivos\\ITLA\\5to Cuatrimestre\\Programacion III\\Nueva carpeta\\NetBank\\NetBank.Core.Domain\\NetBank.Core.Domain.csproj": {
+                "projectPath": "C:\\Users\\natan\\OneDrive\\Escritorio\\Archivos\\ITLA\\5to Cuatrimestre\\Programacion III\\Nueva carpeta\\NetBank\\NetBank.Core.Domain\\NetBank.Core.Domain.csproj"
               }
             }
           }
@@ -215,7 +214,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -250,7 +250,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

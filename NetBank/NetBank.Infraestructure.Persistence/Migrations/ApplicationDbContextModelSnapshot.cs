@@ -34,7 +34,7 @@ namespace NetBank.Infraestructure.Persistence.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Lastname")
+                    b.Property<string>("LastName")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -42,25 +42,26 @@ namespace NetBank.Infraestructure.Persistence.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("UserId")
-                        .HasColumnType("int");
+                    b.Property<string>("UserId")
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("UserId");
 
                     b.ToTable("Beneficiarios", (string)null);
                 });
 
             modelBuilder.Entity("NetBank.Core.Domain.Entities.Product", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("AccountNumber")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("AccountNumber"), 780000001L);
 
-                    b.Property<decimal>("Balance")
+                    b.Property<decimal?>("AmountOwed")
+                        .HasColumnType("decimal(14,4)");
+
+                    b.Property<decimal?>("Balance")
                         .HasColumnType("decimal(14,4)");
 
                     b.Property<decimal?>("CreditLimit")
@@ -72,12 +73,10 @@ namespace NetBank.Infraestructure.Persistence.Migrations
                     b.Property<byte>("ProductType")
                         .HasColumnType("tinyint");
 
-                    b.Property<int?>("UserId")
-                        .HasColumnType("int");
+                    b.Property<string>("UserId")
+                        .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("Id");
-
-                    b.HasIndex("UserId");
+                    b.HasKey("AccountNumber");
 
                     b.ToTable("Productos", (string)null);
                 });
@@ -108,6 +107,9 @@ namespace NetBank.Infraestructure.Persistence.Migrations
                     b.Property<byte>("TransactionType")
                         .HasColumnType("tinyint");
 
+                    b.Property<string>("UserId")
+                        .HasColumnType("nvarchar(max)");
+
                     b.HasKey("Id");
 
                     b.HasIndex("DestinationProductId");
@@ -115,78 +117,6 @@ namespace NetBank.Infraestructure.Persistence.Migrations
                     b.HasIndex("OriginProductId");
 
                     b.ToTable("Transacciones", (string)null);
-                });
-
-            modelBuilder.Entity("NetBank.Core.Domain.Entities.User", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("Email")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<string>("Identification")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<decimal?>("InitialAmount")
-                        .HasColumnType("decimal(14,4)");
-
-                    b.Property<bool>("IsActive")
-                        .HasColumnType("bit");
-
-                    b.Property<string>("Lastname")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Password")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<byte>("UserType")
-                        .HasColumnType("tinyint");
-
-                    b.Property<string>("Username")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("Email")
-                        .IsUnique();
-
-                    b.HasIndex("Identification")
-                        .IsUnique();
-
-                    b.ToTable("Usuarios", (string)null);
-                });
-
-            modelBuilder.Entity("NetBank.Core.Domain.Entities.Beneficiarie", b =>
-                {
-                    b.HasOne("NetBank.Core.Domain.Entities.User", "User")
-                        .WithMany("Beneficiaries")
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Restrict);
-
-                    b.Navigation("User");
-                });
-
-            modelBuilder.Entity("NetBank.Core.Domain.Entities.Product", b =>
-                {
-                    b.HasOne("NetBank.Core.Domain.Entities.User", "User")
-                        .WithMany("Products")
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Restrict);
-
-                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("NetBank.Core.Domain.Entities.Transaction", b =>
@@ -211,13 +141,6 @@ namespace NetBank.Infraestructure.Persistence.Migrations
                     b.Navigation("DestinationTransactions");
 
                     b.Navigation("OriginTransactions");
-                });
-
-            modelBuilder.Entity("NetBank.Core.Domain.Entities.User", b =>
-                {
-                    b.Navigation("Beneficiaries");
-
-                    b.Navigation("Products");
                 });
 #pragma warning restore 612, 618
         }

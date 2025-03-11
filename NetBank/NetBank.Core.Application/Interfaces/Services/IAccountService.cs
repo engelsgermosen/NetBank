@@ -10,5 +10,12 @@ namespace NetBank.Core.Application.Interfaces.Services
         Task SignOutAsync();
 
         Task<List<RolList>> GetRolesAsync();
+
+        Task<List<AuthenticationResponse>> GetAllUsersAsync();
+
+        Task<UserInactivate> UserInactivateAsync(string id);
+        Task<UpdateUserResponse> UpdateUserAsync(UpdateUserRequest request);
+
+        Task<AuthenticationResponse> GetUserByIdAsync(string id);
     }
 }

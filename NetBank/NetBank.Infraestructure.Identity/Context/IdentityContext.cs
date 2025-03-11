@@ -34,8 +34,6 @@ namespace NetBank.Infraestructure.Identity.Context
             {
                 entity.ToTable(name: "UserLogins");
             });
-
-            builder.Entity<ApplicationUser>().Property(e => e.InitialAmount).HasColumnType("decimal(14,4)");
         }
     }
 }

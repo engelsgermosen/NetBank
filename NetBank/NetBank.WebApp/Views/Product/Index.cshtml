@@ -14,28 +14,95 @@
             {
                 <div class="col">
                     <div class="card h-100 shadow-sm">
-                        <div class="card-header bg-primary text-white text-center fs-4">
-                            @product.ProductType.ToString()
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">
-                                @if (product.IsMain)
-                                {
-                                    <span class="badge bg-success">Cuenta Principal</span>
-                                }
-                            </h5>
-                            <p class="card-text">
-                                <strong>Balance:</strong> @product.Balance.ToString("C")
-                            </p>
-                            @if (product.CreditLimit.HasValue)
-                            {
-                                <p class="card-text">
-                                    <strong>Límite de Crédito:</strong> @product.CreditLimit.Value.ToString("C")
-                                </p>
-                            }
-                        </div>
+
+
+                        @switch (product.ProductType.ToString())
+                        {
+                            case "CuentaAhorro":
+                                <div class="card-header bg-success text-center text-white">
+                                    <h3>Cuenta de Ahorro</h3>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        @if (product.IsMain)
+                                        {
+                                            <span class="badge bg-success">Cuenta Principal</span>
+                                        }
+                                    </h5>
+
+                                    <p class="card-text">
+                                        <strong>Balance:</strong> @product.Balance.ToString()
+                                    </p>
+
+                                    @if (product.CreditLimit.HasValue)
+                                    {
+                                        <p class="card-text">
+                                            <strong>Límite de Crédito:</strong> @product.CreditLimit.Value.ToString("C")
+                                        </p>
+                                    }
+                                </div>
+                                break;
+
+                            case "CreditCard":
+                                <div class="card-header bg-primary text-center text-white">
+                                    <h3>Targeta de Credito</h3>
+                                </div>
+
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        @if (product.IsMain)
+                                        {
+                                            <span class="badge bg-success">Cuenta Principal</span>
+                                        }
+                                    </h5>
+
+                                    <p class="card-text">
+                                        <strong>Debe:</strong> @product.Balance.ToString()
+                                    </p>
+
+                                    @if (product.CreditLimit.HasValue)
+                                    {
+                                        <p class="card-text">
+                                            <strong>Límite de Crédito:</strong> @product.CreditLimit.Value.ToString("C")
+                                        </p>
+                                    }
+                                </div>
+                                break;
+
+                            case "Prestamo":
+                                <div class="card-header bg-secondary text-center text-white">
+                                    <h3>Prestamos</h3>
+                                </div>
+
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        @if (product.IsMain)
+                                        {
+                                            <span class="badge bg-success">Cuenta Principal</span>
+                                        }
+                                    </h5>
+
+                                    <p class="card-text">
+                                        <strong>Debe:</strong> @product.Balance.ToString()
+                                    </p>
+
+                                    @if (product.CreditLimit.HasValue)
+                                    {
+                                        <p class="card-text">
+                                            <strong>Límite de Crédito:</strong> @product.CreditLimit.Value.ToString("C")
+                                        </p>
+                                    }
+                                </div>
+                            break;
+                        
+                        }
+
+                        
                         <div class="card-footer text-muted">
-                            ID: @product.Id
+                            @*agregue un cambio aqui de mientras que es mostrar el numero de cuenta, ya que de mientras el numero de cuenta al ser unico sera tambien
+                                su identificador unico, el cambio es mostra el numero de cuenta en vez del id
+                            *@
+                            Numero de cuenta: @product.AccountNumber
                         </div>
                     </div>
                 </div>
