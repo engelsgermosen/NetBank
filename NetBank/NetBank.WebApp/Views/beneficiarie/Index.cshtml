@@ -1,0 +1,110 @@
+﻿@using NetBank.Core.Application.ViewModels.Beneficiare
+@model BeneficiariosCompositeViewModel
+
+@{
+    ViewData["title"] = "Beneficiarios";
+}
+
+@if (TempData["ErrorBeneficiario"] != null)
+{
+    <div class="alert alert-danger d-flex align-items-center border-start border-2 border-danger py-3 px-4 fade show" role="alert">
+        <i class="bi bi-exclamation-triangle-fill fs-4 me-3"></i>
+        <div>
+            <div class="mb-0">@TempData["ErrorBeneficiario"]</div>
+        </div>
+        <button type="button" class="btn-close ms-3 text-lg-end" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-md-10 col-lg-8">
+            <!-- Encabezado -->
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <h1 class="h3 mb-0">
+                    <i class="bi bi-people-fill text-primary"></i>
+                    Mis Beneficiarios
+                </h1>
+                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#agregarModal">
+                    <i class="bi bi-plus-lg"></i> Agregar Beneficiario
+                </button>
+            </div>
+
+            @if (Model != null && Model.Beneficiarios != null)
+            {
+                @foreach (var beneficiario in Model.Beneficiarios)
+                {
+                    <!-- Tarjeta de cada beneficiario -->
+                    <div class="card shadow-sm mb-3">
+                        <div class="card-body p-0">
+                            <div class="list-group list-group-flush">
+                                <div class="list-group-item p-3 beneficiary-card">
+                                    <div class="row align-items-center">
+                                        <div class="col-md-4">
+                                            <h5 class="mb-1">@beneficiario.Name @beneficiario.LastName</h5>
+                                            <small class="text-muted">Cuenta: @beneficiario.AccountNumber</small>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <span class="badge bg-success">
+                                                <i class="bi bi-check-circle"></i> Verificado
+                                            </span>
+                                        </div>
+                                        <div class="col-md-2 text-end">
+                                            <!-- Botón para abrir el modal de eliminación -->
+                                            <button class="btn btn-lg btn-danger py-2 px-3"
+                                                    data-bs-toggle="modal"
+                                                    data-bs-target="#eliminarModal-@beneficiario.Id">
+                                                <i class="bi bi-trash"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    @await Html.PartialAsync("DeleteModal", beneficiario)
+                }
+            }
+            else
+            {
+                <div class="alert alert-info" role="alert">
+                    No hay Beneficiarios disponibles en este momento.
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+<!-- Modal Agregar Beneficiario -->
+<div class="modal fade" id="agregarModal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header bg-success text-white">
+                <h5 class="modal-title">
+                    <i class="bi bi-person-plus"></i> Agregar Beneficiario
+                </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <form asp-action="Create" asp-controller="Beneficiarie">
+                <div class="modal-body">
+                    <div class="mb-3">
+                        <label class="form-label" asp-for="NewBeneficiarie.AccountNumber">Número de cuenta</label>
+                        <input type="text"
+                               class="form-control"
+                               asp-for="NewBeneficiarie.AccountNumber"
+                               placeholder="Ej: 123456789012"
+                               required />
+                        <span asp-validation-for="NewBeneficiarie.AccountNumber" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="submit" class="btn btn-primary">
+                        <i class="bi bi-save"></i> Guardar
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

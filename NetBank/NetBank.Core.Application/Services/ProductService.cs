@@ -9,6 +9,7 @@ using NetBank.Core.Application.ViewModels.Product;
 using NetBank.Core.Application.ViewModels.Transaction;
 using NetBank.Core.Domain.Entities;
 using NetBank.Core.Domain.Enums;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace NetBank.Core.Application.Services
 {
@@ -155,5 +156,24 @@ namespace NetBank.Core.Application.Services
         }
 
        
+
+        //Agrege un metodo
+
+        public async Task<ProductViewModel> GetProductByAccountNumber(int accountNumber)
+        {
+            try
+            {
+                // Obtener un solo producto
+                var product = await _repository.GetQuery()
+                                               .Where(x => x.AccountNumber == accountNumber)
+                                               .FirstOrDefaultAsync();
+                return _mapper.Map<ProductViewModel>(product);
+            }
+            catch (Exception ex)
+            {
+                return null;
+            }
+        }
+
     }
 }

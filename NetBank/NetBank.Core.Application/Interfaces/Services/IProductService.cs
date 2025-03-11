@@ -13,5 +13,8 @@ namespace NetBank.Core.Application.Interfaces.Services
         Task<bool> DeleteProduct(int id, ProductType type, string userId);
 
         Task<(List<ProductViewModel> tarjetas, List<ProductViewModel> cuentas)> GetAccountForCashAdvance();
+
+
+        Task<ProductViewModel> GetProductByAccountNumber(int accountNumber);
     }
 }

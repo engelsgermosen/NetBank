@@ -79,6 +79,13 @@ namespace NetBank.Infraestructure.Persistence.Context
             });
             #endregion
 
+            #region Beneficiarie
+            modelBuilder.Entity<Beneficiarie>(config =>
+            {
+                config.Property(k => k.AccountNumber).HasColumnType("Int");
+            });
+            #endregion
+
             #endregion
 
 

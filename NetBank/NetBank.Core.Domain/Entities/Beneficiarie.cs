@@ -8,7 +8,7 @@
 
         public required string LastName { get; set; }
 
-        public required string AccountNumber { get; set; }
+        public required int AccountNumber { get; set; }
 
         public string? UserId { get; set; }
     }

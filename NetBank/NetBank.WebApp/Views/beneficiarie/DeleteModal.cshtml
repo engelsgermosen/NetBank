@@ -1,0 +1,26 @@
+﻿@model NetBank.Core.Application.ViewModels.Beneficiare.BeneficiareViewModel
+
+<div class="modal fade" id="eliminarModal-@Model.Id" tabindex="-1" aria-labelledby="modalLabel-@Model.Id" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header bg-danger text-white">
+                <h5 class="modal-title" id="modalLabel-@Model.Id">
+                    <i class="bi bi-exclamation-triangle"></i> Confirmar Eliminación
+                </h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                ¿Estás seguro que deseas eliminar este beneficiario de tu lista?
+            </div>
+            <div class="modal-footer">
+                <form method="post" asp-action="Delete" asp-controller="Beneficiarie">
+                    <input type="hidden" asp-for="Id" />
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="submit" class="btn btn-danger">
+                        <i class="bi bi-trash"></i> Sí, Eliminar
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
