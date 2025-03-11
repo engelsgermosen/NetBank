@@ -53,7 +53,7 @@ namespace NetBank.WebApp.Controllers
                         return RedirectToRoute(new { controller = "Admin", action = "Index" });
 
                     case (int)Roles.Client:
-                        return RedirectToRoute(new { controller = "Home", action = "Index" });
+                        return RedirectToRoute(new { controller = "Product", action = "Index" });
                     default:
                         return null;
 
@@ -77,7 +77,6 @@ namespace NetBank.WebApp.Controllers
         }
 
         [Authorize(Roles = "Admin")]
-
         [HttpPost]
 
         public async Task<IActionResult> Register(SaveUserViewModel userVm)
@@ -135,7 +134,6 @@ namespace NetBank.WebApp.Controllers
                 return View(userVm);
             }
         }
-
 
         public IActionResult AccesDenied()
         {

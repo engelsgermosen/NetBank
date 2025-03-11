@@ -56,9 +56,6 @@
                                         }
                                     </h5>
 
-                                    <p class="card-text">
-                                        <strong>Debe:</strong> @product.Balance.ToString()
-                                    </p>
 
                                     @if (product.CreditLimit.HasValue)
                                     {
@@ -66,6 +63,12 @@
                                             <strong>Límite de Crédito:</strong> @product.CreditLimit.Value.ToString("C")
                                         </p>
                                     }
+                                    <p class="card-text">
+                                        <strong>Disponible:</strong> @((product.CreditLimit - product.AmountOwed) <= 0 ? 0 : (product.CreditLimit - product.AmountOwed))
+                                    </p>
+                                    <p class="card-text">
+                                        <strong>Usted debe:</strong> @product.AmountOwed
+                                    </p>
                                 </div>
                                 break;
 

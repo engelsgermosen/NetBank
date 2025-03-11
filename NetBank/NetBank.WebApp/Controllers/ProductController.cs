@@ -8,22 +8,27 @@ using NetBank.Core.Application.Dtos.Account;
 
 namespace NetBank.WebApp.Controllers
 {
+    [Authorize]
     public class ProductController : Controller
     {
-        IProductService _productService;
+        private readonly IProductService _productService;
 
-        public ProductController(IProductService productService)
+        private readonly IHttpContextAccessor _httpContextAccessor;
+
+        private readonly AuthenticationResponse userInSession;
+
+        public ProductController(IProductService productService, IHttpContextAccessor httpContextAccessor)
         {
             _productService = productService;
+            _httpContextAccessor = httpContextAccessor;
+            userInSession = _httpContextAccessor.HttpContext.Session.Get<AuthenticationResponse>("user");
         }
 
+        [Authorize(Roles = "Client")]
         public async Task<IActionResult> Index()
         {
-            //trae la info del user logeado
-            var user = HttpContext.Session.Get<AuthenticationResponse>("user");
-
             //trae los productos del user logeado
-            var allProducts = await _productService.GetProductsByUserId(user.Id); 
+            var allProducts = await _productService.GetProductsByUserId(userInSession.Id); 
 
             return View(allProducts);
         }
@@ -43,6 +48,7 @@ namespace NetBank.WebApp.Controllers
             return View(new SaveProductViewModel{UserId = userId });
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         public async Task<IActionResult> Create(SaveProductViewModel productVm)
         {
@@ -59,7 +65,7 @@ namespace NetBank.WebApp.Controllers
 
         public async Task<IActionResult> Delete(int id,ProductType productType,string userId)
         {
-           var response = await _productService.DeleteProduct(id,productType);
+           var response = await _productService.DeleteProduct(id,productType,userId);
 
             if(response)
             {

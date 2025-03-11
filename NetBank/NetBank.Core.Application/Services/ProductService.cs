@@ -1,8 +1,12 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
+using NetBank.Core.Application.Dtos.Account;
+using NetBank.Core.Application.Helpers;
 using NetBank.Core.Application.Interfaces.Services;
 using NetBank.Core.Application.Services.Repositories;
 using NetBank.Core.Application.ViewModels.Product;
+using NetBank.Core.Application.ViewModels.Transaction;
 using NetBank.Core.Domain.Entities;
 using NetBank.Core.Domain.Enums;
 
@@ -14,10 +18,16 @@ namespace NetBank.Core.Application.Services
 
         private readonly IMapper _mapper;
 
-        public ProductService(IProductRepository repository, IMapper mapper) : base(repository, mapper)
+        private readonly IHttpContextAccessor _httpContextAccessor;
+
+        private readonly AuthenticationResponse userInSession;
+
+        public ProductService(IProductRepository repository, IMapper mapper, IHttpContextAccessor httpContextAccessor) : base(repository, mapper)
         {
             _repository = repository;
             _mapper = mapper;
+            _httpContextAccessor = httpContextAccessor;
+            userInSession = _httpContextAccessor.HttpContext.Session.Get<AuthenticationResponse>("user");
         }
 
         public async Task<SaveProductViewModel> GetProductMainByUserId(string id)
@@ -51,7 +61,7 @@ namespace NetBank.Core.Application.Services
 
             if(viewModel != null && viewModel.CreditLimit != null)
             {
-                viewModel.Balance = 0;
+                viewModel.AmountOwed = 0;
             }
 
             return await base.CreateAsync(viewModel);
@@ -64,14 +74,14 @@ namespace NetBank.Core.Application.Services
             return _mapper.Map<List<ProductViewModel>>(query);
         }
 
-        public async Task<bool> DeleteProduct(int id,ProductType type)
+        public async Task<bool> DeleteProduct(int id,ProductType type,string userId)
         {
             var cuenta = await _repository.GetById(id);
 
             switch (type)
             {
                 case ProductType.CuentaAhorro:
-                    var cuentaPrincipal = await _repository.GetQuery().Where(x => x.IsMain).FirstOrDefaultAsync();
+                    var cuentaPrincipal = await _repository.GetQuery().Where(x => x.UserId == userId && x.IsMain).FirstOrDefaultAsync();
                     
 
                     cuentaPrincipal.Balance += cuenta.Balance;
@@ -108,5 +118,42 @@ namespace NetBank.Core.Application.Services
             
             return false;
         }
+
+        public async Task <(List<ProductViewModel> tarjetas,List<ProductViewModel> cuentas)> GetAccountForCashAdvance()
+        {
+            var query = await _repository.GetQuery().Where(x => x.UserId == userInSession.Id).ToListAsync();
+
+            List<ProductViewModel> tarjetas = query
+                .Where(x => x.ProductType == ProductType.CreditCard)
+                .Select(x => new ProductViewModel
+                {
+                    AccountNumber = x.AccountNumber,
+                    ProductType = ProductType.CreditCard,
+                    AmountOwed = x.AmountOwed,
+                    Balance = x.Balance,
+                    CreditLimit = x.CreditLimit,
+                    UserId = x.UserId,
+                    IsMain = x.IsMain,
+                })
+                .ToList();
+
+            List<ProductViewModel> cuentas = query
+                .Where(x => x.ProductType == ProductType.CuentaAhorro)
+                .Select(x => new ProductViewModel
+                {
+                    AccountNumber = x.AccountNumber,
+                    ProductType = ProductType.CuentaAhorro,
+                    AmountOwed = x.AmountOwed,
+                    Balance = x.Balance,
+                    CreditLimit = x.CreditLimit,
+                    UserId = x.UserId,
+                    IsMain = x.IsMain,
+                })
+                .ToList();
+            
+            return (tarjetas,cuentas);
+        }
+
+       
     }
 }
