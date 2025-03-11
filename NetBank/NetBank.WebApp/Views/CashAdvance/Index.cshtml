@@ -27,7 +27,7 @@
                         {
                             @foreach(var i in tarjetas)
                             {
-                                <option value="@i.AccountNumber">Tarjeta: @i.AccountNumber - Disponible: @(i.CreditLimit - i.AmountOwed) DOP</option>
+                                <option value="@i.AccountNumber">Tarjeta: @i.AccountNumber - Disponible: @((i.CreditLimit - i.AmountOwed) <= 0 ? 0 : (i.CreditLimit - i.AmountOwed)) DOP</option>
                             }
                         }
                     </select>

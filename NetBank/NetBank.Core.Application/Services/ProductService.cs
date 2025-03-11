@@ -120,7 +120,6 @@ namespace NetBank.Core.Application.Services
             return false;
         }
 
-<<<<<<< HEAD
         public async Task <(List<ProductViewModel> tarjetas,List<ProductViewModel> cuentas)> GetAccountForCashAdvance()
         {
             var query = await _repository.GetQuery().Where(x => x.UserId == userInSession.Id).ToListAsync();
@@ -157,7 +156,6 @@ namespace NetBank.Core.Application.Services
         }
 
        
-=======
 
         //Agrege un metodo
 
@@ -177,6 +175,5 @@ namespace NetBank.Core.Application.Services
             }
         }
 
->>>>>>> 51af201a87c22365f51fe662274b59bc37dbf245
     }
 }
