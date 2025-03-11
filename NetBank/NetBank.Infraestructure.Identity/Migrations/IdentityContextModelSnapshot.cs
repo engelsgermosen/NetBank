@@ -179,9 +179,6 @@ namespace NetBank.Infraestructure.Identity.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<decimal?>("InitialAmount")
-                        .HasColumnType("decimal(14,4)");
-
                     b.Property<bool>("IsActive")
                         .HasColumnType("bit");
 

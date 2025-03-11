@@ -25,7 +25,7 @@
                                 }
                             </h5>
                             <p class="card-text">
-                                <strong>Balance:</strong> @product.Balance.ToString("C")
+                                <strong>Balance:</strong> @product.Balance.ToString()
                             </p>
                             @if (product.CreditLimit.HasValue)
                             {
@@ -35,7 +35,10 @@
                             }
                         </div>
                         <div class="card-footer text-muted">
-                            ID: @product.Id
+                            @*agregue un cambio aqui de mientras que es mostrar el numero de cuenta, ya que de mientras el numero de cuenta al ser unico sera tambien
+                                su identificador unico, el cambio es mostra el numero de cuenta en vez del id
+                            *@
+                            Numero de cuenta: @product.AccountNumber
                         </div>
                     </div>
                 </div>

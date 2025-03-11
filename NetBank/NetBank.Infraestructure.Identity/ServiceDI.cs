@@ -80,7 +80,7 @@ namespace NetBank.Infraestructure.Identity
                     var roleManager = services.GetRequiredService<RoleManager<IdentityRole>>();
 
                     await DefaultRoles.SeedAsync(userManager, roleManager);
-                    await DefaultBasicUser.SeedAsync(userManager, roleManager);
+                    await DefaultBasicAdmin.SeedAsync(userManager, roleManager);
                     await DefaultBasicClient.SeedAsync(userManager, roleManager);
                 }
                 catch (Exception ex)

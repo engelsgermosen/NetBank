@@ -69,6 +69,11 @@
                                                 @(usuario.IsActive ? "Inactivar" : "Activar")
                                             </button>
                                             <a class="btn btn-warning" asp-action="Edit" asp-controller="User" asp-route-id="@usuario.Id">Editar</a>
+
+                                            @if(usuario.Rol == (int)Roles.Client)
+                                            {
+                                                <a class="btn btn-secondary text-white" asp-action="Product" asp-controller="Product" asp-route-id="@usuario.Id">Productos</a>
+                                            }
                                         </td>
                                     </tr>
                                 }

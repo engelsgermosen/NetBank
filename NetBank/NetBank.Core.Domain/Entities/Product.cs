@@ -4,11 +4,13 @@ namespace NetBank.Core.Domain.Entities
 {
     public class Product
     {
-        public int Id { get; set; }
 
-        public decimal Balance { get; set; }
+        public int AccountNumber { get; set; }
+        public decimal? Balance { get; set; }
 
         public decimal? CreditLimit { get; set; }
+
+        public decimal? AmountOwed { get; set; }
 
         public ProductType ProductType { get; set; }
 
