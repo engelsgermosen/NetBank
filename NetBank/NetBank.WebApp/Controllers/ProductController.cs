@@ -3,6 +3,8 @@ using Microsoft.AspNetCore.Mvc;
 using NetBank.Core.Application.Interfaces.Services;
 using NetBank.Core.Application.ViewModels.Product;
 using NetBank.Core.Domain.Enums;
+using NetBank.Core.Application.Helpers;
+using NetBank.Core.Application.Dtos.Account;
 
 namespace NetBank.WebApp.Controllers
 {
@@ -17,12 +19,15 @@ namespace NetBank.WebApp.Controllers
 
         public async Task<IActionResult> Index()
         {
-            //obtener info de usuario logueado para solo traer los productos de ese usuario
-            //mientras tanto traelos todos
-            var allProducts = await _productService.GetAllAsync(); 
+            //trae la info del user logeado
+            var user = HttpContext.Session.Get<AuthenticationResponse>("user");
+
+            //trae los productos del user logeado
+            var allProducts = await _productService.GetProductsByUserId(user.Id); 
 
             return View(allProducts);
         }
+
 
         [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Product(string id,string? message=null, string? messageType =null)
