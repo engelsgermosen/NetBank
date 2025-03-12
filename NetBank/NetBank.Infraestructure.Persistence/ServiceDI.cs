@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using NetBank.Core.Application.Interfaces.Repositories;
 using NetBank.Core.Application.Services.Repositories;
 using NetBank.Infraestructure.Persistence.Context;
 using NetBank.Infraestructure.Persistence.Repositories;
@@ -22,6 +23,7 @@ namespace NetBank.Infraestructure.Persistence
             services.AddTransient<IProductRepository, ProductRepository>();
             services.AddTransient<IBeneficiareRepository, BeneficiareRepository>();
             services.AddTransient<ITransactionRepository, TransactionRepository>();
+            services.AddTransient<IPaymentRepository, PaymentRepository>();
         }
     }
 }
