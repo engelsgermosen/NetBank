@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NetBank.Infraestructure.Identity")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f3f3dc262d4cfbbdd20e839163665d99118be453")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+665af9415e5845f532849b81463bf43ac5ad7d83")]
 [assembly: System.Reflection.AssemblyProductAttribute("NetBank.Infraestructure.Identity")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NetBank.Infraestructure.Identity")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
