@@ -106,6 +106,13 @@ namespace NetBank.WebApp.Controllers
         [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Edit(string id)
         {
+            var userInSession = _httpContextAccessor?.HttpContext?.Session.Get<AuthenticationResponse>("user");
+
+            if(userInSession != null && userInSession.Id == id)
+            {
+                return RedirectToRoute(new { controller = "Admin", action = "Main", message = "No puedes editarte a ti mismo, ya que estas en sesion", hasError = true });
+            }
+
             return View(await _userService.GetByIdViewModel(id));
         }
 

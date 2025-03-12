@@ -4,6 +4,7 @@ using NetBank.Core.Application.Dtos.Account;
 using NetBank.Core.Application.Interfaces.Services;
 using NetBank.Core.Application.ViewModels.Beneficiare;
 using Microsoft.AspNetCore.Authorization;
+using NetBank.Core.Domain.Enums;
 
 namespace NetBank.WebApp.Controllers
 {
@@ -27,11 +28,6 @@ namespace NetBank.WebApp.Controllers
 
         public async Task<IActionResult> Index(string? message =null, bool? HasError=false)
         {
-            //var user = HttpContext.Session.Get<AuthenticationResponse>("user");
-            //if (user == null)
-            //{
-            //    return RedirectToAction("Index", "User");
-            //}
 
             ViewBag.Message = message;
             ViewBag.HasError = HasError;
@@ -49,8 +45,6 @@ namespace NetBank.WebApp.Controllers
                 Beneficiarios = listaBeneficiarios,
                 NewBeneficiarie = new SaveBeneficiareViewModel
                 {
-                    Name = string.Empty,
-                    LastName = string.Empty,
                     AccountNumber = 0
                 }
             };
@@ -60,36 +54,50 @@ namespace NetBank.WebApp.Controllers
 
 
         [HttpPost]
-        public async Task <IActionResult> Create([Bind(Prefix = "NewBeneficiarie")] BeneficiareViewModel newBeneficiarie)
+        public async Task <IActionResult> Create([Bind(Prefix = "NewBeneficiarie")] SaveBeneficiareViewModel newBeneficiarie)
         {
 
             if(!ModelState.IsValid)
             {
-                return RedirectToRoute(new { controller = "Beneficiarie", action = "Index", message = "El numero de cuenta digitado no es valido, el formato correcto es" +
-                    "(780xxxxxx)", HasError = true });
+                TempData["ErrorBeneficiario"] = "El numero de cuenta digitado no es valido, el formato correcto es: (780xxxxxx)";
+                return RedirectToAction("Index");
             }
             
             var productCuenta = await _productService.GetProductByAccountNumber(newBeneficiarie.AccountNumber);
 
-            //y traeme al usuario relacionado con la cuenta
-            var userBeneficiario = await _userService.GetByIdViewModel(productCuenta.UserId);
 
-
-            if(productCuenta != null)
+            if(productCuenta != null )
             {
-                var saveViewModel = new SaveBeneficiareViewModel
+                var userBene = await _userService.GetByIdViewModel(productCuenta.UserId);
+
+                if (await _beneficiareService.AlreadyHave(productCuenta.AccountNumber, userInSession.Id) == false)
                 {
-                    AccountNumber = newBeneficiarie.AccountNumber,
-                    UserId = userInSession.Id, //id del usuario en seccion
-                    Name = userBeneficiario.Name,
-                    LastName = userBeneficiario.LastName
-                };
-               _beneficiareService.CreateAsync(saveViewModel);
-                return RedirectToAction("Index");
+                    if (productCuenta.ProductType == ProductType.CuentaAhorro)
+                    {
+                        newBeneficiarie.UserId = userInSession.Id;
+                        newBeneficiarie.Name = userBene.Name;
+                        newBeneficiarie.LastName = userBene.LastName;
+                        await _beneficiareService.CreateAsync(newBeneficiarie);
+                        return RedirectToAction("Index");
+                    }
+                    else
+                    {
+                        TempData["ErrorBeneficiario"] = "El numero de cuenta insertado no es una cuenta de ahorro";
+                        return RedirectToAction("Index");
+                    }
+                }
+                else
+                {
+                    TempData["ErrorBeneficiario"] = "Ya tienes esa cuenta agregada como beneficiario";
+                    return RedirectToAction("Index");
+                }
+                
             }
-            
-             TempData["ErrorBeneficiario"] = "El numero de cuenta insertado no existe";
-             return RedirectToAction("Index");
+            else
+            {
+                TempData["ErrorBeneficiario"] = "El numero de cuenta insertado no existe";
+                return RedirectToAction("Index");
+            }            
         }
 
         [HttpPost]

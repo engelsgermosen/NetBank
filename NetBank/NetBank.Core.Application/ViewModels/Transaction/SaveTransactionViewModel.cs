@@ -14,7 +14,6 @@ namespace NetBank.Core.Application.ViewModels.Transaction
         public DateTime TransactionDate { get; set; } = DateTime.Now;
 
         public TransactionType TransactionType { get; set; }
-        //public bool State { get; set; }
 
         [Range(78000000,int.MaxValue,ErrorMessage ="Elige una opction valida")]
         public int? OriginProductId { get; set; }

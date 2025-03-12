@@ -1,5 +1,5 @@
 ﻿@{
-
+    ViewData["Title"] = "Agregando productos";
 }
 
 @using NetBank.Core.Application.ViewModels.Product;
@@ -7,87 +7,85 @@
 @model List<ProductViewModel>
 
 
-
-<div class="container-fluid">
+<div class="container my-4">
+    <!-- Mensaje si existe -->
     <div class="row">
-
         @if (!string.IsNullOrWhiteSpace(ViewBag.Message))
         {
             <div class="col-10 col-md-5 mx-auto alert text-dark @ViewBag.MessageType" role="alert">
                 @ViewBag.Message
             </div>
         }
-        <div class="col-12 col-md-10 mx-auto mt-4">
-            <div class="row">
-                <div class="col-12">
-                    <a asp-action="Create" asp-controller="Product" asp-route-userId="@Model?.FirstOrDefault()?.UserId" class="btn btn-primary float-end">Agregar producto</a>
-                </div>
-            </div>
+    </div>
 
-            <div class="row mt-4">
-                <div class="col-12">
-                    
-                    @if(Model?.Count > 0 && Model != null)
-                    {
+    <!-- Botón para agregar producto -->
+    <div class="row mb-3">
+        <div class="col-12">
+            <a asp-action="Create"
+               asp-controller="Product"
+               asp-route-userId="@Model?.FirstOrDefault()?.UserId"
+               class="btn btn-primary float-end">
+                Agregar producto
+            </a>
+        </div>
+    </div>
 
-                        @foreach(var i in Model)
-                        {
-                            switch(i.ProductType)
+    <!-- Sección de productos -->
+    <div class="row g-3">
+        @if (Model?.Count > 0 && Model != null)
+        {
+            @foreach (var i in Model)
+            {
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card shadow-sm h-100">
+                        <div class="card-header d-flex justify-content-between align-items-center">
+                            <h5 class="mb-0">@i.ProductType</h5>
+                            @if (i.ProductType == ProductType.CuentaAhorro && i.IsMain)
+                            {
+                                <span class="bg-success text-white p-2 rounded">Principal</span>
+                            }
+                        </div>
+                        <div class="card-body">
+                            @switch (i.ProductType)
                             {
                                 case ProductType.CuentaAhorro:
-                                    <div class="card col-4">
-                                        <div class="card-header">
-                                            <h4>@i.ProductType</h4>
-                                            <span class="@(i.IsMain ? "bg-success text-white p-2":"")">@(i.IsMain ? "Principal":"")</span>
-                                        </div>
-                                        <div class="card-body">
-                                            <p>@i.Balance</p>
-                                            @if(!i.IsMain)
-                                            {
-                                                <a asp-route-id="@i.AccountNumber" asp-route-userId="@i.UserId" asp-route-productType="@i.ProductType" asp-action="Delete" asp-controller="Product" class="btn btn-danger">Delete</a>
-                                            }
-                                            <div class="card-footer">
-                                                <span>@i.AccountNumber</span>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    <p class="mb-2 fw-bold">Balance: @i.Balance</p>
                                     break;
                                 case ProductType.CreditCard:
-                                    <div class="card col-4">
-                                        <div class="card-header">
-                                            <h4>@i.ProductType</h4>
-                                        </div>
-                                        <div class="card-body">
-                                            <p>@i.CreditLimit</p>
-                                            <span>Debe: @(i.AmountOwed ?? 0)</span>
-                                            <div class="card-footer">
-                                                <span>@i.AccountNumber</span>
-                                            </div>
-                                            <a asp-route-id="@i.AccountNumber" asp-route-userId="@i.UserId" asp-route-productType="@i.ProductType" asp-action="Delete" asp-controller="Product" class="btn btn-danger">Delete</a>
-                                        </div>
-                                    </div>
+                                    <p class="mb-2 fw-bold">Límite de crédito: @i.CreditLimit</p>
+                                    <p class="mb-2">Debe: @(i.AmountOwed ?? 0)</p>
                                     break;
                                 case ProductType.Prestamo:
-                                    <div class="card col-4">
-                                        <div class="card-header">
-                                            <h4>@i.ProductType</h4>
-                                        </div>
-                                        <div class="card-body">
-                                            <p>Monto adeudado: @(i.AmountOwed ?? 0)</p>
-                                            <div class="card-footer">
-                                                <span>@i.AccountNumber</span>
-                                            </div>
-                                            <a asp-route-id="@i.AccountNumber" asp-route-userId="@i.UserId" asp-route-productType="@i.ProductType" asp-action="Delete" asp-controller="Product" class="btn btn-danger">Delete</a>
-                                        </div>
-                                    </div>
+                                    <p class="mb-2">Monto adeudado: @(i.AmountOwed ?? 0)</p>
                                     break;
                             }
-                            
-                        }
-                    }
+                        </div>
+                        <div class="card-footer d-flex justify-content-between align-items-center">
+                            <span>@i.AccountNumber</span>
+                            <!-- Mostrar botón "Delete" solo si no es la cuenta principal de ahorro -->
+                            @if (i.ProductType != ProductType.CuentaAhorro || !i.IsMain)
+                            {
+                                <a asp-route-id="@i.AccountNumber"
+                                   asp-route-userId="@i.UserId"
+                                   asp-route-productType="@i.ProductType"
+                                   asp-action="Delete"
+                                   asp-controller="Product"
+                                   class="btn btn-danger">
+                                    Delete
+                                </a>
+                            }
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+        else
+        {
+            <div class="col-12">
+                <div class="alert alert-secondary text-center" role="alert">
+                    No hay productos registrados.
                 </div>
             </div>
-
-        </div>
+        }
     </div>
 </div>

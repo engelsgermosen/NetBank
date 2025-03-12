@@ -6,5 +6,7 @@ namespace NetBank.Core.Application.Interfaces.Services
     public interface IBeneficiareService : IGenericService<SaveBeneficiareViewModel, BeneficiareViewModel, Beneficiarie>
     {
         Task<List<BeneficiareViewModel>> GetBeneficiariosByUserId(string id);
+
+        Task<bool> AlreadyHave(int accountNumber, string userId);
     }
 }

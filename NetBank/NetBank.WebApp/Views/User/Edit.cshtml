@@ -2,17 +2,18 @@
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
 @{
+    ViewData["Title"] = "Edicion";
 }
 @using NetBank.Core.Application.ViewModels.User;
 @model UpdateUserViewModel;
 
 
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-12 col-md-6 col-lg-4 mx-auto">
-            <div class="card">
-                <div class="card-header bg-dark text-light">
-                    <h4>Registro de usuarios</h4>
+<div class="container my-4">
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="card shadow-sm">
+                <div class="card-header bg-primary text-white">
+                    <h4 class="mb-0">Edicion de Usuario</h4>
                 </div>
                 <div class="card-body">
 
@@ -24,59 +25,60 @@
                     }
 
                     <form method="post" asp-controller="User" asp-action="Edit">
-                        <div class="mb-2">
+                        <div class="mb-3">
                             <label class="form-label" asp-for="Name">Nombre:</label>
                             <input class="form-control" asp-for="Name" />
                             <span asp-validation-for="Name" class="text-danger"></span>
                         </div>
 
-                        <div class="mb-2">
+                        <div class="mb-3">
                             <label class="form-label" asp-for="LastName">Apellido:</label>
                             <input class="form-control" asp-for="LastName" />
                             <span asp-validation-for="LastName" class="text-danger"></span>
                         </div>
 
-                        <div class="mb-2">
-                            <label class="form-label" asp-for="Email">Correo electronico:</label>
+                        <div class="mb-3">
+                            <label class="form-label" asp-for="Email">Correo electrónico:</label>
                             <input class="form-control" asp-for="Email" />
                             <span asp-validation-for="Email" class="text-danger"></span>
                         </div>
 
-                        <div class="mb-2">
-                            <label class="form-label" asp-for="Identification">Cedula:</label>
+                        <div class="mb-3">
+                            <label class="form-label" asp-for="Identification">Cédula:</label>
                             <input class="form-control" asp-for="Identification" />
                             <span asp-validation-for="Identification" class="text-danger"></span>
                         </div>
 
-                        <div class="mb-2">
+                        <div class="mb-3">
                             <label class="form-label" asp-for="UserName">Usuario:</label>
                             <input class="form-control" asp-for="UserName" />
                             <span asp-validation-for="UserName" class="text-danger"></span>
                         </div>
 
-                        <div class="mb-2">
+                        <div class="mb-3">
                             <label class="form-label" asp-for="Password">Contraseña:</label>
                             <input class="form-control" asp-for="Password" />
                             <span asp-validation-for="Password" class="text-danger"></span>
                         </div>
 
-                        <div class="mb-2">
+                        <div class="mb-3">
                             <label class="form-label" asp-for="ConfirmPassword">Confirmar contraseña:</label>
                             <input class="form-control" asp-for="ConfirmPassword" />
                             <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
                         </div>
 
-                        <div class="mb-2 @(Model.IsAdmin ? "":"d-none")">
+                        <div class="mb-3 @(Model.IsAdmin ? "" : "d-none")">
                             <label class="form-label" asp-for="AditionalAmount">Monto adicional:</label>
                             <input step="any" class="form-control" asp-for="AditionalAmount" />
                             <span asp-validation-for="AditionalAmount" class="text-danger"></span>
                         </div>
 
-                        <button type="submit" class="btn btn-outline-primary float-end">Guardar</button>
+                        <button type="submit" class="btn btn-primary float-end">Guardar</button>
                     </form>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
 

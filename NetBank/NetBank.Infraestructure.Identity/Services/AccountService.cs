@@ -142,7 +142,7 @@ namespace NetBank.Infraestructure.Identity.Services
             else
             {
                 response.HasError = true;
-                response.Error = "La contraseña debe ser de minio 6 caracteres, debe tener minuscula,mayuscula y al menos un caracter especial(!#$)";
+                response.Error = "La contraseña debe ser de minimo 6 caracteres, debe tener minuscula,mayuscula y al menos un caracter especial(!#$)";
             }
 
             response.Id = userNew.Id;
