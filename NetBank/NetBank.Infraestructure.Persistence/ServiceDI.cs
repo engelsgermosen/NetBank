@@ -22,7 +22,6 @@ namespace NetBank.Infraestructure.Persistence
             services.AddTransient<IProductRepository, ProductRepository>();
             services.AddTransient<IBeneficiareRepository, BeneficiareRepository>();
             services.AddTransient<ITransactionRepository, TransactionRepository>();
-
         }
     }
 }

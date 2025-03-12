@@ -62,7 +62,7 @@ namespace NetBank.WebApp.Controllers
             return RedirectToRoute(new { controller = "Product", action = "Product",id=response.UserId });
         }
 
-
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Delete(int id,ProductType productType,string userId)
         {
            var response = await _productService.DeleteProduct(id,productType,userId);

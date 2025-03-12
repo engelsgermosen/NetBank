@@ -3,31 +3,40 @@ using NetBank.Core.Application.Helpers;
 using NetBank.Core.Application.Dtos.Account;
 using NetBank.Core.Application.Interfaces.Services;
 using NetBank.Core.Application.ViewModels.Beneficiare;
+using Microsoft.AspNetCore.Authorization;
 
 namespace NetBank.WebApp.Controllers
 {
+    [Authorize(Roles="Client")]
     public class BeneficiarieController : Controller
     {
-        IBeneficiareService _beneficiareService;
-        IProductService _productService;
-        IUserService _userService;
+        readonly IBeneficiareService _beneficiareService;
+        readonly IProductService _productService;
+        readonly IUserService _userService;
+        readonly IHttpContextAccessor _httpContextAccessor;
+        readonly AuthenticationResponse userInSession;
 
-        public BeneficiarieController(IBeneficiareService beneficiareService, IProductService productService, IUserService userService)
+        public BeneficiarieController(IBeneficiareService beneficiareService, IProductService productService, IUserService userService, IHttpContextAccessor httpContextAccessor)
         {
             _beneficiareService = beneficiareService;
             _productService = productService;
             _userService = userService;
+            _httpContextAccessor = httpContextAccessor;
+            userInSession = _httpContextAccessor.HttpContext.Session.Get<AuthenticationResponse>("user");
         }
 
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string? message =null, bool? HasError=false)
         {
-            var user = HttpContext.Session.Get<AuthenticationResponse>("user");
-            if (user == null)
-            {
-                return RedirectToAction("Index", "User");
-            }
+            //var user = HttpContext.Session.Get<AuthenticationResponse>("user");
+            //if (user == null)
+            //{
+            //    return RedirectToAction("Index", "User");
+            //}
 
-            var listaBeneficiarios = await _beneficiareService.GetBeneficiariosByUserId(user.Id)
+            ViewBag.Message = message;
+            ViewBag.HasError = HasError;
+
+            var listaBeneficiarios = await _beneficiareService.GetBeneficiariosByUserId(userInSession.Id)
                                       ?? new List<BeneficiareViewModel>();
 
             if (listaBeneficiarios == null)
@@ -38,7 +47,7 @@ namespace NetBank.WebApp.Controllers
             var viewModel = new BeneficiariosCompositeViewModel
             {
                 Beneficiarios = listaBeneficiarios,
-                NewBeneficiarie = new BeneficiareViewModel
+                NewBeneficiarie = new SaveBeneficiareViewModel
                 {
                     Name = string.Empty,
                     LastName = string.Empty,
@@ -53,9 +62,13 @@ namespace NetBank.WebApp.Controllers
         [HttpPost]
         public async Task <IActionResult> Create([Bind(Prefix = "NewBeneficiarie")] BeneficiareViewModel newBeneficiarie)
         {
-            var user = HttpContext.Session.Get<AuthenticationResponse>("user");
+
+            if(!ModelState.IsValid)
+            {
+                return RedirectToRoute(new { controller = "Beneficiarie", action = "Index", message = "El numero de cuenta digitado no es valido, el formato correcto es" +
+                    "(780xxxxxx)", HasError = true });
+            }
             
-            //traeme la cuenta con este numero
             var productCuenta = await _productService.GetProductByAccountNumber(newBeneficiarie.AccountNumber);
 
             //y traeme al usuario relacionado con la cuenta
@@ -67,7 +80,7 @@ namespace NetBank.WebApp.Controllers
                 var saveViewModel = new SaveBeneficiareViewModel
                 {
                     AccountNumber = newBeneficiarie.AccountNumber,
-                    UserId = user.Id, //id del usuario en seccion
+                    UserId = userInSession.Id, //id del usuario en seccion
                     Name = userBeneficiario.Name,
                     LastName = userBeneficiario.LastName
                 };
