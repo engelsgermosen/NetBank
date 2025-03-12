@@ -174,6 +174,5 @@ namespace NetBank.Core.Application.Services
                 return null;
             }
         }
-
     }
 }

@@ -4,13 +4,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"a2654ybu45"},{"Name":"integrity","Value":"sha256-DtZCyYfS5TLMvGqeosSlc4qIQts4ZnVaJ1FS\u002B960yak="},{"Name":"label","Value":"_content/NetBank.WebApp/css/site.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"272"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022DtZCyYfS5TLMvGqeosSlc4qIQts4ZnVaJ1FS\u002B960yak=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Mar 2025 03:33:17 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"272"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022DtZCyYfS5TLMvGqeosSlc4qIQts4ZnVaJ1FS\u002B960yak=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Mar 2025 16:54:56 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/NetBank.WebApp/css/site.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-DtZCyYfS5TLMvGqeosSlc4qIQts4ZnVaJ1FS\u002B960yak="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"272"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022DtZCyYfS5TLMvGqeosSlc4qIQts4ZnVaJ1FS\u002B960yak=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Mar 2025 03:33:17 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"272"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022DtZCyYfS5TLMvGqeosSlc4qIQts4ZnVaJ1FS\u002B960yak=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Mar 2025 16:54:56 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/NetBank.WebApp/favicon.61n19gt1b8.ico">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>
@@ -28,13 +28,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"04kdrt9q58"},{"Name":"integrity","Value":"sha256-EEbRzJewZZNdIOhx193RozXPwqHVDWeaWoaYKLTxb5s="},{"Name":"label","Value":"_content/NetBank.WebApp/js/site.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"747"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022EEbRzJewZZNdIOhx193RozXPwqHVDWeaWoaYKLTxb5s=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Mar 2025 03:19:21 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"747"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022EEbRzJewZZNdIOhx193RozXPwqHVDWeaWoaYKLTxb5s=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Mar 2025 16:54:56 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/NetBank.WebApp/js/site.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-EEbRzJewZZNdIOhx193RozXPwqHVDWeaWoaYKLTxb5s="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"747"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022EEbRzJewZZNdIOhx193RozXPwqHVDWeaWoaYKLTxb5s=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Mar 2025 03:19:21 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"747"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022EEbRzJewZZNdIOhx193RozXPwqHVDWeaWoaYKLTxb5s=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Mar 2025 16:54:56 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/NetBank.WebApp/lib/bootstrap/dist/css/bootstrap-grid.agp80tu62r.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\css\bootstrap-grid.css'))</AssetFile>
@@ -724,13 +724,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NetBank.WebApp.v9gmp7tg9t.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-4wBhz0/ZOSEptleDAGXPZEDZ8lrHKZty41nz0EsSl10="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1132"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00224wBhz0/ZOSEptleDAGXPZEDZ8lrHKZty41nz0EsSl10=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Mar 2025 16:26:54 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1132"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00224wBhz0/ZOSEptleDAGXPZEDZ8lrHKZty41nz0EsSl10=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Mar 2025 21:14:53 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/NetBank.WebApp/NetBank.WebApp.v9gmp7tg9t.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NetBank.WebApp.v9gmp7tg9t.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"v9gmp7tg9t"},{"Name":"integrity","Value":"sha256-4wBhz0/ZOSEptleDAGXPZEDZ8lrHKZty41nz0EsSl10="},{"Name":"label","Value":"_content/NetBank.WebApp/NetBank.WebApp.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1132"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00224wBhz0/ZOSEptleDAGXPZEDZ8lrHKZty41nz0EsSl10=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Mar 2025 16:26:54 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1132"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00224wBhz0/ZOSEptleDAGXPZEDZ8lrHKZty41nz0EsSl10=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Mar 2025 21:14:53 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
   </ItemGroup>
 </Project>

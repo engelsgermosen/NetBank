@@ -72,6 +72,9 @@ namespace NetBank.Infraestructure.Persistence.Migrations
                     b.Property<byte>("PaymentType")
                         .HasColumnType("tinyint");
 
+                    b.Property<string>("UserId")
+                        .HasColumnType("nvarchar(max)");
+
                     b.HasKey("Id");
 
                     b.HasIndex("DestinationAccountNumber");
