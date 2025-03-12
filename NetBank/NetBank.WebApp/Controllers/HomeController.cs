@@ -11,6 +11,11 @@ namespace NetBank.WebApp.Controllers
             return View();
         }
 
+        public async Task<IActionResult> Engels()
+        {
+            return View();
+        }
+
         public async Task<IActionResult> Natanael()
         {
             return View();
