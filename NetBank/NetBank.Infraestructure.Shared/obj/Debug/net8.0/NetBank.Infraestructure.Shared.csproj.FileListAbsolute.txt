@@ -69,3 +69,21 @@ C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Infraestr
 C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Infraestructure.Shared\obj\Debug\net8.0\refint\NetBank.Infraestructure.Shared.dll
 C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Infraestructure.Shared\obj\Debug\net8.0\NetBank.Infraestructure.Shared.pdb
 C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Infraestructure.Shared\obj\Debug\net8.0\ref\NetBank.Infraestructure.Shared.dll
+C:\Users\DELL\Desktop\Archivos\ITLA\5to Cuatrimestre\P3\NetBank\NetBank.Infraestructure.Shared\bin\Debug\net8.0\NetBank.Infraestructure.Shared.deps.json
+C:\Users\DELL\Desktop\Archivos\ITLA\5to Cuatrimestre\P3\NetBank\NetBank.Infraestructure.Shared\bin\Debug\net8.0\NetBank.Infraestructure.Shared.dll
+C:\Users\DELL\Desktop\Archivos\ITLA\5to Cuatrimestre\P3\NetBank\NetBank.Infraestructure.Shared\bin\Debug\net8.0\NetBank.Infraestructure.Shared.pdb
+C:\Users\DELL\Desktop\Archivos\ITLA\5to Cuatrimestre\P3\NetBank\NetBank.Infraestructure.Shared\bin\Debug\net8.0\NetBank.Core.Application.dll
+C:\Users\DELL\Desktop\Archivos\ITLA\5to Cuatrimestre\P3\NetBank\NetBank.Infraestructure.Shared\bin\Debug\net8.0\NetBank.Core.Domain.dll
+C:\Users\DELL\Desktop\Archivos\ITLA\5to Cuatrimestre\P3\NetBank\NetBank.Infraestructure.Shared\bin\Debug\net8.0\NetBank.Core.Application.pdb
+C:\Users\DELL\Desktop\Archivos\ITLA\5to Cuatrimestre\P3\NetBank\NetBank.Infraestructure.Shared\bin\Debug\net8.0\NetBank.Core.Domain.pdb
+C:\Users\DELL\Desktop\Archivos\ITLA\5to Cuatrimestre\P3\NetBank\NetBank.Infraestructure.Shared\obj\Debug\net8.0\NetBank.Infraestructure.Shared.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\Archivos\ITLA\5to Cuatrimestre\P3\NetBank\NetBank.Infraestructure.Shared\obj\Debug\net8.0\NetBank.Infraestructure.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Desktop\Archivos\ITLA\5to Cuatrimestre\P3\NetBank\NetBank.Infraestructure.Shared\obj\Debug\net8.0\NetBank.Infraestructure.Shared.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\Archivos\ITLA\5to Cuatrimestre\P3\NetBank\NetBank.Infraestructure.Shared\obj\Debug\net8.0\NetBank.Infraestructure.Shared.AssemblyInfo.cs
+C:\Users\DELL\Desktop\Archivos\ITLA\5to Cuatrimestre\P3\NetBank\NetBank.Infraestructure.Shared\obj\Debug\net8.0\NetBank.Infraestructure.Shared.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\Archivos\ITLA\5to Cuatrimestre\P3\NetBank\NetBank.Infraestructure.Shared\obj\Debug\net8.0\NetBank.Infraestructure.Shared.sourcelink.json
+C:\Users\DELL\Desktop\Archivos\ITLA\5to Cuatrimestre\P3\NetBank\NetBank.Infraestructure.Shared\obj\Debug\net8.0\NetBank..3E8AD2B5.Up2Date
+C:\Users\DELL\Desktop\Archivos\ITLA\5to Cuatrimestre\P3\NetBank\NetBank.Infraestructure.Shared\obj\Debug\net8.0\NetBank.Infraestructure.Shared.dll
+C:\Users\DELL\Desktop\Archivos\ITLA\5to Cuatrimestre\P3\NetBank\NetBank.Infraestructure.Shared\obj\Debug\net8.0\refint\NetBank.Infraestructure.Shared.dll
+C:\Users\DELL\Desktop\Archivos\ITLA\5to Cuatrimestre\P3\NetBank\NetBank.Infraestructure.Shared\obj\Debug\net8.0\NetBank.Infraestructure.Shared.pdb
+C:\Users\DELL\Desktop\Archivos\ITLA\5to Cuatrimestre\P3\NetBank\NetBank.Infraestructure.Shared\obj\Debug\net8.0\ref\NetBank.Infraestructure.Shared.dll

@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NetBank.Infraestructure.Persistence")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f3f3dc262d4cfbbdd20e839163665d99118be453")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+152587e1be4722079bf4994b44942c47a0087127")]
+>>>>>>> natanael/app
 [assembly: System.Reflection.AssemblyProductAttribute("NetBank.Infraestructure.Persistence")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NetBank.Infraestructure.Persistence")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

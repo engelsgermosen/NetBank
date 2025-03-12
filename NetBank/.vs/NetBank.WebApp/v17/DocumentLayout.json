@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\DELL\\Desktop\\Archivos\\ITLA\\5to Cuatrimestre\\P3\\NetBank\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F38CEEF2-B199-4BEE-8EFB-9348890CD23C}|NetBank.WebApp\\NetBank.WebApp.csproj|c:\\users\\dell\\desktop\\archivos\\itla\\5to cuatrimestre\\p3\\netbank\\netbank.webapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F38CEEF2-B199-4BEE-8EFB-9348890CD23C}|NetBank.WebApp\\NetBank.WebApp.csproj|solutionrelative:netbank.webapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F38CEEF2-B199-4BEE-8EFB-9348890CD23C}|NetBank.WebApp\\NetBank.WebApp.csproj|c:\\users\\dell\\desktop\\archivos\\itla\\5to cuatrimestre\\p3\\netbank\\netbank.webapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F38CEEF2-B199-4BEE-8EFB-9348890CD23C}|NetBank.WebApp\\NetBank.WebApp.csproj|solutionrelative:netbank.webapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F38CEEF2-B199-4BEE-8EFB-9348890CD23C}|NetBank.WebApp\\NetBank.WebApp.csproj|c:\\users\\dell\\desktop\\archivos\\itla\\5to cuatrimestre\\p3\\netbank\\netbank.webapp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F38CEEF2-B199-4BEE-8EFB-9348890CD23C}|NetBank.WebApp\\NetBank.WebApp.csproj|solutionrelative:netbank.webapp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,15 +26,28 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Archivos\\ITLA\\5to Cuatrimestre\\P3\\NetBank\\NetBank.WebApp\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "NetBank.WebApp\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Archivos\\ITLA\\5to Cuatrimestre\\P3\\NetBank\\NetBank.WebApp\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "NetBank.WebApp\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-12T19:05:46.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Archivos\\ITLA\\5to Cuatrimestre\\P3\\NetBank\\NetBank.WebApp\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "NetBank.WebApp\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\Archivos\\ITLA\\5to Cuatrimestre\\P3\\NetBank\\NetBank.WebApp\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "NetBank.WebApp\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T16:37:14.942Z",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Archivos\\ITLA\\5to Cuatrimestre\\P3\\NetBank\\NetBank.WebApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "NetBank.WebApp\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Archivos\\ITLA\\5to Cuatrimestre\\P3\\NetBank\\NetBank.WebApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "NetBank.WebApp\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAmwIUAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-12T18:44:13.009Z",
               "EditorCaption": ""
             }
           ]
