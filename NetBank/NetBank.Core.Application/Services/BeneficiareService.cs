@@ -3,8 +3,8 @@ using Microsoft.EntityFrameworkCore;
 using NetBank.Core.Application.Interfaces.Services;
 using NetBank.Core.Application.Services.Repositories;
 using NetBank.Core.Application.ViewModels.Beneficiare;
-using NetBank.Core.Application.ViewModels.Product;
 using NetBank.Core.Domain.Entities;
+
 
 namespace NetBank.Core.Application.Services
 {
@@ -14,10 +14,13 @@ namespace NetBank.Core.Application.Services
 
         private readonly IMapper _mapper;
 
-        public BeneficiareService(IBeneficiareRepository repository, IMapper mapper) : base(repository, mapper)
+        private readonly IUserService _userService;
+
+        public BeneficiareService(IBeneficiareRepository repository, IMapper mapper, IUserService userService) : base(repository, mapper)
         {
             _repository = repository;
             _mapper = mapper;
+            _userService = userService;
         }
         
        public async Task<List<BeneficiareViewModel>> GetBeneficiariosByUserId(string id)
@@ -25,6 +28,13 @@ namespace NetBank.Core.Application.Services
            var query = await _repository.GetQuery().Where(x => x.UserId == id).ToListAsync();
            return _mapper.Map<List<BeneficiareViewModel>>(query);
        }
-       
+
+        public async Task<bool> AlreadyHave(int accountNumber,string userId)
+        {
+            var query = await _repository.GetQuery().Where(x => x.UserId == userId && x.AccountNumber == accountNumber).FirstOrDefaultAsync();
+            return query != null;
+        }
+
+        
     }
 }

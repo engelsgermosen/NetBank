@@ -5,20 +5,26 @@
     ViewData["title"] = "Beneficiarios";
 }
 
-@if (TempData["ErrorBeneficiario"] != null)
-{
-    <div class="alert alert-danger d-flex align-items-center border-start border-2 border-danger py-3 px-4 fade show" role="alert">
-        <i class="bi bi-exclamation-triangle-fill fs-4 me-3"></i>
-        <div>
-            <div class="mb-0">@TempData["ErrorBeneficiario"]</div>
-        </div>
-        <button type="button" class="btn-close ms-3 text-lg-end" data-bs-dismiss="alert" aria-label="Close"></button>
-    </div>
-}
 
 <div class="container py-5">
     <div class="row justify-content-center">
+        @if (TempData["ErrorBeneficiario"] != null)
+        {
+            <div class="col-md-10 col-lg-8 mx-auto alert alert-danger d-flex align-items-center justify-content-between border-start border-2 border-danger py-3 px-4 fade show" role="alert">
+                <div class="d-flex align-items-center">
+                    <i class="bi bi-exclamation-triangle-fill fs-4 me-3"></i>
+                    <span class="mb-0">@TempData["ErrorBeneficiario"]</span>
+                </div>
+                <button type="button" class="btn-close ms-3 text-lg-end" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+        }
         <div class="col-md-10 col-lg-8">
+            @if (ViewBag.HasError)
+            {
+                <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                    <p>@ViewBag.Message</p>
+                </div>
+            }
             <!-- Encabezado -->
             <div class="d-flex justify-content-between align-items-center mb-4">
                 <h1 class="h3 mb-0">
@@ -90,11 +96,11 @@
                 <div class="modal-body">
                     <div class="mb-3">
                         <label class="form-label" asp-for="NewBeneficiarie.AccountNumber">Número de cuenta</label>
-                        <input type="text"
+                        <input type="number"
                                class="form-control"
                                asp-for="NewBeneficiarie.AccountNumber"
-                               placeholder="Ej: 123456789012"
-                               required />
+                               placeholder="Ej: 780xxxxxx"
+                               required/>
                         <span asp-validation-for="NewBeneficiarie.AccountNumber" class="text-danger"></span>
                     </div>
                 </div>

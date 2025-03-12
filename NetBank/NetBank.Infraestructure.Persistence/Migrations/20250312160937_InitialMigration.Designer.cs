@@ -12,8 +12,8 @@ using NetBank.Infraestructure.Persistence.Context;
 namespace NetBank.Infraestructure.Persistence.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250311172023_jhs")]
-    partial class jhs
+    [Migration("20250312160937_InitialMigration")]
+    partial class InitialMigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -33,9 +33,8 @@ namespace NetBank.Infraestructure.Persistence.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("AccountNumber")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("AccountNumber")
+                        .HasColumnType("Int");
 
                     b.Property<string>("LastName")
                         .IsRequired()
@@ -51,6 +50,38 @@ namespace NetBank.Infraestructure.Persistence.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Beneficiarios", (string)null);
+                });
+
+            modelBuilder.Entity("NetBank.Core.Domain.Entities.Payment", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<decimal>("Amonut")
+                        .HasColumnType("decimal(14,4)");
+
+                    b.Property<int?>("DestinationAccountNumber")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("OriginAccountNumber")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("PaymentDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<byte>("PaymentType")
+                        .HasColumnType("tinyint");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("DestinationAccountNumber");
+
+                    b.HasIndex("OriginAccountNumber");
+
+                    b.ToTable("Pagos", (string)null);
                 });
 
             modelBuilder.Entity("NetBank.Core.Domain.Entities.Product", b =>
@@ -119,17 +150,34 @@ namespace NetBank.Infraestructure.Persistence.Migrations
                     b.ToTable("Transacciones", (string)null);
                 });
 
+            modelBuilder.Entity("NetBank.Core.Domain.Entities.Payment", b =>
+                {
+                    b.HasOne("NetBank.Core.Domain.Entities.Product", "DestinationProduct")
+                        .WithMany("DestinationPayments")
+                        .HasForeignKey("DestinationAccountNumber")
+                        .OnDelete(DeleteBehavior.NoAction);
+
+                    b.HasOne("NetBank.Core.Domain.Entities.Product", "OriginProduct")
+                        .WithMany("OriginPayments")
+                        .HasForeignKey("OriginAccountNumber")
+                        .OnDelete(DeleteBehavior.NoAction);
+
+                    b.Navigation("DestinationProduct");
+
+                    b.Navigation("OriginProduct");
+                });
+
             modelBuilder.Entity("NetBank.Core.Domain.Entities.Transaction", b =>
                 {
                     b.HasOne("NetBank.Core.Domain.Entities.Product", "DestinationProduct")
                         .WithMany("DestinationTransactions")
                         .HasForeignKey("DestinationProductId")
-                        .OnDelete(DeleteBehavior.Restrict);
+                        .OnDelete(DeleteBehavior.NoAction);
 
                     b.HasOne("NetBank.Core.Domain.Entities.Product", "OriginProduct")
                         .WithMany("OriginTransactions")
                         .HasForeignKey("OriginProductId")
-                        .OnDelete(DeleteBehavior.Restrict);
+                        .OnDelete(DeleteBehavior.Cascade);
 
                     b.Navigation("DestinationProduct");
 
@@ -138,7 +186,11 @@ namespace NetBank.Infraestructure.Persistence.Migrations
 
             modelBuilder.Entity("NetBank.Core.Domain.Entities.Product", b =>
                 {
+                    b.Navigation("DestinationPayments");
+
                     b.Navigation("DestinationTransactions");
+
+                    b.Navigation("OriginPayments");
 
                     b.Navigation("OriginTransactions");
                 });

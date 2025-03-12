@@ -1,4 +1,5 @@
 ﻿@using NetBank.Core.Application.ViewModels.Product;
+@using NetBank.Core.Domain.Enums
 @model List<ProductViewModel>;
 
 @{
@@ -16,9 +17,9 @@
                     <div class="card h-100 shadow-sm">
 
 
-                        @switch (product.ProductType.ToString())
+                        @switch (product.ProductType)
                         {
-                            case "CuentaAhorro":
+                            case ProductType.CuentaAhorro:
                                 <div class="card-header bg-success text-center text-white">
                                     <h3>Cuenta de Ahorro</h3>
                                 </div>
@@ -43,9 +44,9 @@
                                 </div>
                                 break;
 
-                            case "CreditCard":
+                            case ProductType.CreditCard:
                                 <div class="card-header bg-primary text-center text-white">
-                                    <h3>Targeta de Credito</h3>
+                                    <h3>Tarjeta de Credito</h3>
                                 </div>
 
                                 <div class="card-body">
@@ -72,7 +73,7 @@
                                 </div>
                                 break;
 
-                            case "Prestamo":
+                            case ProductType.Prestamo:
                                 <div class="card-header bg-secondary text-center text-white">
                                     <h3>Prestamos</h3>
                                 </div>
@@ -86,7 +87,7 @@
                                     </h5>
 
                                     <p class="card-text">
-                                        <strong>Debe:</strong> @product.Balance.ToString()
+                                        <strong>Debe:</strong> @product.AmountOwed.ToString()
                                     </p>
 
                                     @if (product.CreditLimit.HasValue)
