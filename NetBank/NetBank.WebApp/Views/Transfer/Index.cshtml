@@ -4,63 +4,74 @@
 @using NetBank.Core.Application.ViewModels.Transaction;
 @model SaveTransactionViewModel;
 
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-12 col-md-6 mx-auto mt-5">
-            <h4 class="text-center">Avances de efectivo</h4>
-            @if (Model.HasError)
-            {
-                <div class="alert alert-danger alert-dismissible fade show" role="alert">
-                    <p>@Model?.Error</p>
-                </div>
-            }
-            @if(!string.IsNullOrWhiteSpace(ViewBag.Message))
-            {
-                <div class="@ViewBag.MessageType alert-dismissible fade show" role="alert">
-                    <p>@ViewBag.Message</p>
-                </div>
-            }
-            <form method="post" asp-action="Index" asp-controller="Transfer">
-                <div class="mb-3">
-                    <label asp-for="OriginProductId" class="form-label">Cuenta de origen</label>
-                    <select asp-for="OriginProductId" class="form-select">
-                        <option value="0">--Seleccionar--</option>
-                        @if (cuentas != null && cuentas.Count > 0)
-                        {
-                            @foreach (var i in cuentas)
-                            {
-                                <option value="@i.AccountNumber">Cuenta: @i.AccountNumber - Balance: @i.Balance DOP</option>
-                            }
-                        }
-                    </select>
-                    <span asp-validation-for="OriginProductId" class="text-danger"></span>
+<div class="container my-5">
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-6">
+            <div class="card shadow-sm">
+                <div class="card-header bg-primary text-white">
+                    <h4 class="mb-0">Transferencia entre cuentas</h4>
                 </div>
 
-                <div class="mb-3">
-                    <label asp-for="DestinationProductId" class="form-label">Cuentas de destino</label>
-                    <select asp-for="DestinationProductId" class="form-select">
-                        <option value="0">--Seleccionar--</option>
-                        @if (cuentas != null && cuentas.Count > 0)
-                        {
-                            @foreach (var i in cuentas)
-                            {
-                                <option value="@i.AccountNumber">Cuenta: @i.AccountNumber - Balance: @i.Balance DOP</option>
-                            }
-                        }
-                    </select>
-                    <span asp-validation-for="DestinationProductId" class="text-danger"></span>
+                <div class="card-body">
+                    @if (Model.HasError)
+                    {
+                        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                            <p>@Model?.Error</p>
+                        </div>
+                    }
 
+                    @if (!string.IsNullOrWhiteSpace(ViewBag.Message))
+                    {
+                        <div class="@ViewBag.MessageType alert-dismissible fade show" role="alert">
+                            <p>@ViewBag.Message</p>
+                        </div>
+                    }
+
+                    <form method="post" asp-action="Index" asp-controller="Transfer">
+                        <div class="mb-3">
+                            <label asp-for="OriginProductId" class="form-label">Cuenta de origen</label>
+                            <select asp-for="OriginProductId" class="form-select">
+                                <option value="0">--Seleccionar--</option>
+                                @if (cuentas != null && cuentas.Count > 0)
+                                {
+                                    @foreach (var i in cuentas)
+                                    {
+                                        <option value="@i.AccountNumber">
+                                            Cuenta: @i.AccountNumber - Balance: @i.Balance DOP
+                                        </option>
+                                    }
+                                }
+                            </select>
+                            <span asp-validation-for="OriginProductId" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="DestinationProductId" class="form-label">Cuentas de destino</label>
+                            <select asp-for="DestinationProductId" class="form-select">
+                                <option value="0">--Seleccionar--</option>
+                                @if (cuentas != null && cuentas.Count > 0)
+                                {
+                                    @foreach (var i in cuentas)
+                                    {
+                                        <option value="@i.AccountNumber">
+                                            Cuenta: @i.AccountNumber - Balance: @i.Balance DOP
+                                        </option>
+                                    }
+                                }
+                            </select>
+                            <span asp-validation-for="DestinationProductId" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Amount" class="form-label">Monto:</label>
+                            <input step="any" type="number" asp-for="Amount" class="form-control" />
+                            <span asp-validation-for="Amount" class="text-danger"></span>
+                        </div>
+
+                        <button class="btn btn-primary w-100" type="submit">Tranferir dinero</button>
+                    </form>
                 </div>
-
-                <div class="mb-3">
-                    <label asp-for="Amount" class="form-label">Monto: </label>
-                    <input step="any" type="number" asp-for="Amount" class="form-control" />
-                    <span asp-validation-for="Amount" class="text-danger"></span>
-
-                </div>
-
-                <button class="btn btn-primary w-100" type="submit">Tranferir dinero</button>
-            </form>
+            </div>
         </div>
     </div>
 </div>

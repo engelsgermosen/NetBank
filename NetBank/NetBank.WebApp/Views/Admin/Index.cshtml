@@ -1,109 +1,93 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿
 @{
+    ViewData["Title"] = "Home-Admin";
     var transacciones = ViewBag.Transacciones as NetBank.Core.Application.ViewModels.Transaction.TransaccionCountViewModel;
     var clientes = ViewBag.Clients as List<NetBank.Core.Application.ViewModels.User.UserViewModel>;
     var products = ViewBag.Products as List<NetBank.Core.Application.ViewModels.Product.ProductViewModel>;
 }
 
+<div class="container my-4">
+    <div class="row g-4">
 
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-12 mx-auto">
-            
-            <div class="row">
-
-                <div class="card col-6 mt-3">
-                    <div class="card-header">
-                        <h4>Transacciones</h4>
-                    </div>
-                    <div class="card-body">
-                        
-                        <div class="card">
-                            <div class="card-header">
-                                <h5>Trasancciones totales</h5>
-                            </div>
-                            <div class="card-body">
-                                <p>@transacciones?.TransactionTotals</p>
-                            </div>
-                        </div>
-
-                        <div class="card">
-                            <div class="card-header">
-                                <h5>Trasancciones del dia de hoy</h5>
-                            </div>
-                            <div class="card-body">
-                                <p>@transacciones?.TodayTransaction</p>
-                            </div>
-                        </div>
-
-                    </div>
+        <div class="col-12 col-md-6">
+            <div class="card shadow-sm">
+                <div class="card-header bg-primary text-white">
+                    <h4 class="mb-0">Transacciones</h4>
                 </div>
-
-                <div class="card col-6 mt-3">
-                    <div class="card-header">
-                        <h4>Pagos</h4>
+                <div class="card-body">
+                    <div class="mb-3">
+                        <h5 class="mb-1">Transacciones Totales</h5>
+                        <p class="fs-5 fw-bold mb-0">
+                            @transacciones?.TransactionTotals
+                        </p>
                     </div>
-                    <div class="card-body">
-
-                        <div class="card">
-                            <div class="card-header">
-                                <h5>Pagos totales</h5>
-                            </div>
-                            <div class="card-body">
-                                <p>1500</p>
-                            </div>
-                        </div>
-
-                        <div class="card">
-                            <div class="card-header">
-                                <h5>Pagos del dia de hoy</h5>
-                            </div>
-                            <div class="card-body">
-                                <p>300</p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="card col-6 mt-3">
-                    <div class="card-header">
-                        <h4>Clientes</h4>
-                    </div>
-                    <div class="card-body">
-
-                        <div class="card">
-                            <div class="card-header">
-                                <h5>Clientes activos</h5>
-                            </div>
-                            <div class="card-body">
-                                <p>@clientes?.Where(x => x.IsActive).Count()</p>
-                            </div>
-                        </div>
-
-                        <div class="card">
-                            <div class="card-header">
-                                <h5>Clientes inactivos</h5>
-                            </div>
-                            <div class="card-body">
-                                <p>@clientes?.Where(x => !x.IsActive).Count()</p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="card col-6 mt-3">
-                    <div class="card-header">
-                        <h4>Cuantos productos hay registrados</h4>
-                    </div>
-                    <div class="card-body">
-                        <p class="fs-5 fw-bold text-dark">@products?.Count</p>
+                    <hr />
+                    <div>
+                        <h5 class="mb-1">Transacciones de Hoy</h5>
+                        <p class="fs-5 fw-bold mb-0">
+                            @transacciones?.TodayTransaction
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
+
+        <div class="col-12 col-md-6">
+            <div class="card shadow-sm">
+                <div class="card-header bg-success text-white">
+                    <h4 class="mb-0">Pagos</h4>
+                </div>
+                <div class="card-body">
+                    <div class="mb-3">
+                        <h5 class="mb-1">Pagos Totales</h5>
+                        <p class="fs-5 fw-bold mb-0">1500</p>
+                    </div>
+                    <hr />
+                    <div>
+                        <h5 class="mb-1">Pagos de Hoy</h5>
+                        <p class="fs-5 fw-bold mb-0">300</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-6">
+            <div class="card shadow-sm">
+                <div class="card-header bg-warning text-dark">
+                    <h4 class="mb-0">Clientes</h4>
+                </div>
+                <div class="card-body">
+                    <div class="mb-3">
+                        <h5 class="mb-1">Clientes Activos</h5>
+                        <p class="fs-5 fw-bold mb-0">
+                            @clientes?.Where(x => x.IsActive).Count()
+                        </p>
+                    </div>
+                    <hr />
+                    <div>
+                        <h5 class="mb-1">Clientes Inactivos</h5>
+                        <p class="fs-5 fw-bold mb-0">
+                            @clientes?.Where(x => !x.IsActive).Count()
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-6">
+            <div class="card shadow-sm">
+                <div class="card-header bg-info text-white">
+                    <h4 class="mb-0">Productos Registrados</h4>
+                </div>
+                <div class="card-body text-center">
+                    <p class="fs-3 fw-bold text-dark mb-0">
+                        @products?.Count
+                    </p>
+                </div>
+            </div>
+        </div>
+
     </div>
 </div>
+
+

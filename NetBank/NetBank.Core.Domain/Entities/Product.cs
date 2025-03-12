@@ -22,5 +22,9 @@ namespace NetBank.Core.Domain.Entities
         public ICollection<Transaction>? OriginTransactions { get; set; }
 
         public ICollection<Transaction>? DestinationTransactions { get; set; }
+
+        public ICollection<Payment>? OriginPayments { get; set; }
+
+        public ICollection<Payment>? DestinationPayments { get; set; }
     }
 }

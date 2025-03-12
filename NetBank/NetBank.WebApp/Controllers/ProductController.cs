@@ -27,7 +27,6 @@ namespace NetBank.WebApp.Controllers
         [Authorize(Roles = "Client")]
         public async Task<IActionResult> Index()
         {
-            //trae los productos del user logeado
             var allProducts = await _productService.GetProductsByUserId(userInSession.Id); 
 
             return View(allProducts);
@@ -76,7 +75,6 @@ namespace NetBank.WebApp.Controllers
                 return RedirectToRoute(new { controller = "Product", action = "Product", id = userId, message="No puedes eliminar este producto ya que el dueño le debe.", messageType="alert-danger" });
 
             }
-
         }
     }
 }

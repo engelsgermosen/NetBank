@@ -23,7 +23,7 @@
 <body class="bg-light">
     <div class="d-flex flex-column min-vh-100">
         <header>
-            <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow">
+            <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow @(usuario == null ? "p-0":"")">
                 <div class="container-fluid">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -34,7 +34,6 @@
 
                             @if(usuario != null)
                             {
-
                                 switch(usuario.Rol)
                                 {
                                     case (int)Roles.Admin:
@@ -49,8 +48,14 @@
                                         <li class="nav-item">
                                             <a class="nav-link text-dark" asp-area="" asp-controller="Product" asp-action="Index">Home</a>
                                         </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Pagos</a>
+                                        <li class="nav-item dropdown" style="position:relative" onclick="toggleSubMenu()">
+                                            <a class="nav-link text-dark" href="#" id="pagos-anchor">Pagos</a>
+                                            <ul id="dropdown-menu" class="dropdown-menu" style="display: none; position: absolute; top: 100%; left: 0; z-index: 1000; background: #fff; list-style: none; padding: 0; margin: 0; box-shadow: 0 2px 10px rgba(0,0,0,0.2);">
+                                                <li><a class="dropdown-item" href="@Url.Action("Express", "Payment")">Pago Expreso</a></li>
+                                                <li><a class="dropdown-item" href="@Url.Action("CreditCard", "Payment")">Pago de Tarjeta de Crédito</a></li>
+                                                <li><a class="dropdown-item" href="@Url.Action("Loan", "Payment")">Pago de Prestamo</a></li>
+                                                <li><a class="dropdown-item" href="@Url.Action("Beneficiarie", "Payment")">Pago Beneficiario</a></li>
+                                            </ul>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link text-dark" asp-area="" asp-controller="Beneficiarie" asp-action="Index">Beneficiarios</a>
@@ -80,10 +85,8 @@
             @RenderBody()
         </main>
 
-        <footer class="border-top text-muted p-3">
-            <p class="">
-                &copy; 2025 - NetBank.WebApp 
-            </p>
+        <footer class="border-top text-muted p-3 d-flex flex-row align-items-center">
+            <span class="ms-4">&copy; 2025 - NetBank </span>
         </footer>
     </div>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

@@ -1,23 +1,21 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿
 @{
+    ViewData["Title"] = "Registro";
     var roles = ViewBag.Roles as List<NetBank.Core.Application.ViewModels.Role.RolViewModel>;
 }
 @using NetBank.Core.Application.ViewModels.User;
 @model SaveUserViewModel;
 
-
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-12 col-md-6 col-lg-4 mx-auto">
-            <div class="card">
-                <div class="card-header bg-dark text-light">
-                    <h4>Registro de usuarios</h4>
+<div class="container my-4">
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="card shadow-sm">
+                <div class="card-header bg-primary text-white">
+                    <h4 class="mb-0">Registro de Usuarios</h4>
                 </div>
-                <div class="card-body">
 
-                    @if(Model.HasError)
+                <div class="card-body">
+                    @if (Model.HasError)
                     {
                         <div class="alert alert-danger alert-dismissible fade show" role="alert">
                             <p>@Model.Error</p>
@@ -25,56 +23,55 @@
                     }
 
                     <form method="post" asp-controller="User" asp-action="Register">
-                        <div class="mb-2">
-                             <label class="form-label" asp-for="Name">Nombre:</label>
+                        <div class="mb-3">
+                            <label class="form-label" asp-for="Name">Nombre:</label>
                             <input class="form-control" asp-for="Name" />
                             <span asp-validation-for="Name" class="text-danger"></span>
                         </div>
 
-                        <div class="mb-2">
-                             <label class="form-label" asp-for="LastName">Apellido:</label>
+                        <div class="mb-3">
+                            <label class="form-label" asp-for="LastName">Apellido:</label>
                             <input class="form-control" asp-for="LastName" />
                             <span asp-validation-for="LastName" class="text-danger"></span>
                         </div>
 
-                        <div class="mb-2">
-                            <label class="form-label" asp-for="Email">Correo electronico:</label>
+                        <div class="mb-3">
+                            <label class="form-label" asp-for="Email">Correo electrónico:</label>
                             <input class="form-control" asp-for="Email" />
                             <span asp-validation-for="Email" class="text-danger"></span>
                         </div>
 
-                        <div class="mb-2">
-                            <label class="form-label" asp-for="Identification">Cedula:</label>
+                        <div class="mb-3">
+                            <label class="form-label" asp-for="Identification">Cédula:</label>
                             <input class="form-control" asp-for="Identification" />
                             <span asp-validation-for="Identification" class="text-danger"></span>
                         </div>
 
-                        <div class="mb-2">
+                        <div class="mb-3">
                             <label class="form-label" asp-for="UserName">Usuario:</label>
                             <input class="form-control" asp-for="UserName" />
                             <span asp-validation-for="UserName" class="text-danger"></span>
                         </div>
 
-                        <div class="mb-2">
+                        <div class="mb-3">
                             <label class="form-label" asp-for="Password">Contraseña:</label>
                             <input class="form-control" asp-for="Password" />
                             <span asp-validation-for="Password" class="text-danger"></span>
                         </div>
 
-                        <div class="mb-2">
+                        <div class="mb-3">
                             <label class="form-label" asp-for="ConfirmPassword">Confirmar contraseña:</label>
                             <input class="form-control" asp-for="ConfirmPassword" />
                             <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
                         </div>
 
-                        <div class="mb-2">
+                        <div class="mb-3">
                             <label class="form-label" asp-for="RolId">Rol:</label>
                             <select id="Rol" asp-for="RolId" class="form-select">
                                 <option value="">--Seleccionar--</option>
-                                
-                                @if( roles != null && roles.Count > 0)
+                                @if (roles != null && roles.Count > 0)
                                 {
-                                    @foreach(var rol in roles)
+                                    @foreach (var rol in roles)
                                     {
                                         <option value="@rol.Id">@rol.Name</option>
                                     }
@@ -83,9 +80,9 @@
                             <span asp-validation-for="RolId" class="text-danger"></span>
                         </div>
 
-                        <div id="monto" class="mb-2 d-none">
+                        <div id="monto" class="mb-3 d-none">
                             <label class="form-label" asp-for="InitialAmount">Monto inicial:</label>
-                            <input step="any" class="form-control" asp-for="InitialAmount" />
+                            <input id="input-monto" step="any" class="form-control" asp-for="InitialAmount" />
                             <span asp-validation-for="InitialAmount" class="text-danger"></span>
                         </div>
 
@@ -98,9 +95,11 @@
 </div>
 
 
+
 <script>
     const rolSelect = document.querySelector("#Rol");
     const montoDiv = document.querySelector("#monto");
+    const input = document.querySelector('#input-monto')
 
     rolSelect.addEventListener('change', event => {
 
@@ -108,8 +107,10 @@
 
       if (selectedOption.text === "@(NetBank.Core.Application.Enums.Roles.Client)") {
         montoDiv.classList.remove("d-none");
+        input.setAttribute('required', '');
       } else {
         montoDiv.classList.add("d-none");
+        input.removeAttribute('required');
       }
     });
 </script>

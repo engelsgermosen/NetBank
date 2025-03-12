@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\mreng\\OneDrive\\Escritorio\\PracticasP3\\NetBank\\NetBank\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F38CEEF2-B199-4BEE-8EFB-9348890CD23C}|NetBank.WebApp\\NetBank.WebApp.csproj|c:\\users\\mreng\\onedrive\\escritorio\\practicasp3\\netbank\\netbank\\netbank.webapp\\views\\beneficiarie\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F38CEEF2-B199-4BEE-8EFB-9348890CD23C}|NetBank.WebApp\\NetBank.WebApp.csproj|solutionrelative:netbank.webapp\\views\\beneficiarie\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F38CEEF2-B199-4BEE-8EFB-9348890CD23C}|NetBank.WebApp\\NetBank.WebApp.csproj|c:\\users\\mreng\\onedrive\\escritorio\\practicasp3\\netbank\\netbank\\netbank.webapp\\controllers\\beneficiariecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F38CEEF2-B199-4BEE-8EFB-9348890CD23C}|NetBank.WebApp\\NetBank.WebApp.csproj|solutionrelative:netbank.webapp\\controllers\\beneficiariecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B30F6FC-9ED7-499F-BE96-FC8E8B62BEF9}|NetBank.Core.Application\\NetBank.Core.Application.csproj|c:\\users\\mreng\\onedrive\\escritorio\\practicasp3\\netbank\\netbank\\netbank.core.application\\viewmodels\\beneficiare\\savebeneficiareviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B30F6FC-9ED7-499F-BE96-FC8E8B62BEF9}|NetBank.Core.Application\\NetBank.Core.Application.csproj|solutionrelative:netbank.core.application\\viewmodels\\beneficiare\\savebeneficiareviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F38CEEF2-B199-4BEE-8EFB-9348890CD23C}|NetBank.WebApp\\NetBank.WebApp.csproj|c:\\users\\mreng\\onedrive\\escritorio\\practicasp3\\netbank\\netbank\\netbank.webapp\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F38CEEF2-B199-4BEE-8EFB-9348890CD23C}|NetBank.WebApp\\NetBank.WebApp.csproj|solutionrelative:netbank.webapp\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,41 +22,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SaveBeneficiareViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\mreng\\OneDrive\\Escritorio\\PracticasP3\\NetBank\\NetBank\\NetBank.Core.Application\\ViewModels\\Beneficiare\\SaveBeneficiareViewModel.cs",
-              "RelativeDocumentMoniker": "NetBank.Core.Application\\ViewModels\\Beneficiare\\SaveBeneficiareViewModel.cs",
-              "ToolTip": "C:\\Users\\mreng\\OneDrive\\Escritorio\\PracticasP3\\NetBank\\NetBank\\NetBank.Core.Application\\ViewModels\\Beneficiare\\SaveBeneficiareViewModel.cs",
-              "RelativeToolTip": "NetBank.Core.Application\\ViewModels\\Beneficiare\\SaveBeneficiareViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T00:00:57.419Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BeneficiarieController.cs",
-              "DocumentMoniker": "C:\\Users\\mreng\\OneDrive\\Escritorio\\PracticasP3\\NetBank\\NetBank\\NetBank.WebApp\\Controllers\\BeneficiarieController.cs",
-              "RelativeDocumentMoniker": "NetBank.WebApp\\Controllers\\BeneficiarieController.cs",
-              "ToolTip": "C:\\Users\\mreng\\OneDrive\\Escritorio\\PracticasP3\\NetBank\\NetBank\\NetBank.WebApp\\Controllers\\BeneficiarieController.cs",
-              "RelativeToolTip": "NetBank.WebApp\\Controllers\\BeneficiarieController.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAqwEQAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T23:57:05.782Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\mreng\\OneDrive\\Escritorio\\PracticasP3\\NetBank\\NetBank\\NetBank.WebApp\\Views\\beneficiarie\\Index.cshtml",
-              "RelativeDocumentMoniker": "NetBank.WebApp\\Views\\beneficiarie\\Index.cshtml",
-              "ToolTip": "C:\\Users\\mreng\\OneDrive\\Escritorio\\PracticasP3\\NetBank\\NetBank\\NetBank.WebApp\\Views\\beneficiarie\\Index.cshtml",
-              "RelativeToolTip": "NetBank.WebApp\\Views\\beneficiarie\\Index.cshtml",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAAACEAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-11T23:55:31.123Z",
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "C:\\Users\\mreng\\OneDrive\\Escritorio\\PracticasP3\\NetBank\\NetBank\\NetBank.WebApp\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "NetBank.WebApp\\Controllers\\PaymentController.cs",
+              "ToolTip": "C:\\Users\\mreng\\OneDrive\\Escritorio\\PracticasP3\\NetBank\\NetBank\\NetBank.WebApp\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "NetBank.WebApp\\Controllers\\PaymentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T16:10:44.808Z",
               "EditorCaption": ""
             }
           ]

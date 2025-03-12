@@ -11,6 +11,7 @@ namespace NetBank.Infraestructure.Persistence.Context
 
         public DbSet<Beneficiarie> Beneficiaries { get; set; }
         public DbSet<Transaction> Transactions { get; set; }
+        public DbSet<Payment> Payments { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -24,6 +25,7 @@ namespace NetBank.Infraestructure.Persistence.Context
             modelBuilder.Entity<Product>().ToTable("Productos");
             modelBuilder.Entity<Beneficiarie>().ToTable("Beneficiarios");
             modelBuilder.Entity<Transaction>().ToTable("Transacciones");
+            modelBuilder.Entity<Payment>().ToTable("Pagos");
 
             #endregion
 
@@ -49,12 +51,18 @@ namespace NetBank.Infraestructure.Persistence.Context
                 x.Property(k => k.Id).ValueGeneratedOnAdd();
             });
 
+            modelBuilder.Entity<Payment>(x =>
+            {
+                x.HasKey(k => k.Id);
+                x.Property(k => k.Id).ValueGeneratedOnAdd();
+            });
+
             #endregion
 
 
             #region Configuration properties
 
-         
+
 
             #region Product
             modelBuilder.Entity<Product>(config =>
@@ -86,6 +94,18 @@ namespace NetBank.Infraestructure.Persistence.Context
             });
             #endregion
 
+            #region Payment
+
+            modelBuilder.Entity<Payment>(config =>
+            {
+
+                config.Property(k => k.Amonut).HasColumnType("decimal(14,4)");
+                config.Property(k => k.PaymentType).HasConversion<byte>();
+
+            });
+
+            #endregion
+
             #endregion
 
 
@@ -98,15 +118,34 @@ namespace NetBank.Infraestructure.Persistence.Context
                 config.HasMany<Transaction>(x => x.OriginTransactions)
                 .WithOne(u => u.OriginProduct)
                 .HasForeignKey(u => u.OriginProductId)
-                .OnDelete(DeleteBehavior.Restrict);
+                .OnDelete(DeleteBehavior.Cascade);
 
 
                 config.HasMany<Transaction>(x => x.DestinationTransactions)
                .WithOne(u => u.DestinationProduct)
                .HasForeignKey(u => u.DestinationProductId)
-               .OnDelete(DeleteBehavior.Restrict);
+               .OnDelete(DeleteBehavior.NoAction);
 
             });
+
+
+
+            modelBuilder.Entity<Product>(config =>
+            {
+
+                config.HasMany<Payment>(x => x.OriginPayments)
+                .WithOne(u => u.OriginProduct)
+                .HasForeignKey(u => u.OriginAccountNumber)
+                .OnDelete(DeleteBehavior.NoAction);
+
+
+                config.HasMany<Payment>(x => x.DestinationPayments)
+               .WithOne(u => u.DestinationProduct)
+               .HasForeignKey(u => u.DestinationAccountNumber)
+               .OnDelete(DeleteBehavior.NoAction);
+
+            });
+
 
             #endregion
 
