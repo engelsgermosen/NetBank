@@ -16,6 +16,14 @@ namespace NetBank.WebApp.Controllers
             return View();
         }
 
+<<<<<<< HEAD
+=======
+        public async Task<IActionResult> Natanael()
+        {
+            return View();
+        }
+
+>>>>>>> natanael/app
 
     }
 }
