@@ -13,7 +13,8 @@
           "NetBank.Core.Domain": "1.0.0",
           "NetBank.Infraestructure.Identity": "1.0.0",
           "NetBank.Infraestructure.Persistence": "1.0.0",
-          "NetBank.Infraestructure.Shared": "1.0.0"
+          "NetBank.Infraestructure.Shared": "1.0.0",
+          "Newtonsoft.Json": "13.0.3"
         },
         "runtime": {
           "NetBank.WebApp.dll": {}

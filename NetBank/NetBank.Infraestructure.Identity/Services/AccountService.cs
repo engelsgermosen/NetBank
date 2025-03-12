@@ -26,13 +26,16 @@ namespace NetBank.Infraestructure.Identity.Services
 
         private readonly AuthenticationResponse userInSession;
 
-        public AccountService(UserManager<ApplicationUser> userManager, RoleManager<IdentityRole> roleManager, SignInManager<ApplicationUser> signInManager, IEmailService emailService, IHttpContextAccessor httpContextAccessor)
+        private readonly IProductService _productService;
+
+        public AccountService(UserManager<ApplicationUser> userManager, RoleManager<IdentityRole> roleManager, SignInManager<ApplicationUser> signInManager, IProductService productService, IEmailService emailService, IHttpContextAccessor httpContextAccessor)
         {
             _userManager = userManager;
             _signInManager = signInManager;
             _emailService = emailService;
             _roleManager = roleManager;
             _httpContextAccessor = httpContextAccessor;
+            _productService = productService;
             userInSession = _httpContextAccessor.HttpContext.Session.Get<AuthenticationResponse>("user");
         }
 
@@ -183,7 +186,7 @@ namespace NetBank.Infraestructure.Identity.Services
                 });
             }
 
-            return usuariosWithRoles;
+            return usuariosWithRoles.OrderByDescending(x => x.Rol).ToList();
         }
 
 
@@ -292,6 +295,33 @@ namespace NetBank.Infraestructure.Identity.Services
                 Rol = (Enum.TryParse<Roles>(roles.FirstOrDefault(), out Roles rolEnum)) ? (int)rolEnum : 0
             };
 
+            return response;
+        }
+
+        public async Task<AuthenticationResponse> GetUserByAccountNumber(int accountNumber)
+        {
+            
+            var account = await _productService.GetProductByAccountNumber(accountNumber);
+
+            if (account == null)
+                return null;
+
+            var user = await _userManager.FindByIdAsync(account.UserId);
+
+            if (user == null)
+                return null;
+
+            var roles = await _userManager.GetRolesAsync(user);
+            AuthenticationResponse response = new()
+            {
+                Id = user.Id,
+                Name = user.Name,
+                LastName = user.LastName,
+                Email = user.Email,
+                Identification = user.Identification,
+                UserName = user.UserName,
+                Rol = (Enum.TryParse<Roles>(roles.FirstOrDefault(), out Roles rolEnum)) ? (int)rolEnum : 0
+            };
             return response;
         }
     }

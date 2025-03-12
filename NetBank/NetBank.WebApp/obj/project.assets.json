@@ -5020,7 +5020,8 @@
       "NetBank.Core.Domain >= 1.0.0",
       "NetBank.Infraestructure.Identity >= 1.0.0",
       "NetBank.Infraestructure.Persistence >= 1.0.0",
-      "NetBank.Infraestructure.Shared >= 1.0.0"
+      "NetBank.Infraestructure.Shared >= 1.0.0",
+      "Newtonsoft.Json >= 13.0.3"
     ]
   },
   "packageFolders": {
@@ -5094,6 +5095,10 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[8.0.13, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.3, )"
           }
         },
         "imports": [
