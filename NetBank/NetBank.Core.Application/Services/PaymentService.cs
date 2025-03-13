@@ -1,7 +1,11 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Http;
+using NetBank.Core.Application.Dtos.Account;
+using NetBank.Core.Application.Helpers;
 using NetBank.Core.Application.Interfaces.Repositories;
 using NetBank.Core.Application.Interfaces.Services;
 using NetBank.Core.Application.ViewModels.Payment;
+using NetBank.Core.Application.ViewModels.Transaction;
 using NetBank.Core.Domain.Entities;
 using NetBank.Core.Domain.Enums;
 
@@ -16,14 +20,33 @@ namespace NetBank.Core.Application.Services
 
         private readonly IProductService _productService;
 
-        public PaymentService(IPaymentRepository paymentRepository, IProductService productService, IMapper mapper) : base(paymentRepository, mapper) 
+        private readonly IHttpContextAccessor _httpContextAccessor;
+
+        private readonly AuthenticationResponse userInSession;
+
+        public PaymentService(IPaymentRepository paymentRepository, IProductService productService, IHttpContextAccessor httpContextAccessor, IMapper mapper) : base(paymentRepository, mapper) 
         {
             _paymentRepository = paymentRepository;
             _mapper = mapper;
             _productService = productService;
+            _httpContextAccessor = httpContextAccessor;
+            userInSession = _httpContextAccessor.HttpContext.Session.Get<AuthenticationResponse>("user");
         }
 
-        public async Task<SavePaymentViewModel> PaymentExpress(SavePaymentViewModel payment)
+
+        public async Task<PaymentCountViewModel> GetPaymentCount()
+        {
+            var response = await _paymentRepository.GetAllAsync();
+
+            PaymentCountViewModel pay = new()
+            {
+                PaymentTotals = response.Count,
+                TodayPayments = response.Where(x => x.PaymentDate.Date == DateTime.Now.Date).Count(),
+            };
+
+            return pay;
+        }
+        public async Task<SavePaymentViewModel> PaymentExpressAndBeneficiarie(SavePaymentViewModel payment)
         {
             SavePaymentViewModel response = new()
             {
@@ -64,7 +87,7 @@ namespace NetBank.Core.Application.Services
             return response;
         }
 
-        public async Task<SavePaymentViewModel> ConfirmPaymentExpress(SavePaymentViewModel payment)
+        public async Task<SavePaymentViewModel> ConfirmPaymentExpressAndBeneficiarie(SavePaymentViewModel payment)
         {
             Payment pago = _mapper.Map<Payment>(payment);
             pago = await _paymentRepository.AddAsync(pago);
@@ -87,6 +110,8 @@ namespace NetBank.Core.Application.Services
         //Pago a Trajeta de Credito
         public async Task<SavePaymentViewModel> PaymentCreditCard(SavePaymentViewModel payment)
         {
+            payment.PaymentType = PaymentType.PaymentCreditCard;
+            payment.UserId = userInSession.Id;
             SavePaymentViewModel response = new()
             {
                 HasError = false,
@@ -142,9 +167,11 @@ namespace NetBank.Core.Application.Services
         }
 
 
-        //Pago a Trajeta de Credito
+        //Pago a prestamo
         public async Task<SavePaymentViewModel> PaymentLoan(SavePaymentViewModel payment)
         {
+            payment.PaymentType = PaymentType.PaymentLoan;
+            payment.UserId = userInSession.Id;
             SavePaymentViewModel response = new()
             {
                 HasError = false,
@@ -198,8 +225,5 @@ namespace NetBank.Core.Application.Services
 
             return _mapper.Map<SavePaymentViewModel>(pago);
         }
-
-
-
     }
 }

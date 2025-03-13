@@ -10,7 +10,7 @@ using NetBank.Core.Domain.Enums;
 
 namespace NetBank.Core.Application.Services
 {
-    internal class TransactionService : GenericService<SaveTransactionViewModel,TransactionViewModel,Transaction>, ITransactionService
+    public class TransactionService : GenericService<SaveTransactionViewModel,TransactionViewModel,Transaction>, ITransactionService
     {
         private readonly ITransactionRepository _repository;
 

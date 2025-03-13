@@ -136,7 +136,7 @@ namespace NetBank.Infraestructure.Persistence.Context
                 config.HasMany<Payment>(x => x.OriginPayments)
                 .WithOne(u => u.OriginProduct)
                 .HasForeignKey(u => u.OriginAccountNumber)
-                .OnDelete(DeleteBehavior.NoAction);
+                .OnDelete(DeleteBehavior.Cascade);
 
 
                 config.HasMany<Payment>(x => x.DestinationPayments)
