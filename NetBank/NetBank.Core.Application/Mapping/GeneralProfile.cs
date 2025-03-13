@@ -2,6 +2,7 @@
 using NetBank.Core.Application.Dtos.Account;
 using NetBank.Core.Application.Dtos.Rol;
 using NetBank.Core.Application.ViewModels.Beneficiare;
+using NetBank.Core.Application.ViewModels.Payment;
 using NetBank.Core.Application.ViewModels.Product;
 using NetBank.Core.Application.ViewModels.Role;
 using NetBank.Core.Application.ViewModels.Transaction;
@@ -76,7 +77,14 @@ namespace NetBank.Core.Application.Mapping
             CreateMap<Beneficiarie, SaveBeneficiareViewModel>()
                 .ReverseMap();
 
+            CreateMap<Payment, SavePaymentViewModel>()
+                .ForMember(x => x.HasError, opt => opt.Ignore())
+                .ForMember(x => x.Error, opt => opt.Ignore())
+                .ForMember(x => x.Accounts, opt => opt.Ignore())
 
+               .ReverseMap()
+                .ForMember(x => x.OriginProduct, opt => opt.Ignore())
+                .ForMember(x => x.DestinationProduct, opt => opt.Ignore());
 
         }
     }

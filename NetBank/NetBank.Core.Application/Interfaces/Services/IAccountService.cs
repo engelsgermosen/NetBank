@@ -17,5 +17,8 @@ namespace NetBank.Core.Application.Interfaces.Services
         Task<UpdateUserResponse> UpdateUserAsync(UpdateUserRequest request);
 
         Task<AuthenticationResponse> GetUserByIdAsync(string id);
+
+        Task<AuthenticationResponse> GetUserByAccountNumber(int accountNumber);
+
     }
 }
