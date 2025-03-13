@@ -174,5 +174,11 @@ namespace NetBank.Core.Application.Services
                 return null;
             }
         }
+
+        public async Task<List<ProductViewModel>> GetCuentasAhorrosByUserId(string id)
+        {
+            var query = await _repository.GetQuery().Where(x => x.UserId == id && x.ProductType == ProductType.CuentaAhorro).ToListAsync();
+            return _mapper.Map<List<ProductViewModel>>(query);
+        }
     }
 }
