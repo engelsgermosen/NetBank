@@ -29,15 +29,7 @@
         },
         {
           "Name": "Last-Modified",
-<<<<<<< HEAD
-<<<<<<< HEAD
-          "Value": "Wed, 12 Mar 2025 21:14:53 GMT"
-=======
-          "Value": "Wed, 12 Mar 2025 18:12:27 GMT"
->>>>>>> natanael/app
-=======
-          "Value": "Wed, 12 Mar 2025 21:14:53 GMT"
->>>>>>> engels/app
+          "Value": "Thu, 13 Mar 2025 03:08:57 GMT"
         }
       ],
       "EndpointProperties": [
@@ -74,15 +66,7 @@
         },
         {
           "Name": "Last-Modified",
-<<<<<<< HEAD
-<<<<<<< HEAD
-          "Value": "Wed, 12 Mar 2025 21:14:53 GMT"
-=======
-          "Value": "Wed, 12 Mar 2025 18:12:27 GMT"
->>>>>>> natanael/app
-=======
-          "Value": "Wed, 12 Mar 2025 21:14:53 GMT"
->>>>>>> engels/app
+          "Value": "Thu, 13 Mar 2025 03:08:57 GMT"
         }
       ],
       "EndpointProperties": [
@@ -101,7 +85,7 @@
       ]
     },
     {
-      "Route": "css/site.a2654ybu45.css",
+      "Route": "css/site.3kyldgrf0h.css",
       "AssetFile": "css/site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -115,7 +99,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "272"
+          "Value": "2490"
         },
         {
           "Name": "Content-Type",
@@ -123,29 +107,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"DtZCyYfS5TLMvGqeosSlc4qIQts4ZnVaJ1FS+960yak=\""
+          "Value": "\"M3+H6BkUF9lApcppomo+/15TSKCkGSkXfKgQElsqUoI=\""
         },
         {
           "Name": "Last-Modified",
-<<<<<<< HEAD
-<<<<<<< HEAD
-          "Value": "Wed, 12 Mar 2025 16:54:56 GMT"
-=======
-          "Value": "Wed, 12 Mar 2025 19:25:30 GMT"
->>>>>>> natanael/app
-=======
-          "Value": "Wed, 12 Mar 2025 16:54:56 GMT"
->>>>>>> engels/app
+          "Value": "Thu, 13 Mar 2025 03:12:59 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "a2654ybu45"
+          "Value": "3kyldgrf0h"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-DtZCyYfS5TLMvGqeosSlc4qIQts4ZnVaJ1FS+960yak="
+          "Value": "sha256-M3+H6BkUF9lApcppomo+/15TSKCkGSkXfKgQElsqUoI="
         },
         {
           "Name": "label",
@@ -168,7 +144,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "272"
+          "Value": "2490"
         },
         {
           "Name": "Content-Type",
@@ -176,25 +152,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"DtZCyYfS5TLMvGqeosSlc4qIQts4ZnVaJ1FS+960yak=\""
+          "Value": "\"M3+H6BkUF9lApcppomo+/15TSKCkGSkXfKgQElsqUoI=\""
         },
         {
           "Name": "Last-Modified",
-<<<<<<< HEAD
-<<<<<<< HEAD
-          "Value": "Wed, 12 Mar 2025 16:54:56 GMT"
-=======
-          "Value": "Wed, 12 Mar 2025 19:25:30 GMT"
->>>>>>> natanael/app
-=======
-          "Value": "Wed, 12 Mar 2025 16:54:56 GMT"
->>>>>>> engels/app
+          "Value": "Thu, 13 Mar 2025 03:12:59 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-DtZCyYfS5TLMvGqeosSlc4qIQts4ZnVaJ1FS+960yak="
+          "Value": "sha256-M3+H6BkUF9lApcppomo+/15TSKCkGSkXfKgQElsqUoI="
         }
       ]
     },
@@ -307,15 +275,7 @@
         },
         {
           "Name": "Last-Modified",
-<<<<<<< HEAD
-<<<<<<< HEAD
-          "Value": "Wed, 12 Mar 2025 16:54:56 GMT"
-=======
-          "Value": "Wed, 12 Mar 2025 16:36:14 GMT"
->>>>>>> natanael/app
-=======
-          "Value": "Wed, 12 Mar 2025 16:54:56 GMT"
->>>>>>> engels/app
+          "Value": "Wed, 12 Mar 2025 23:07:23 GMT"
         }
       ],
       "EndpointProperties": [
@@ -360,15 +320,7 @@
         },
         {
           "Name": "Last-Modified",
-<<<<<<< HEAD
-<<<<<<< HEAD
-          "Value": "Wed, 12 Mar 2025 16:54:56 GMT"
-=======
-          "Value": "Wed, 12 Mar 2025 16:36:14 GMT"
->>>>>>> natanael/app
-=======
-          "Value": "Wed, 12 Mar 2025 16:54:56 GMT"
->>>>>>> engels/app
+          "Value": "Wed, 12 Mar 2025 23:07:23 GMT"
         }
       ],
       "EndpointProperties": [

@@ -1,14 +1,6 @@
 {
   "version": 2,
-<<<<<<< HEAD
-<<<<<<< HEAD
   "dgSpecHash": "PS5WYa4QFnk=",
-=======
-  "dgSpecHash": "m7XOeIfW+tA=",
->>>>>>> natanael/app
-=======
-  "dgSpecHash": "PS5WYa4QFnk=",
->>>>>>> engels/app
   "success": true,
   "projectFilePath": "C:\\Users\\mreng\\OneDrive\\Escritorio\\PracticasP3\\NetBank\\NetBank\\NetBank.WebApp\\NetBank.WebApp.csproj",
   "expectedPackageFiles": [
