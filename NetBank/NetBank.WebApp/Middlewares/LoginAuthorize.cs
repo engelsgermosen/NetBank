@@ -26,7 +26,7 @@ namespace NetBank.WebApp.Middlewares
                         context.Result = controller.RedirectToAction("Index", "Admin");
                         break;
                     case (int)Roles.Client:
-                        context.Result = controller.RedirectToAction("Index", "Home");
+                        context.Result = controller.RedirectToAction("Index", "Product");
                         break;
                 }  
            }
