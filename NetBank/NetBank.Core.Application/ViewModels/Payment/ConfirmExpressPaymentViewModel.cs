@@ -2,7 +2,7 @@
 
 namespace NetBank.Core.Application.ViewModels.Payment
 {
-    public class ConfirmExpressPaymentViewModel
+    public class ConfirmExpressAngBeneficiariePaymentViewModel
     {
         public AuthenticationResponse Usuario { get; set; }
         public SavePaymentViewModel PagoConfirmacion { get; set; }

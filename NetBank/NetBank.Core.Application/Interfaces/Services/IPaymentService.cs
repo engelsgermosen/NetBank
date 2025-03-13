@@ -5,8 +5,8 @@ namespace NetBank.Core.Application.Interfaces.Services
 {
     public interface IPaymentService : IGenericService<SavePaymentViewModel,PaymentViewModel, Payment>
     {
-        Task<SavePaymentViewModel> PaymentExpress(SavePaymentViewModel payment);
+        Task<SavePaymentViewModel> PaymentExpressAndBeneficiarie(SavePaymentViewModel payment);
 
-        Task<SavePaymentViewModel> ConfirmPaymentExpress(SavePaymentViewModel payment);
+        Task<SavePaymentViewModel> ConfirmPaymentExpressAndBeneficiarie(SavePaymentViewModel payment);
     }
 }

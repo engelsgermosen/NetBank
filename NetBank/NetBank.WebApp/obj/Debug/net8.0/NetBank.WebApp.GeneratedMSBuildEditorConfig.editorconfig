@@ -40,12 +40,25 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FzaEFkdmFuY2VcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+<<<<<<< HEAD
 [C:/Users/DELL/Desktop/1/NetBank/NetBank.WebApp/Views/Payment/Express.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudFxFeHByZXNzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/DELL/Desktop/1/NetBank/NetBank.WebApp/Views/Payment/ExpressConfirm.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudFxFeHByZXNzQ29uZmlybS5jc2h0bWw=
+=======
+[C:/Users/mreng/OneDrive/Escritorio/PracticasP3/NetBank/NetBank/NetBank.WebApp/Views/Payment/Beneficiarie.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudFxCZW5lZmljaWFyaWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mreng/OneDrive/Escritorio/PracticasP3/NetBank/NetBank/NetBank.WebApp/Views/Payment/Express.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudFxFeHByZXNzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mreng/OneDrive/Escritorio/PracticasP3/NetBank/NetBank/NetBank.WebApp/Views/Payment/ExpressAndBeneficiarieConfirm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudFxFeHByZXNzQW5kQmVuZWZpY2lhcmllQ29uZmlybS5jc2h0bWw=
+>>>>>>> Engels/app
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/DELL/Desktop/1/NetBank/NetBank.WebApp/Views/Product/Create.cshtml]

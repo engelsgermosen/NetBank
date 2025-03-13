@@ -33,7 +33,7 @@ namespace NetBank.Core.Application.Services
             RegisterRequest userCreate = _mapper.Map<RegisterRequest>(vm);
             RegisterResponse userResponse = await _accountService.RegisterAsync(userCreate);
 
-            if(vm.InitialAmount != null)
+            if(vm.InitialAmount != null && !userResponse.HasError)
             {
                 await _productService.CreateAsync(new SaveProductViewModel
                 {

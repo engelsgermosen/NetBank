@@ -3,7 +3,7 @@
 }
 
 @using NetBank.Core.Application.ViewModels.Payment;
-@model ConfirmExpressPaymentViewModel;
+@model ConfirmExpressAngBeneficiariePaymentViewModel;
 
 
 <div class="container">
@@ -14,7 +14,7 @@
                     <h4 class="mb-0">¿Está seguro de realizar este pago?</h4>
                 </div>
                 <div class="card-body">
-                    <form asp-controller="Payment" asp-action="ExpressConfirm" method="post">
+                    <form asp-controller="Payment" asp-action="ExpressAndBeneficiarieConfirm" method="post">
                         <div class="mb-3 d-flex align-items-center justify-content-between">
                             <span class="fw-5">Cuenta:</span>
                             <span class="form-control-plaintext ms-3">@Model.PagoConfirmacion.DestinationAccountNumber</span>
@@ -31,6 +31,8 @@
                         <input asp-for="PagoConfirmacion.Amonut" type="hidden" />
                         <input asp-for="PagoConfirmacion.DestinationAccountNumber" type="hidden" />
                         <input asp-for="PagoConfirmacion.OriginAccountNumber" type="hidden" />
+                        <input asp-for="PagoConfirmacion.PaymentType" type="hidden" />
+                        
 
                         <div class="d-flex justify-content-between">
                             <a class="btn btn-warning" asp-action="Index" asp-controller="Product">No</a>

@@ -118,6 +118,15 @@ namespace NetBank.Infraestructure.Identity.Services
                 return response;
             }
 
+            var userSameCedula = await _userManager.Users.FirstOrDefaultAsync(x => x.Identification == request.Identification);
+
+            if (userSameCedula != null)
+            {
+                response.HasError = true;
+                response.Error = $"Ya existe un registro con la cedula {request.Identification}";
+                return response;
+            }
+
             ApplicationUser userNew = new()
             {
                 UserName = request.UserName,
