@@ -55,7 +55,8 @@ namespace NetBank.Infraestructure.Persistence.Migrations
                     PaymentDate = table.Column<DateTime>(type: "datetime2", nullable: false),
                     PaymentType = table.Column<byte>(type: "tinyint", nullable: false),
                     OriginAccountNumber = table.Column<int>(type: "int", nullable: true),
-                    DestinationAccountNumber = table.Column<int>(type: "int", nullable: true)
+                    DestinationAccountNumber = table.Column<int>(type: "int", nullable: true),
+                    UserId = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -69,7 +70,8 @@ namespace NetBank.Infraestructure.Persistence.Migrations
                         name: "FK_Pagos_Productos_OriginAccountNumber",
                         column: x => x.OriginAccountNumber,
                         principalTable: "Productos",
-                        principalColumn: "AccountNumber");
+                        principalColumn: "AccountNumber",
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(

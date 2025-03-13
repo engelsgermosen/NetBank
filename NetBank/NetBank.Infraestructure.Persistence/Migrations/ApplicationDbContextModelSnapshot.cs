@@ -160,7 +160,7 @@ namespace NetBank.Infraestructure.Persistence.Migrations
                     b.HasOne("NetBank.Core.Domain.Entities.Product", "OriginProduct")
                         .WithMany("OriginPayments")
                         .HasForeignKey("OriginAccountNumber")
-                        .OnDelete(DeleteBehavior.NoAction);
+                        .OnDelete(DeleteBehavior.Cascade);
 
                     b.Navigation("DestinationProduct");
 

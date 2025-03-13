@@ -12,6 +12,9 @@ namespace NetBank.Core.Application.Interfaces.Services
 
         Task<List<ProductViewModel>> GetCuentasAhorrosByUserId(string id);
 
+        Task<List<ProductViewModel>> GetCreditCardsByUserId(string id);
+
+        Task<List<ProductViewModel>> GetLoandsByUserId(string id);
 
         Task<bool> DeleteProduct(int id, ProductType type, string userId);
 

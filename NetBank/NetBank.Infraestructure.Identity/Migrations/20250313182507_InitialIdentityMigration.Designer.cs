@@ -12,7 +12,7 @@ using NetBank.Infraestructure.Identity.Context;
 namespace NetBank.Infraestructure.Identity.Migrations
 {
     [DbContext(typeof(IdentityContext))]
-    [Migration("20250312160958_InitialIdentityMigration")]
+    [Migration("20250313182507_InitialIdentityMigration")]
     partial class InitialIdentityMigration
     {
         /// <inheritdoc />
@@ -180,7 +180,7 @@ namespace NetBank.Infraestructure.Identity.Migrations
 
                     b.Property<string>("Identification")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<bool>("IsActive")
                         .HasColumnType("bit");
@@ -227,6 +227,9 @@ namespace NetBank.Infraestructure.Identity.Migrations
                         .HasColumnType("nvarchar(256)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("Identification")
+                        .IsUnique();
 
                     b.HasIndex("NormalizedEmail")
                         .HasDatabaseName("EmailIndex");

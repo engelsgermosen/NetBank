@@ -10,7 +10,7 @@ html {
 
 .bank-navbar {
     background: #0F2A3D !important;
-    border-bottom: 2px solid #D4A418 !important;
+    /*border-bottom: 2px solid #D4A418 !important;*/
 }
 
 .nav-link {
@@ -79,10 +79,9 @@ html {
 
 .bank-footer {
     background: #0F2A3D;
-    border-top: 2px solid #D4A418;
-}
+    /*border-top: 2px solid #D4A418 !important;*/
 
-.bank-footer-title {
+    .bank-footer-title {
     color: #D4A418;
     font-weight: 600;
     letter-spacing: 0.5px;

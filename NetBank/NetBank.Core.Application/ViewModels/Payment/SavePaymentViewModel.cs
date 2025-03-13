@@ -21,6 +21,8 @@ namespace NetBank.Core.Application.ViewModels.Payment
         [RegularExpression("^780\\d{6}$", ErrorMessage = "El formato debe ser 780xxxxxx, donde x son números.")]
         public int DestinationAccountNumber { get; set; }
 
+        public ICollection<ProductViewModel>? Loans { get; set; }
+        public ICollection<ProductViewModel>? CreditCards { get; set; }
         public ICollection<ProductViewModel>? Accounts { get; set; }
 
         public bool HasError = false;

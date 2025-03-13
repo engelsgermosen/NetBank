@@ -23,7 +23,6 @@
                 </div>
             }
 
-            <!-- Tabla de usuarios -->
             <div class="table-responsive mt-3">
                 <table class="table table-bordered table-striped table-hover align-middle">
                     <thead class="table-dark">
@@ -40,7 +39,6 @@
                     <tbody>
                         @if (Model == null || Model.Count == 0)
                         {
-                            <!-- Fila para mostrar que no hay usuarios -->
                             <tr>
                                 <td colspan="7" class="text-center fw-bold">
                                     No hay usuarios en el sistema
@@ -71,6 +69,7 @@
                                                 class="btn @(usuario.IsActive ? "btn-danger" : "btn-success")"
                                                 data-id="@usuario.Id"
                                                 data-username="@usuario.UserName"
+                                                data-action="@(usuario.IsActive ? "inactivar" : "activar")"
                                                 data-bs-toggle="modal"
                                                 data-bs-target="#confirmModal">
                                             @(usuario.IsActive ? "Inactivar" : "Activar")
@@ -83,7 +82,7 @@
                                             Editar
                                         </a>
 
-                                        @if (usuario.Rol == (int)Roles.Client)
+                                        @if (usuario.Rol == (int)Roles.Client && usuario.UserName != "basicClient")
                                         {
                                             <a class="btn btn-secondary text-white"
                                                asp-action="Product"
@@ -103,20 +102,17 @@
     </div>
 </div>
 
-<!-- Modal de confirmación -->
 <div class="modal fade" id="confirmModal" tabindex="-1" aria-labelledby="confirmModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
-            <!-- Encabezado de la modal -->
             <div class="modal-header">
                 <h5 class="modal-title" id="confirmModalLabel">¿Está seguro?</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
             </div>
-            <!-- Cuerpo de la modal -->
             <div class="modal-body">
                 Confirme si desea proceder con la acción.
+
             </div>
-            <!-- Pie de la modal con botones -->
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
                 <a id="inactiveLinkUser" class="btn btn-primary" asp-action="Inactivate" asp-controller="Admin" asp-route-id="">
@@ -137,11 +133,10 @@
       var button = event.relatedTarget;
       var usuarioId = button.getAttribute('data-id'); 
       var username = button.getAttribute('data-username')
-
+      var action = button.getAttribute('data-action');
 
       var modalBody = confirmModal.querySelector('.modal-body');
-        modalBody.textContent = `¿Está seguro de actualizar al usuario: ${username}?`;
-
+        modalBody.textContent = `¿Está seguro de ${action} al usuario: ${username}?`;
 
         link.href='/Admin/Inactivate/' + usuarioId;
     });

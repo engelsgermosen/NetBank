@@ -1,0 +1,72 @@
+﻿@{
+    ViewData["Title"] = "Pago de Targeta de Credito";
+}
+
+@using NetBank.Core.Application.ViewModels.Payment;
+@model SavePaymentViewModel;
+
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-8 mt-5">
+            <div class="card shadow">
+                <div class="card-header bg-primary text-white">
+                    <h4 class="mb-0 text-center">Pago de Targeta de Credito</h4>
+                </div>
+                <div class="card-body">
+                    @if (Model.HasError)
+                    {
+                        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                            @Model.Error
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
+                    }
+                    <form asp-controller="Payment" asp-action="CreditCard" method="post">
+                        
+                        <div class="mb-3">
+                            <label class="form-label" asp-for="DestinationAccountNumber">Tarjeta a pagar: </label>
+                            <select class="form-select" asp-for="DestinationAccountNumber">
+                                <option value="0">--Seleccionar--</option>
+                                @if (Model.CreditCards != null && Model.CreditCards.Count > 0)
+                                {
+                                    @foreach (var i in Model.CreditCards)
+                                    {
+                                        <option value="@i.AccountNumber">
+                                            Tarjeta: @i.AccountNumber - Debe: @i.AmountOwed DOP
+                                        </option>
+                                    }
+                                }
+                            </select>
+                            <span class="text-danger" asp-validation-for="DestinationAccountNumber"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label" asp-for="OriginAccountNumber">Cuenta de Origen: </label>
+                            <select class="form-select" asp-for="OriginAccountNumber">
+                                <option value="0">--Seleccionar--</option>
+                                @if (Model.Accounts != null && Model.Accounts.Count > 0)
+                                {
+                                    @foreach (var i in Model.Accounts)
+                                    {
+                                        <option value="@i.AccountNumber">
+                                            Cuenta: @i.AccountNumber - Monto disponible: @i.Balance DOP
+                                        </option>
+                                    }
+                                }
+                            </select>
+                            <span class="text-danger" asp-validation-for="OriginAccountNumber"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label" asp-for="Amonut">Monto:</label>
+                            <input step="any" type="number" asp-for="Amonut" class="form-control" />
+                            <span class="text-danger" asp-validation-for="Amonut"></span>
+                        </div>
+                       
+                        <button type="submit" class="btn btn-success w-100">Pagar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

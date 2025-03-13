@@ -81,6 +81,8 @@ namespace NetBank.Core.Application.Mapping
                 .ForMember(x => x.HasError, opt => opt.Ignore())
                 .ForMember(x => x.Error, opt => opt.Ignore())
                 .ForMember(x => x.Accounts, opt => opt.Ignore())
+                .ForMember(x => x.CreditCards, opt => opt.Ignore())
+                .ForMember(x => x.Loans, opt => opt.Ignore())
 
                .ReverseMap()
                 .ForMember(x => x.OriginProduct, opt => opt.Ignore())
