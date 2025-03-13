@@ -2,6 +2,7 @@
 @{
     ViewData["Title"] = "Home-Admin";
     var transacciones = ViewBag.Transacciones as NetBank.Core.Application.ViewModels.Transaction.TransaccionCountViewModel;
+    var pagos = ViewBag.Payments as NetBank.Core.Application.ViewModels.Payment.PaymentCountViewModel;
     var clientes = ViewBag.Clients as List<NetBank.Core.Application.ViewModels.User.UserViewModel>;
     var products = ViewBag.Products as List<NetBank.Core.Application.ViewModels.Product.ProductViewModel>;
 }
@@ -40,12 +41,12 @@
                 <div class="card-body">
                     <div class="mb-3">
                         <h5 class="mb-1">Pagos Totales</h5>
-                        <p class="fs-5 fw-bold mb-0">1500</p>
+                        <p class="fs-5 fw-bold mb-0">@pagos?.PaymentTotals</p>
                     </div>
                     <hr />
                     <div>
                         <h5 class="mb-1">Pagos de Hoy</h5>
-                        <p class="fs-5 fw-bold mb-0">300</p>
+                        <p class="fs-5 fw-bold mb-0">@pagos?.TodayPayments</p>
                     </div>
                 </div>
             </div>

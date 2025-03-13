@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace NetBank.Infraestructure.Persistence.Migrations
 {
     /// <inheritdoc />
-    public partial class initialMigration : Migration
+    public partial class InitialMigration : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -70,7 +70,8 @@ namespace NetBank.Infraestructure.Persistence.Migrations
                         name: "FK_Pagos_Productos_OriginAccountNumber",
                         column: x => x.OriginAccountNumber,
                         principalTable: "Productos",
-                        principalColumn: "AccountNumber");
+                        principalColumn: "AccountNumber",
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(

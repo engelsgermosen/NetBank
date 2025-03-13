@@ -139,6 +139,7 @@ namespace NetBank.WebApp.Controllers
         {
             return View(new SavePaymentViewModel
             {
+                PaymentType = PaymentType.PaymentCreditCard,
                 CreditCards = await _productService.GetCreditCardsByUserId(userInSession.Id),
                 Accounts = await _productService.GetCuentasAhorrosByUserId(userInSession.Id)
             });
@@ -154,6 +155,8 @@ namespace NetBank.WebApp.Controllers
             {
                 return View(new SavePaymentViewModel
                 {
+                    PaymentType = PaymentType.PaymentCreditCard,
+                    UserId = userInSession.Id,
                     Amonut = payment.Amonut,
                     DestinationAccountNumber = payment.DestinationAccountNumber,
                     OriginAccountNumber = payment.OriginAccountNumber,
@@ -174,6 +177,7 @@ namespace NetBank.WebApp.Controllers
         {
             return View(new SavePaymentViewModel
             {
+                PaymentType = PaymentType.PaymentLoan,
                 Loans = await _productService.GetLoandsByUserId(userInSession.Id),
                 Accounts = await _productService.GetCuentasAhorrosByUserId(userInSession.Id)
             });
@@ -188,6 +192,8 @@ namespace NetBank.WebApp.Controllers
             {
                 return View(new SavePaymentViewModel
                 {
+                    PaymentType = PaymentType.PaymentLoan,
+                    UserId = userInSession.Id,
                     Amonut = payment.Amonut,
                     DestinationAccountNumber = payment.DestinationAccountNumber,
                     OriginAccountNumber = payment.OriginAccountNumber,

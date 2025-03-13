@@ -13,11 +13,14 @@ namespace NetBank.WebApp.Controllers
 
         private readonly IProductService _productService;
 
-        public AdminController(ITransactionService transactionService, IUserService userService, IProductService productService)
+        private readonly IPaymentService _paymentService;
+
+        public AdminController(ITransactionService transactionService, IUserService userService, IProductService productService, IPaymentService paymentService)
         {
             _transactionService = transactionService;
             _userService = userService;
             _productService = productService;
+            _paymentService = paymentService;
         }
 
         public async Task<IActionResult> Index()
@@ -25,6 +28,7 @@ namespace NetBank.WebApp.Controllers
             ViewBag.Transacciones = await _transactionService.GetTransaccionCount();
             ViewBag.Clients = await _userService.GetAllUsersViewModel();
             ViewBag.Products = await _productService.GetAllAsync();
+            ViewBag.Payments = await _paymentService.GetPaymentCount();
             return View();
         }
 

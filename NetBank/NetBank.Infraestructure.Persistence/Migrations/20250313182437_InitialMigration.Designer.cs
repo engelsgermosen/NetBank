@@ -12,13 +12,8 @@ using NetBank.Infraestructure.Persistence.Context;
 namespace NetBank.Infraestructure.Persistence.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-<<<<<<<< HEAD:NetBank/NetBank.Infraestructure.Persistence/Migrations/20250313160033_InitialMigration.Designer.cs
-    [Migration("20250313160033_InitialMigration")]
+    [Migration("20250313182437_InitialMigration")]
     partial class InitialMigration
-========
-    [Migration("20250313150455_initialMigration")]
-    partial class initialMigration
->>>>>>>> natanael/app:NetBank/NetBank.Infraestructure.Persistence/Migrations/20250313150455_initialMigration.Designer.cs
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -168,7 +163,7 @@ namespace NetBank.Infraestructure.Persistence.Migrations
                     b.HasOne("NetBank.Core.Domain.Entities.Product", "OriginProduct")
                         .WithMany("OriginPayments")
                         .HasForeignKey("OriginAccountNumber")
-                        .OnDelete(DeleteBehavior.NoAction);
+                        .OnDelete(DeleteBehavior.Cascade);
 
                     b.Navigation("DestinationProduct");
 
