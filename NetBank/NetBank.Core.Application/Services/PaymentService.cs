@@ -23,7 +23,7 @@ namespace NetBank.Core.Application.Services
             _productService = productService;
         }
 
-        public async Task<SavePaymentViewModel> PaymentExpress(SavePaymentViewModel payment)
+        public async Task<SavePaymentViewModel> PaymentExpressAndBeneficiarie(SavePaymentViewModel payment)
         {
             SavePaymentViewModel response = new()
             {
@@ -64,7 +64,7 @@ namespace NetBank.Core.Application.Services
             return response;
         }
 
-        public async Task<SavePaymentViewModel> ConfirmPaymentExpress(SavePaymentViewModel payment)
+        public async Task<SavePaymentViewModel> ConfirmPaymentExpressAndBeneficiarie(SavePaymentViewModel payment)
         {
             Payment pago = _mapper.Map<Payment>(payment);
             pago = await _paymentRepository.AddAsync(pago);
@@ -81,6 +81,49 @@ namespace NetBank.Core.Application.Services
 
             return _mapper.Map<SavePaymentViewModel>(pago);
         }
+
+        //Pago beneficiario
+
+        //public async Task<SavePaymentViewModel> PaymentBeneficiarie(SavePaymentViewModel payment)
+        //{
+        //    SavePaymentViewModel response = new()
+        //    {
+        //        HasError = false,
+        //    };
+
+        //    if (payment.DestinationAccountNumber == payment.OriginAccountNumber)
+        //    {
+        //        response.HasError = true;
+        //        response.Error = "No puedes pagarte a ti mismo";
+        //        return response;
+        //    }
+
+        //    var cuentaDestino = await _productService.GetProductByAccountNumber(payment.DestinationAccountNumber);
+        //    var cuentaOrigen = await _productService.GetProductByAccountNumber(payment.OriginAccountNumber);
+
+
+        //    if (cuentaDestino == null)
+        //    {
+        //        response.HasError = true;
+        //        response.Error = "Esa cuenta no existe";
+        //        return response;
+        //    }
+        //    if (cuentaDestino.ProductType != ProductType.CuentaAhorro)
+        //    {
+        //        response.HasError = true;
+        //        response.Error = "La cuenta que digitaste no es una cuenta de ahorro";
+        //        return response;
+        //    }
+
+        //    if (payment.Amonut > cuentaOrigen.Balance)
+        //    {
+        //        response.HasError = true;
+        //        response.Error = "La cuenta de origen no tiene fondos suficientes";
+        //        return response;
+        //    }
+
+        //    return response;
+        //}
 
     }
 }

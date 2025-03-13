@@ -18,6 +18,7 @@ namespace NetBank.Infraestructure.Identity.Context
             builder.Entity<ApplicationUser>(entity =>
             {
                 entity.ToTable(name:"Users");
+                entity.HasIndex(x => x.Identification).IsUnique();
             });
 
             builder.Entity<IdentityRole>(entity =>

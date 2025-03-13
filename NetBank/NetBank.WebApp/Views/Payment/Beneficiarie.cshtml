@@ -1,5 +1,6 @@
 ﻿@{
-    ViewData["Title"] = "Pago expreso";
+    ViewData["Title"] = "Pago beneficiario";
+    var beneficiarios = ViewBag.Beneficiarios as List<NetBank.Core.Application.ViewModels.Beneficiare.BeneficiareViewModel>;
 }
 
 @using NetBank.Core.Application.ViewModels.Payment;
@@ -11,10 +12,10 @@
         <div class="col-12 col-md-8 mt-5">
             <div class="card shadow">
                 <div class="card-header bg-primary text-white">
-                    <h4 class="mb-0 text-center">Pagos expresos</h4>
+                    <h4 class="mb-0 text-center">Pagos beneficiarios</h4>
                 </div>
                 <div class="card-body">
-                    @if(Model.HasError)
+                    @if (Model.HasError)
                     {
                         <div class="alert alert-danger alert-dismissible fade show" role="alert">
                             @Model.Error
@@ -23,17 +24,28 @@
                     }
                     <form asp-controller="Payment" asp-action="Express" method="post">
                         <div class="mb-3">
-                            <label class="form-label" asp-for="DestinationAccountNumber">Número de cuenta de destino</label>
-                            <input placeholder="Ej: 780xxxxxx" type="number" step="1" asp-for="DestinationAccountNumber" class="form-control" />
+                            <label class="form-label" asp-for="DestinationAccountNumber">Beneficiarios: </label>
+                            <select class="form-select" asp-for="DestinationAccountNumber">
+                                <option value="0">--Seleccionar--</option>
+                                @if (beneficiarios != null && beneficiarios.Count > 0)
+                                {
+                                    @foreach (var i in beneficiarios)
+                                    {
+                                        <option value="@i.AccountNumber">
+                                            @i.Name @i.LastName -  @i.AccountNumber
+                                        </option>
+                                    }
+                                }
+                            </select>
                             <span class="text-danger" asp-validation-for="DestinationAccountNumber"></span>
                         </div>
                         <div class="mb-3">
                             <label class="form-label" asp-for="OriginAccountNumber">Cuenta de origen: </label>
                             <select class="form-select" asp-for="OriginAccountNumber">
                                 <option value="0">--Seleccionar--</option>
-                                @if(Model.Accounts != null && Model.Accounts.Count > 0)
+                                @if (Model.Accounts != null && Model.Accounts.Count > 0)
                                 {
-                                    @foreach(var i in Model.Accounts)
+                                    @foreach (var i in Model.Accounts)
                                     {
                                         <option value="@i.AccountNumber">
                                             Cuenta: @i.AccountNumber - Balance: @i.Balance DOP

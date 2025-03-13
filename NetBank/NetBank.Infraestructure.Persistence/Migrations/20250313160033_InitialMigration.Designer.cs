@@ -12,7 +12,7 @@ using NetBank.Infraestructure.Persistence.Context;
 namespace NetBank.Infraestructure.Persistence.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250312160937_InitialMigration")]
+    [Migration("20250313160033_InitialMigration")]
     partial class InitialMigration
     {
         /// <inheritdoc />
@@ -74,6 +74,9 @@ namespace NetBank.Infraestructure.Persistence.Migrations
 
                     b.Property<byte>("PaymentType")
                         .HasColumnType("tinyint");
+
+                    b.Property<string>("UserId")
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
