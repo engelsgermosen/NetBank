@@ -24,6 +24,7 @@
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
+<<<<<<< HEAD
       "DocumentGroups": [
         {
           "DockedWidth": 200,
@@ -75,6 +76,9 @@
           ]
         }
       ]
+=======
+      "DocumentGroups": []
+>>>>>>> natanael/app
     }
   ]
 }

@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "WorkspaceRootPath": "C:\\Users\\mreng\\OneDrive\\Escritorio\\PracticasP3\\NetBank\\NetBank\\",
   "Documents": [
     {
@@ -15,10 +16,15 @@
       "RelativeMoniker": "D:0:0:{F38CEEF2-B199-4BEE-8EFB-9348890CD23C}|NetBank.WebApp\\NetBank.WebApp.csproj|solutionrelative:netbank.webapp\\views\\payment\\expressandbeneficiarieconfirm.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
+=======
+  "WorkspaceRootPath": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\",
+  "Documents": [],
+>>>>>>> natanael/app
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
+<<<<<<< HEAD
       "DocumentGroups": [
         {
           "DockedWidth": 200,
@@ -70,6 +76,9 @@
           ]
         }
       ]
+=======
+      "DocumentGroups": []
+>>>>>>> natanael/app
     }
   ]
 }

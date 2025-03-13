@@ -180,5 +180,17 @@ namespace NetBank.Core.Application.Services
             var query = await _repository.GetQuery().Where(x => x.UserId == id && x.ProductType == ProductType.CuentaAhorro).ToListAsync();
             return _mapper.Map<List<ProductViewModel>>(query);
         }
+
+        public async Task<List<ProductViewModel>> GetCreditCardsByUserId(string id)
+        {
+            var query = await _repository.GetQuery().Where(x => x.UserId == id && x.ProductType == ProductType.CreditCard).ToListAsync();
+            return _mapper.Map<List<ProductViewModel>>(query);
+        }
+
+        public async Task<List<ProductViewModel>> GetLoandsByUserId(string id)
+        {
+            var query = await _repository.GetQuery().Where(x => x.UserId == id && x.ProductType == ProductType.Prestamo).ToListAsync();
+            return _mapper.Map<List<ProductViewModel>>(query);
+        }
     }
 }

@@ -133,5 +133,76 @@ namespace NetBank.WebApp.Controllers
                 Accounts = await _productService.GetCuentasAhorrosByUserId(userInSession.Id)
             });
         }
+        //Credit Card Actions -------------------
+
+        public async Task<IActionResult> CreditCard()
+        {
+            return View(new SavePaymentViewModel
+            {
+                CreditCards = await _productService.GetCreditCardsByUserId(userInSession.Id),
+                Accounts = await _productService.GetCuentasAhorrosByUserId(userInSession.Id)
+            });
+        }
+
+
+        [HttpPost]
+        public async Task<IActionResult> CreditCard(SavePaymentViewModel payment)
+        {
+            var response = await _paymentService.PaymentCreditCard(payment);
+
+            if (response.HasError)
+            {
+                return View(new SavePaymentViewModel
+                {
+                    Amonut = payment.Amonut,
+                    DestinationAccountNumber = payment.DestinationAccountNumber,
+                    OriginAccountNumber = payment.OriginAccountNumber,
+                    CreditCards = await _productService.GetCreditCardsByUserId(userInSession.Id),
+                    Accounts = await _productService.GetCuentasAhorrosByUserId(userInSession.Id),
+                    HasError = response.HasError,
+                    Error = response.Error
+                });
+            }
+
+            return RedirectToRoute(new { controller = "Product", action = "Index" });
+        }
+
+
+        //Prestamo Actions -------------------
+
+        public async Task<IActionResult> Loan()
+        {
+            return View(new SavePaymentViewModel
+            {
+                Loans = await _productService.GetLoandsByUserId(userInSession.Id),
+                Accounts = await _productService.GetCuentasAhorrosByUserId(userInSession.Id)
+            });
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Loan(SavePaymentViewModel payment)
+        {
+            var response = await _paymentService.PaymentLoan(payment);
+            
+            if (response.HasError)
+            {
+                return View(new SavePaymentViewModel
+                {
+                    Amonut = payment.Amonut,
+                    DestinationAccountNumber = payment.DestinationAccountNumber,
+                    OriginAccountNumber = payment.OriginAccountNumber,
+                    Loans = await _productService.GetLoandsByUserId(userInSession.Id),
+                    Accounts = await _productService.GetCuentasAhorrosByUserId(userInSession.Id),
+                    HasError = response.HasError,
+                    Error = response.Error
+                });
+            }
+
+            return RedirectToRoute(new { controller = "Product", action = "Index" });
+        }
+
+
+
+
     }
 }
