@@ -1,6 +1,14 @@
 {
   "Version": 1,
+<<<<<<< HEAD
+<<<<<<< HEAD
   "Hash": "bvQvSRAxGLtz3ugbG3ofBIQDnEDHJaIZm8lhYErWMvo=",
+=======
+  "Hash": "D0pz3J3jjtuLFjX6WbirvHCDiXnAl/wH52EuHlivyqQ=",
+>>>>>>> natanael/app
+=======
+  "Hash": "bvQvSRAxGLtz3ugbG3ofBIQDnEDHJaIZm8lhYErWMvo=",
+>>>>>>> engels/app
   "Source": "NetBank.WebApp",
   "BasePath": "_content/NetBank.WebApp",
   "Mode": "Default",
@@ -1343,7 +1351,15 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
+<<<<<<< HEAD
           "Value": "Wed, 12 Mar 2025 16:54:56 GMT"
+=======
+          "Value": "Wed, 12 Mar 2025 19:25:30 GMT"
+>>>>>>> natanael/app
+=======
+          "Value": "Wed, 12 Mar 2025 16:54:56 GMT"
+>>>>>>> engels/app
         },
         {
           "Name": "Cache-Control",
@@ -1388,7 +1404,15 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
+<<<<<<< HEAD
           "Value": "Wed, 12 Mar 2025 16:54:56 GMT"
+=======
+          "Value": "Wed, 12 Mar 2025 19:25:30 GMT"
+>>>>>>> natanael/app
+=======
+          "Value": "Wed, 12 Mar 2025 16:54:56 GMT"
+>>>>>>> engels/app
         },
         {
           "Name": "Cache-Control",
@@ -1507,7 +1531,15 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
+<<<<<<< HEAD
           "Value": "Wed, 12 Mar 2025 16:54:56 GMT"
+=======
+          "Value": "Wed, 12 Mar 2025 16:36:14 GMT"
+>>>>>>> natanael/app
+=======
+          "Value": "Wed, 12 Mar 2025 16:54:56 GMT"
+>>>>>>> engels/app
         },
         {
           "Name": "Cache-Control",
@@ -1552,7 +1584,15 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
+<<<<<<< HEAD
           "Value": "Wed, 12 Mar 2025 16:54:56 GMT"
+=======
+          "Value": "Wed, 12 Mar 2025 16:36:14 GMT"
+>>>>>>> natanael/app
+=======
+          "Value": "Wed, 12 Mar 2025 16:54:56 GMT"
+>>>>>>> engels/app
         },
         {
           "Name": "Cache-Control",
@@ -6263,7 +6303,15 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
+<<<<<<< HEAD
           "Value": "Wed, 12 Mar 2025 21:14:53 GMT"
+=======
+          "Value": "Wed, 12 Mar 2025 18:12:27 GMT"
+>>>>>>> natanael/app
+=======
+          "Value": "Wed, 12 Mar 2025 21:14:53 GMT"
+>>>>>>> engels/app
         },
         {
           "Name": "Cache-Control",
@@ -6300,7 +6348,15 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
+<<<<<<< HEAD
           "Value": "Wed, 12 Mar 2025 21:14:53 GMT"
+=======
+          "Value": "Wed, 12 Mar 2025 18:12:27 GMT"
+>>>>>>> natanael/app
+=======
+          "Value": "Wed, 12 Mar 2025 21:14:53 GMT"
+>>>>>>> engels/app
         },
         {
           "Name": "Cache-Control",
@@ -6337,7 +6393,15 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
+<<<<<<< HEAD
           "Value": "Wed, 12 Mar 2025 21:14:53 GMT"
+=======
+          "Value": "Wed, 12 Mar 2025 18:12:27 GMT"
+>>>>>>> natanael/app
+=======
+          "Value": "Wed, 12 Mar 2025 21:14:53 GMT"
+>>>>>>> engels/app
         },
         {
           "Name": "Cache-Control",
@@ -6382,7 +6446,15 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
+<<<<<<< HEAD
           "Value": "Wed, 12 Mar 2025 21:14:53 GMT"
+=======
+          "Value": "Wed, 12 Mar 2025 18:12:27 GMT"
+>>>>>>> natanael/app
+=======
+          "Value": "Wed, 12 Mar 2025 21:14:53 GMT"
+>>>>>>> engels/app
         },
         {
           "Name": "Cache-Control",

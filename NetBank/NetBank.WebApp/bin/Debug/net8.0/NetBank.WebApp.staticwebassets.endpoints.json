@@ -29,7 +29,15 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
+<<<<<<< HEAD
           "Value": "Wed, 12 Mar 2025 21:14:53 GMT"
+=======
+          "Value": "Wed, 12 Mar 2025 18:12:27 GMT"
+>>>>>>> natanael/app
+=======
+          "Value": "Wed, 12 Mar 2025 21:14:53 GMT"
+>>>>>>> engels/app
         }
       ],
       "EndpointProperties": [
@@ -66,7 +74,15 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
+<<<<<<< HEAD
           "Value": "Wed, 12 Mar 2025 21:14:53 GMT"
+=======
+          "Value": "Wed, 12 Mar 2025 18:12:27 GMT"
+>>>>>>> natanael/app
+=======
+          "Value": "Wed, 12 Mar 2025 21:14:53 GMT"
+>>>>>>> engels/app
         }
       ],
       "EndpointProperties": [
@@ -111,7 +127,15 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
+<<<<<<< HEAD
           "Value": "Wed, 12 Mar 2025 16:54:56 GMT"
+=======
+          "Value": "Wed, 12 Mar 2025 19:25:30 GMT"
+>>>>>>> natanael/app
+=======
+          "Value": "Wed, 12 Mar 2025 16:54:56 GMT"
+>>>>>>> engels/app
         }
       ],
       "EndpointProperties": [
@@ -156,7 +180,15 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
+<<<<<<< HEAD
           "Value": "Wed, 12 Mar 2025 16:54:56 GMT"
+=======
+          "Value": "Wed, 12 Mar 2025 19:25:30 GMT"
+>>>>>>> natanael/app
+=======
+          "Value": "Wed, 12 Mar 2025 16:54:56 GMT"
+>>>>>>> engels/app
         }
       ],
       "EndpointProperties": [
@@ -275,7 +307,15 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
+<<<<<<< HEAD
           "Value": "Wed, 12 Mar 2025 16:54:56 GMT"
+=======
+          "Value": "Wed, 12 Mar 2025 16:36:14 GMT"
+>>>>>>> natanael/app
+=======
+          "Value": "Wed, 12 Mar 2025 16:54:56 GMT"
+>>>>>>> engels/app
         }
       ],
       "EndpointProperties": [
@@ -320,7 +360,15 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
+<<<<<<< HEAD
           "Value": "Wed, 12 Mar 2025 16:54:56 GMT"
+=======
+          "Value": "Wed, 12 Mar 2025 16:36:14 GMT"
+>>>>>>> natanael/app
+=======
+          "Value": "Wed, 12 Mar 2025 16:54:56 GMT"
+>>>>>>> engels/app
         }
       ],
       "EndpointProperties": [
