@@ -1,50 +1,54 @@
 {
   "Version": 1,
-<<<<<<< HEAD
   "WorkspaceRootPath": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\",
-  "Documents": [],
-=======
-  "WorkspaceRootPath": "C:\\Users\\mreng\\OneDrive\\Escritorio\\PracticasP3\\NetBank\\NetBank\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F38CEEF2-B199-4BEE-8EFB-9348890CD23C}|NetBank.WebApp\\NetBank.WebApp.csproj|c:\\users\\mreng\\onedrive\\escritorio\\practicasp3\\netbank\\netbank\\netbank.webapp\\middlewares\\loginauthorize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F38CEEF2-B199-4BEE-8EFB-9348890CD23C}|NetBank.WebApp\\NetBank.WebApp.csproj|solutionrelative:netbank.webapp\\middlewares\\loginauthorize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F38CEEF2-B199-4BEE-8EFB-9348890CD23C}|NetBank.WebApp\\NetBank.WebApp.csproj|c:\\users\\dell\\desktop\\1\\netbank\\netbank.webapp\\views\\admin\\main.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F38CEEF2-B199-4BEE-8EFB-9348890CD23C}|NetBank.WebApp\\NetBank.WebApp.csproj|solutionrelative:netbank.webapp\\views\\admin\\main.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F38CEEF2-B199-4BEE-8EFB-9348890CD23C}|NetBank.WebApp\\NetBank.WebApp.csproj|c:\\users\\dell\\desktop\\1\\netbank\\netbank.webapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F38CEEF2-B199-4BEE-8EFB-9348890CD23C}|NetBank.WebApp\\NetBank.WebApp.csproj|solutionrelative:netbank.webapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
->>>>>>> 512ac4ff9951ae471695d3840e6c9a858ed64a59
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-<<<<<<< HEAD
-      "DocumentGroups": []
-=======
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "LoginAuthorize.cs",
-              "DocumentMoniker": "C:\\Users\\mreng\\OneDrive\\Escritorio\\PracticasP3\\NetBank\\NetBank\\NetBank.WebApp\\Middlewares\\LoginAuthorize.cs",
-              "RelativeDocumentMoniker": "NetBank.WebApp\\Middlewares\\LoginAuthorize.cs",
-              "ToolTip": "C:\\Users\\mreng\\OneDrive\\Escritorio\\PracticasP3\\NetBank\\NetBank\\NetBank.WebApp\\Middlewares\\LoginAuthorize.cs",
-              "RelativeToolTip": "NetBank.WebApp\\Middlewares\\LoginAuthorize.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T20:21:46.035Z",
+              "Title": "Main.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\Views\\Admin\\Main.cshtml",
+              "RelativeDocumentMoniker": "NetBank.WebApp\\Views\\Admin\\Main.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\Views\\Admin\\Main.cshtml",
+              "RelativeToolTip": "NetBank.WebApp\\Views\\Admin\\Main.cshtml",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAIwJAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-13T20:50:23.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\appsettings.json",
+              "RelativeDocumentMoniker": "NetBank.WebApp\\appsettings.json",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\appsettings.json",
+              "RelativeToolTip": "NetBank.WebApp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-13T20:43:46.498Z",
               "EditorCaption": ""
             }
           ]
         }
       ]
->>>>>>> 512ac4ff9951ae471695d3840e6c9a858ed64a59
     }
   ]
 }

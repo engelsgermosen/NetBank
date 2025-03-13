@@ -1,10 +1,6 @@
 {
   "Version": 1,
-<<<<<<< HEAD
-  "Hash": "aF5DlpRK7vk8KFhN4mHx9jQMqiV6fUs8w9Njpa+5RKM=",
-=======
-  "Hash": "PwICT2FJq/NajuXlasVcUxX/Dd/fM7+1BaVuk+EXE2I=",
->>>>>>> 512ac4ff9951ae471695d3840e6c9a858ed64a59
+  "Hash": "p3n+l3T+eHJVQksxoADeC44kgS2tQpYkl96/4B2NTGY=",
   "Source": "NetBank.WebApp",
   "BasePath": "_content/NetBank.WebApp",
   "Mode": "Default",
@@ -1347,11 +1343,7 @@
         },
         {
           "Name": "Last-Modified",
-<<<<<<< HEAD
-          "Value": "Thu, 13 Mar 2025 15:10:13 GMT"
-=======
-          "Value": "Thu, 13 Mar 2025 19:16:42 GMT"
->>>>>>> 512ac4ff9951ae471695d3840e6c9a858ed64a59
+          "Value": "Thu, 13 Mar 2025 20:33:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1396,11 +1388,7 @@
         },
         {
           "Name": "Last-Modified",
-<<<<<<< HEAD
-          "Value": "Thu, 13 Mar 2025 15:10:13 GMT"
-=======
-          "Value": "Thu, 13 Mar 2025 19:16:42 GMT"
->>>>>>> 512ac4ff9951ae471695d3840e6c9a858ed64a59
+          "Value": "Thu, 13 Mar 2025 20:33:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6275,11 +6263,7 @@
         },
         {
           "Name": "Last-Modified",
-<<<<<<< HEAD
-          "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
-=======
-          "Value": "Thu, 13 Mar 2025 20:26:45 GMT"
->>>>>>> 512ac4ff9951ae471695d3840e6c9a858ed64a59
+          "Value": "Thu, 13 Mar 2025 20:45:03 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6316,11 +6300,7 @@
         },
         {
           "Name": "Last-Modified",
-<<<<<<< HEAD
-          "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
-=======
-          "Value": "Thu, 13 Mar 2025 20:26:45 GMT"
->>>>>>> 512ac4ff9951ae471695d3840e6c9a858ed64a59
+          "Value": "Thu, 13 Mar 2025 20:45:03 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6357,11 +6337,7 @@
         },
         {
           "Name": "Last-Modified",
-<<<<<<< HEAD
-          "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
-=======
-          "Value": "Thu, 13 Mar 2025 20:26:45 GMT"
->>>>>>> 512ac4ff9951ae471695d3840e6c9a858ed64a59
+          "Value": "Thu, 13 Mar 2025 20:45:03 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6406,11 +6382,7 @@
         },
         {
           "Name": "Last-Modified",
-<<<<<<< HEAD
-          "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
-=======
-          "Value": "Thu, 13 Mar 2025 20:26:45 GMT"
->>>>>>> 512ac4ff9951ae471695d3840e6c9a858ed64a59
+          "Value": "Thu, 13 Mar 2025 20:45:03 GMT"
         },
         {
           "Name": "Cache-Control",
