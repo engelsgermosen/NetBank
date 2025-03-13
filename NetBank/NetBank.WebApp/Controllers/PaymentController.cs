@@ -35,7 +35,7 @@ namespace NetBank.WebApp.Controllers
         {
             return View(new SavePaymentViewModel
             {
-                Accounts = await _productService.GetProductsByUserId(userInSession.Id)
+                Accounts = await _productService.GetCuentasAhorrosByUserId(userInSession.Id)
             });
         }
 
@@ -47,7 +47,7 @@ namespace NetBank.WebApp.Controllers
             {
                 return View(new SavePaymentViewModel
                 {
-                    Accounts = await _productService.GetProductsByUserId(userInSession.Id)
+                    Accounts = await _productService.GetCuentasAhorrosByUserId(userInSession.Id)
                 });
             }
 
@@ -60,7 +60,7 @@ namespace NetBank.WebApp.Controllers
                     Amonut = payment.Amonut,
                     DestinationAccountNumber = payment.DestinationAccountNumber,
                     OriginAccountNumber = payment.OriginAccountNumber,
-                    Accounts = await _productService.GetProductsByUserId(userInSession.Id),
+                    Accounts = await _productService.GetCuentasAhorrosByUserId(userInSession.Id),
                     HasError = response.HasError,
                    Error = response.Error
                 });

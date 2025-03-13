@@ -28,7 +28,7 @@
                             <span class="text-danger" asp-validation-for="DestinationAccountNumber"></span>
                         </div>
                         <div class="mb-3">
-                            <label class="form-label" asp-for="OriginAccountNumber">Cuenta de origen</label>
+                            <label class="form-label" asp-for="OriginAccountNumber">Cuenta de origen: </label>
                             <select class="form-select" asp-for="OriginAccountNumber">
                                 <option value="0">--Seleccionar--</option>
                                 @if(Model.Accounts != null && Model.Accounts.Count > 0)
