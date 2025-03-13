@@ -7,6 +7,10 @@ namespace NetBank.Core.Application.Interfaces.Services
     {
         Task<SavePaymentViewModel> PaymentExpress(SavePaymentViewModel payment);
 
+        Task<SavePaymentViewModel> PaymentCreditCard(SavePaymentViewModel payment);
+
+        Task<SavePaymentViewModel> PaymentLoan(SavePaymentViewModel payment);
+
         Task<SavePaymentViewModel> ConfirmPaymentExpress(SavePaymentViewModel payment);
     }
 }

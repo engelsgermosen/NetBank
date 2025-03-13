@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace NetBank.Infraestructure.Persistence.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialMigration : Migration
+    public partial class initialMigration : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -55,7 +55,8 @@ namespace NetBank.Infraestructure.Persistence.Migrations
                     PaymentDate = table.Column<DateTime>(type: "datetime2", nullable: false),
                     PaymentType = table.Column<byte>(type: "tinyint", nullable: false),
                     OriginAccountNumber = table.Column<int>(type: "int", nullable: true),
-                    DestinationAccountNumber = table.Column<int>(type: "int", nullable: true)
+                    DestinationAccountNumber = table.Column<int>(type: "int", nullable: true),
+                    UserId = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
                 {
