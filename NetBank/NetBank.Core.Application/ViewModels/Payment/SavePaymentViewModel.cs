@@ -25,10 +25,13 @@ namespace NetBank.Core.Application.ViewModels.Payment
         public ICollection<ProductViewModel>? CreditCards { get; set; }
         public ICollection<ProductViewModel>? Accounts { get; set; }
 
+
         public bool HasError = false;
 
         public string? Error {  get; set; }
 
         public string? UserId { get; set; }
+
+        public bool IsSaldo { get; set; } = false;
     }
 }

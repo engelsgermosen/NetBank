@@ -280,9 +280,26 @@ namespace NetBank.Infraestructure.Identity.Services
             user.UserName = request.UserName;
             await _userManager.UpdateAsync(user);
 
-            if(!string.IsNullOrWhiteSpace(request.Password) && !string.IsNullOrWhiteSpace(request.OldPass))
+            if(!string.IsNullOrWhiteSpace(request.Password))
             {
-                await _userManager.ChangePasswordAsync(user,request.OldPass, request.Password);
+                var token = await _userManager.GeneratePasswordResetTokenAsync(user);
+                var result = await _userManager.ResetPasswordAsync(user,token, request.Password);
+
+                if (result.Succeeded)
+                {
+                    await _emailService.SendAsync(new EmailRequest
+                    {
+                        To = request.Email,
+                        Subject = "Acaban de actualizar tu contraseña",
+                        Body = "<h3>Tu contraseña ha sido actualizada satisfactoriamente</h3>"
+                    });
+                    return response;
+                }
+                else
+                {
+                    response.HasError = true;
+                    response.Error = "La contraseña debe ser de minimo 6 caracteres, debe tener minuscula,mayuscula y al menos un caracter especial(!#$)";
+                }
             }
 
             return response;

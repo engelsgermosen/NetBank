@@ -16,7 +16,7 @@ namespace NetBank.Core.Domain.Entities
 
         public bool IsMain { get; set; } = false;
 
-
+        public bool IsDeleted { get; set; } = false;
         public string? UserId { get; set; }
 
         public ICollection<Transaction>? OriginTransactions { get; set; }

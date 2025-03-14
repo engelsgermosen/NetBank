@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NetBank.Core.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+46531f55e221d53c034aab753810abe214b6176d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+512ac4ff9951ae471695d3840e6c9a858ed64a59")]
 [assembly: System.Reflection.AssemblyProductAttribute("NetBank.Core.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NetBank.Core.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

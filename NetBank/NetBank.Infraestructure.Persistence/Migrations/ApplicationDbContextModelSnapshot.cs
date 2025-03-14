@@ -101,6 +101,9 @@ namespace NetBank.Infraestructure.Persistence.Migrations
                     b.Property<decimal?>("CreditLimit")
                         .HasColumnType("decimal(14,4)");
 
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
                     b.Property<bool>("IsMain")
                         .HasColumnType("bit");
 
