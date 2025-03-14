@@ -33,18 +33,6 @@ C:\Users\natan\OneDrive\Escritorio\Archivos\ITLA\5to Cuatrimestre\Programacion I
 C:\Users\natan\OneDrive\Escritorio\Archivos\ITLA\5to Cuatrimestre\Programacion III\Nueva carpeta\NetBank\NetBank.Core.Domain\obj\Debug\net8.0\refint\NetBank.Core.Domain.dll
 C:\Users\natan\OneDrive\Escritorio\Archivos\ITLA\5to Cuatrimestre\Programacion III\Nueva carpeta\NetBank\NetBank.Core.Domain\obj\Debug\net8.0\NetBank.Core.Domain.pdb
 C:\Users\natan\OneDrive\Escritorio\Archivos\ITLA\5to Cuatrimestre\Programacion III\Nueva carpeta\NetBank\NetBank.Core.Domain\obj\Debug\net8.0\ref\NetBank.Core.Domain.dll
-C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Core.Domain\bin\Debug\net8.0\NetBank.Core.Domain.deps.json
-C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Core.Domain\bin\Debug\net8.0\NetBank.Core.Domain.dll
-C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Core.Domain\bin\Debug\net8.0\NetBank.Core.Domain.pdb
-C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Core.Domain\obj\Debug\net8.0\NetBank.Core.Domain.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Core.Domain\obj\Debug\net8.0\NetBank.Core.Domain.AssemblyInfoInputs.cache
-C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Core.Domain\obj\Debug\net8.0\NetBank.Core.Domain.AssemblyInfo.cs
-C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Core.Domain\obj\Debug\net8.0\NetBank.Core.Domain.csproj.CoreCompileInputs.cache
-C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Core.Domain\obj\Debug\net8.0\NetBank.Core.Domain.sourcelink.json
-C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Core.Domain\obj\Debug\net8.0\NetBank.Core.Domain.dll
-C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Core.Domain\obj\Debug\net8.0\refint\NetBank.Core.Domain.dll
-C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Core.Domain\obj\Debug\net8.0\NetBank.Core.Domain.pdb
-C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Core.Domain\obj\Debug\net8.0\ref\NetBank.Core.Domain.dll
 C:\Users\DELL\Desktop\1\NetBank\NetBank.Core.Domain\bin\Debug\net8.0\NetBank.Core.Domain.deps.json
 C:\Users\DELL\Desktop\1\NetBank\NetBank.Core.Domain\bin\Debug\net8.0\NetBank.Core.Domain.dll
 C:\Users\DELL\Desktop\1\NetBank\NetBank.Core.Domain\bin\Debug\net8.0\NetBank.Core.Domain.pdb
@@ -57,3 +45,15 @@ C:\Users\DELL\Desktop\1\NetBank\NetBank.Core.Domain\obj\Debug\net8.0\NetBank.Cor
 C:\Users\DELL\Desktop\1\NetBank\NetBank.Core.Domain\obj\Debug\net8.0\refint\NetBank.Core.Domain.dll
 C:\Users\DELL\Desktop\1\NetBank\NetBank.Core.Domain\obj\Debug\net8.0\NetBank.Core.Domain.pdb
 C:\Users\DELL\Desktop\1\NetBank\NetBank.Core.Domain\obj\Debug\net8.0\ref\NetBank.Core.Domain.dll
+C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Core.Domain\bin\Debug\net8.0\NetBank.Core.Domain.deps.json
+C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Core.Domain\bin\Debug\net8.0\NetBank.Core.Domain.dll
+C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Core.Domain\bin\Debug\net8.0\NetBank.Core.Domain.pdb
+C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Core.Domain\obj\Debug\net8.0\NetBank.Core.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Core.Domain\obj\Debug\net8.0\NetBank.Core.Domain.AssemblyInfoInputs.cache
+C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Core.Domain\obj\Debug\net8.0\NetBank.Core.Domain.AssemblyInfo.cs
+C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Core.Domain\obj\Debug\net8.0\NetBank.Core.Domain.csproj.CoreCompileInputs.cache
+C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Core.Domain\obj\Debug\net8.0\NetBank.Core.Domain.sourcelink.json
+C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Core.Domain\obj\Debug\net8.0\NetBank.Core.Domain.dll
+C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Core.Domain\obj\Debug\net8.0\refint\NetBank.Core.Domain.dll
+C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Core.Domain\obj\Debug\net8.0\NetBank.Core.Domain.pdb
+C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Core.Domain\obj\Debug\net8.0\ref\NetBank.Core.Domain.dll
