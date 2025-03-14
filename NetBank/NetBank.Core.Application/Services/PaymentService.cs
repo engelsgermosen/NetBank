@@ -163,7 +163,14 @@ namespace NetBank.Core.Application.Services
             tarjetaParaDepositar.AmountOwed -= payment.Amonut;
             await _productService.UpdateAsync(tarjetaParaDepositar, tarjetaParaDepositar.AccountNumber);
 
-            return _mapper.Map<SavePaymentViewModel>(pago);
+            response = _mapper.Map<SavePaymentViewModel>(pago);
+
+            if(tarjetaParaDepositar.AmountOwed == 0)
+            {
+                response.IsSaldo = true;
+            }
+
+            return response;
         }
 
 
@@ -223,7 +230,14 @@ namespace NetBank.Core.Application.Services
             loanParaDepositar.AmountOwed -= payment.Amonut;
             await _productService.UpdateAsync(loanParaDepositar, loanParaDepositar.AccountNumber);
 
-            return _mapper.Map<SavePaymentViewModel>(pago);
+            response = _mapper.Map<SavePaymentViewModel>(pago);
+
+            if(loanParaDepositar.AmountOwed == 0)
+            {
+                await _productService.DeleteProduct(loanParaDepositar.AccountNumber,ProductType.Prestamo,loanParaDepositar.UserId);
+                response.IsSaldo = true;
+            }
+            return response;
         }
     }
 }

@@ -25,8 +25,10 @@ namespace NetBank.WebApp.Controllers
         }
 
         [Authorize(Roles = "Client")]
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string? message = null, string? messageType = null)
         {
+            ViewBag.Message = message;
+            ViewBag.MessageType = messageType;
             var allProducts = await _productService.GetProductsByUserId(userInSession.Id); 
 
             return View(allProducts);

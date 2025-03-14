@@ -166,8 +166,20 @@ namespace NetBank.WebApp.Controllers
                     Error = response.Error
                 });
             }
+            else
+            {
+                if(response.IsSaldo)
+                {
+                    return RedirectToRoute(new { controller = "Product", action = "Index", message = "Acaba de saldar su tarjeta de credito", messageType = "alert alert-success" });
 
-            return RedirectToRoute(new { controller = "Product", action = "Index" });
+                }
+                else
+                {
+                    return RedirectToRoute(new { controller = "Product", action = "Index" });
+
+                }
+            }
+
         }
 
 
@@ -203,12 +215,19 @@ namespace NetBank.WebApp.Controllers
                     Error = response.Error
                 });
             }
+            else
+            {
+                if (response.IsSaldo)
+                {
+                    return RedirectToRoute(new { controller = "Product", action = "Index", message = "El prestamo que acaba de pagar fue eliminado ya que el mismo esta saldo", messageType = "alert alert-success" });
 
-            return RedirectToRoute(new { controller = "Product", action = "Index" });
+                }
+                else
+                {
+                    return RedirectToRoute(new { controller = "Product", action = "Index" });
+
+                }
+            }
         }
-
-
-
-
     }
 }

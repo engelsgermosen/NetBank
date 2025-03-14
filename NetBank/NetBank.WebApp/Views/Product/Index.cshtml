@@ -8,6 +8,14 @@
 
 <div class="container my-5">
     <h2 class="text-center mb-4">Mis Productos</h2>
+    <div class="row">
+        @if (!string.IsNullOrWhiteSpace(ViewBag.Message))
+        {
+            <div class="col-10 col-md-5 mx-auto alert text-dark @ViewBag.MessageType" role="alert">
+                @ViewBag.Message
+            </div>
+        }
+    </div>
     @if (Model != null && Model.Any())
     {
         <div class="row row-cols-1 row-cols-md-3 g-4">

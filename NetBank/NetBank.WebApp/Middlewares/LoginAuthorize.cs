@@ -19,7 +19,7 @@ namespace NetBank.WebApp.Middlewares
 
            if(usuario != null)
            {
-                 var controller = (UserController)context.Controller;
+                var controller = (UserController)context.Controller;
                 switch(usuario.Rol)
                 {
                     case (int)Roles.Admin:
