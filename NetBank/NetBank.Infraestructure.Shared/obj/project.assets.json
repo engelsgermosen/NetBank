@@ -1530,23 +1530,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mreng\\.nuget\\packages\\": {},
+    "C:\\Users\\DELL\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mreng\\OneDrive\\Escritorio\\PracticasP3\\NetBank\\NetBank\\NetBank.Infraestructure.Shared\\NetBank.Infraestructure.Shared.csproj",
+      "projectUniqueName": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.Infraestructure.Shared\\NetBank.Infraestructure.Shared.csproj",
       "projectName": "NetBank.Infraestructure.Shared",
-      "projectPath": "C:\\Users\\mreng\\OneDrive\\Escritorio\\PracticasP3\\NetBank\\NetBank\\NetBank.Infraestructure.Shared\\NetBank.Infraestructure.Shared.csproj",
-      "packagesPath": "C:\\Users\\mreng\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mreng\\OneDrive\\Escritorio\\PracticasP3\\NetBank\\NetBank\\NetBank.Infraestructure.Shared\\obj\\",
+      "projectPath": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.Infraestructure.Shared\\NetBank.Infraestructure.Shared.csproj",
+      "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.Infraestructure.Shared\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\mreng\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1561,11 +1561,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\mreng\\OneDrive\\Escritorio\\PracticasP3\\NetBank\\NetBank\\NetBank.Core.Application\\NetBank.Core.Application.csproj": {
-              "projectPath": "C:\\Users\\mreng\\OneDrive\\Escritorio\\PracticasP3\\NetBank\\NetBank\\NetBank.Core.Application\\NetBank.Core.Application.csproj"
+            "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.Core.Application\\NetBank.Core.Application.csproj": {
+              "projectPath": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.Core.Application\\NetBank.Core.Application.csproj"
             },
-            "C:\\Users\\mreng\\OneDrive\\Escritorio\\PracticasP3\\NetBank\\NetBank\\NetBank.Core.Domain\\NetBank.Core.Domain.csproj": {
-              "projectPath": "C:\\Users\\mreng\\OneDrive\\Escritorio\\PracticasP3\\NetBank\\NetBank\\NetBank.Core.Domain\\NetBank.Core.Domain.csproj"
+            "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.Core.Domain\\NetBank.Core.Domain.csproj": {
+              "projectPath": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.Core.Domain\\NetBank.Core.Domain.csproj"
             }
           }
         }
@@ -1580,7 +1580,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.100"
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net8.0": {
@@ -1615,7 +1615,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

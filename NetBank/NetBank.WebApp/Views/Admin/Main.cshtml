@@ -69,6 +69,7 @@
                                                 class="btn @(usuario.IsActive ? "btn-danger" : "btn-success")"
                                                 data-id="@usuario.Id"
                                                 data-username="@usuario.UserName"
+                                                data-action="@(usuario.IsActive ? "inactivar" : "activar")"
                                                 data-bs-toggle="modal"
                                                 data-bs-target="#confirmModal">
                                             @(usuario.IsActive ? "Inactivar" : "Activar")
@@ -110,6 +111,7 @@
             </div>
             <div class="modal-body">
                 Confirme si desea proceder con la acción.
+
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
@@ -131,11 +133,10 @@
       var button = event.relatedTarget;
       var usuarioId = button.getAttribute('data-id'); 
       var username = button.getAttribute('data-username')
-
+      var action = button.getAttribute('data-action');
 
       var modalBody = confirmModal.querySelector('.modal-body');
-        modalBody.textContent = `¿Está seguro de actualizar al usuario: ${username}?`;
-
+        modalBody.textContent = `¿Está seguro de ${action} al usuario: ${username}?`;
 
         link.href='/Admin/Inactivate/' + usuarioId;
     });
