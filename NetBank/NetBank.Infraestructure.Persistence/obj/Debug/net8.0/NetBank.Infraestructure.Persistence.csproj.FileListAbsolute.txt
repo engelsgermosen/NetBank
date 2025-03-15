@@ -70,7 +70,6 @@ C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Infraestr
 C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Infraestructure.Persistence\obj\Debug\net8.0\refint\NetBank.Infraestructure.Persistence.dll
 C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Infraestructure.Persistence\obj\Debug\net8.0\NetBank.Infraestructure.Persistence.pdb
 C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Infraestructure.Persistence\obj\Debug\net8.0\ref\NetBank.Infraestructure.Persistence.dll
-<<<<<<< HEAD
 =======
 >>>>>>> 34590df58e9f2c14e79e1a67f054416d1d196271
 C:\Users\DELL\Desktop\1\NetBank\NetBank.Infraestructure.Persistence\bin\Debug\net8.0\NetBank.Infraestructure.Persistence.deps.json
@@ -91,8 +90,6 @@ C:\Users\DELL\Desktop\1\NetBank\NetBank.Infraestructure.Persistence\obj\Debug\ne
 C:\Users\DELL\Desktop\1\NetBank\NetBank.Infraestructure.Persistence\obj\Debug\net8.0\refint\NetBank.Infraestructure.Persistence.dll
 C:\Users\DELL\Desktop\1\NetBank\NetBank.Infraestructure.Persistence\obj\Debug\net8.0\NetBank.Infraestructure.Persistence.pdb
 C:\Users\DELL\Desktop\1\NetBank\NetBank.Infraestructure.Persistence\obj\Debug\net8.0\ref\NetBank.Infraestructure.Persistence.dll
-<<<<<<< HEAD
-=======
 C:\Users\DELL\Desktop\2\NetBank\NetBank.Infraestructure.Persistence\bin\Debug\net8.0\NetBank.Infraestructure.Persistence.deps.json
 C:\Users\DELL\Desktop\2\NetBank\NetBank.Infraestructure.Persistence\bin\Debug\net8.0\NetBank.Infraestructure.Persistence.dll
 C:\Users\DELL\Desktop\2\NetBank\NetBank.Infraestructure.Persistence\bin\Debug\net8.0\NetBank.Infraestructure.Persistence.pdb
@@ -112,23 +109,3 @@ C:\Users\DELL\Desktop\2\NetBank\NetBank.Infraestructure.Persistence\obj\Debug\ne
 C:\Users\DELL\Desktop\2\NetBank\NetBank.Infraestructure.Persistence\obj\Debug\net8.0\NetBank.Infraestructure.Persistence.pdb
 C:\Users\DELL\Desktop\2\NetBank\NetBank.Infraestructure.Persistence\obj\Debug\net8.0\ref\NetBank.Infraestructure.Persistence.dll
 >>>>>>> main
-=======
-C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Infraestructure.Persistence\bin\Debug\net8.0\NetBank.Infraestructure.Persistence.deps.json
-C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Infraestructure.Persistence\bin\Debug\net8.0\NetBank.Infraestructure.Persistence.dll
-C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Infraestructure.Persistence\bin\Debug\net8.0\NetBank.Infraestructure.Persistence.pdb
-C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Infraestructure.Persistence\bin\Debug\net8.0\NetBank.Core.Application.dll
-C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Infraestructure.Persistence\bin\Debug\net8.0\NetBank.Core.Domain.dll
-C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Infraestructure.Persistence\bin\Debug\net8.0\NetBank.Core.Application.pdb
-C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Infraestructure.Persistence\bin\Debug\net8.0\NetBank.Core.Domain.pdb
-C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Infraestructure.Persistence\obj\Debug\net8.0\NetBank.Infraestructure.Persistence.csproj.AssemblyReference.cache
-C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Infraestructure.Persistence\obj\Debug\net8.0\NetBank.Infraestructure.Persistence.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Infraestructure.Persistence\obj\Debug\net8.0\NetBank.Infraestructure.Persistence.AssemblyInfoInputs.cache
-C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Infraestructure.Persistence\obj\Debug\net8.0\NetBank.Infraestructure.Persistence.AssemblyInfo.cs
-C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Infraestructure.Persistence\obj\Debug\net8.0\NetBank.Infraestructure.Persistence.csproj.CoreCompileInputs.cache
-C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Infraestructure.Persistence\obj\Debug\net8.0\NetBank.Infraestructure.Persistence.sourcelink.json
-C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Infraestructure.Persistence\obj\Debug\net8.0\NetBank..A9E87787.Up2Date
-C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Infraestructure.Persistence\obj\Debug\net8.0\NetBank.Infraestructure.Persistence.dll
-C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Infraestructure.Persistence\obj\Debug\net8.0\refint\NetBank.Infraestructure.Persistence.dll
-C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Infraestructure.Persistence\obj\Debug\net8.0\NetBank.Infraestructure.Persistence.pdb
-C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Infraestructure.Persistence\obj\Debug\net8.0\ref\NetBank.Infraestructure.Persistence.dll
->>>>>>> 34590df58e9f2c14e79e1a67f054416d1d196271

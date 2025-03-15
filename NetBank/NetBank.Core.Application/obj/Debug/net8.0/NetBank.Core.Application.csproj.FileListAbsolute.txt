@@ -45,26 +45,6 @@ C:\Users\natan\OneDrive\Escritorio\Archivos\ITLA\5to Cuatrimestre\Programacion I
 C:\Users\natan\OneDrive\Escritorio\Archivos\ITLA\5to Cuatrimestre\Programacion III\Nueva carpeta\NetBank\NetBank.Core.Application\obj\Debug\net8.0\refint\NetBank.Core.Application.dll
 C:\Users\natan\OneDrive\Escritorio\Archivos\ITLA\5to Cuatrimestre\Programacion III\Nueva carpeta\NetBank\NetBank.Core.Application\obj\Debug\net8.0\NetBank.Core.Application.pdb
 C:\Users\natan\OneDrive\Escritorio\Archivos\ITLA\5to Cuatrimestre\Programacion III\Nueva carpeta\NetBank\NetBank.Core.Application\obj\Debug\net8.0\ref\NetBank.Core.Application.dll
-<<<<<<< HEAD
-C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Core.Application\bin\Debug\net8.0\NetBank.Core.Application.deps.json
-C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Core.Application\bin\Debug\net8.0\NetBank.Core.Application.dll
-C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Core.Application\bin\Debug\net8.0\NetBank.Core.Application.pdb
-C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Core.Application\bin\Debug\net8.0\NetBank.Core.Domain.dll
-C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Core.Application\bin\Debug\net8.0\NetBank.Core.Domain.pdb
-C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Core.Application\obj\Debug\net8.0\NetBank.Core.Application.csproj.AssemblyReference.cache
-C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Core.Application\obj\Debug\net8.0\NetBank.Core.Application.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Core.Application\obj\Debug\net8.0\NetBank.Core.Application.AssemblyInfoInputs.cache
-C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Core.Application\obj\Debug\net8.0\NetBank.Core.Application.AssemblyInfo.cs
-C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Core.Application\obj\Debug\net8.0\NetBank.Core.Application.csproj.CoreCompileInputs.cache
-C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Core.Application\obj\Debug\net8.0\NetBank.Core.Application.sourcelink.json
-C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Core.Application\obj\Debug\net8.0\NetBank..7BD59F1D.Up2Date
-C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Core.Application\obj\Debug\net8.0\NetBank.Core.Application.dll
-C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Core.Application\obj\Debug\net8.0\refint\NetBank.Core.Application.dll
-C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Core.Application\obj\Debug\net8.0\NetBank.Core.Application.pdb
-C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Core.Application\obj\Debug\net8.0\ref\NetBank.Core.Application.dll
-<<<<<<< HEAD
-=======
->>>>>>> 34590df58e9f2c14e79e1a67f054416d1d196271
 C:\Users\DELL\Desktop\1\NetBank\NetBank.Core.Application\bin\Debug\net8.0\NetBank.Core.Application.deps.json
 C:\Users\DELL\Desktop\1\NetBank\NetBank.Core.Application\bin\Debug\net8.0\NetBank.Core.Application.dll
 C:\Users\DELL\Desktop\1\NetBank\NetBank.Core.Application\bin\Debug\net8.0\NetBank.Core.Application.pdb
@@ -81,8 +61,6 @@ C:\Users\DELL\Desktop\1\NetBank\NetBank.Core.Application\obj\Debug\net8.0\NetBan
 C:\Users\DELL\Desktop\1\NetBank\NetBank.Core.Application\obj\Debug\net8.0\refint\NetBank.Core.Application.dll
 C:\Users\DELL\Desktop\1\NetBank\NetBank.Core.Application\obj\Debug\net8.0\NetBank.Core.Application.pdb
 C:\Users\DELL\Desktop\1\NetBank\NetBank.Core.Application\obj\Debug\net8.0\ref\NetBank.Core.Application.dll
-<<<<<<< HEAD
-=======
 C:\Users\DELL\Desktop\2\NetBank\NetBank.Core.Application\bin\Debug\net8.0\NetBank.Core.Application.deps.json
 C:\Users\DELL\Desktop\2\NetBank\NetBank.Core.Application\bin\Debug\net8.0\NetBank.Core.Application.dll
 C:\Users\DELL\Desktop\2\NetBank\NetBank.Core.Application\bin\Debug\net8.0\NetBank.Core.Application.pdb
@@ -100,21 +78,3 @@ C:\Users\DELL\Desktop\2\NetBank\NetBank.Core.Application\obj\Debug\net8.0\refint
 C:\Users\DELL\Desktop\2\NetBank\NetBank.Core.Application\obj\Debug\net8.0\NetBank.Core.Application.pdb
 C:\Users\DELL\Desktop\2\NetBank\NetBank.Core.Application\obj\Debug\net8.0\ref\NetBank.Core.Application.dll
 >>>>>>> main
-=======
-C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Core.Application\bin\Debug\net8.0\NetBank.Core.Application.deps.json
-C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Core.Application\bin\Debug\net8.0\NetBank.Core.Application.dll
-C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Core.Application\bin\Debug\net8.0\NetBank.Core.Application.pdb
-C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Core.Application\bin\Debug\net8.0\NetBank.Core.Domain.dll
-C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Core.Application\bin\Debug\net8.0\NetBank.Core.Domain.pdb
-C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Core.Application\obj\Debug\net8.0\NetBank.Core.Application.csproj.AssemblyReference.cache
-C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Core.Application\obj\Debug\net8.0\NetBank.Core.Application.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Core.Application\obj\Debug\net8.0\NetBank.Core.Application.AssemblyInfoInputs.cache
-C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Core.Application\obj\Debug\net8.0\NetBank.Core.Application.AssemblyInfo.cs
-C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Core.Application\obj\Debug\net8.0\NetBank.Core.Application.csproj.CoreCompileInputs.cache
-C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Core.Application\obj\Debug\net8.0\NetBank.Core.Application.sourcelink.json
-C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Core.Application\obj\Debug\net8.0\NetBank..7BD59F1D.Up2Date
-C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Core.Application\obj\Debug\net8.0\NetBank.Core.Application.dll
-C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Core.Application\obj\Debug\net8.0\refint\NetBank.Core.Application.dll
-C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Core.Application\obj\Debug\net8.0\NetBank.Core.Application.pdb
-C:\Users\mreng\OneDrive\Escritorio\PracticasP3\NetBank\NetBank\NetBank.Core.Application\obj\Debug\net8.0\ref\NetBank.Core.Application.dll
->>>>>>> 34590df58e9f2c14e79e1a67f054416d1d196271
