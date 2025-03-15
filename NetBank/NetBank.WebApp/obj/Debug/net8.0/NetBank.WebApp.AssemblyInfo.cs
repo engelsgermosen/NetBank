@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NetBank.WebApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b60f6628fa7060936a586133cb0168ad9ca9ff6f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ae280eec88d1d7f096b5ff53d0a52f848bcaf492")]
 [assembly: System.Reflection.AssemblyProductAttribute("NetBank.WebApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NetBank.WebApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

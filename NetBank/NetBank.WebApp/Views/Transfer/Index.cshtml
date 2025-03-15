@@ -7,30 +7,32 @@
 <div class="container my-5">
     <div class="row justify-content-center">
         <div class="col-12 col-md-6">
-            <div class="card shadow-sm">
-                <div class="card-header bg-primary text-white">
-                    <h4 class="mb-0">Transferencia entre cuentas</h4>
+            <div class="card shadow-lg pagos-card">
+                <div class="card-header bank-pagos-header text-white text-center">
+                    <h4 class="mb-0"><i class="bi bi-arrow-left-right me-2"></i>Transferencia entre cuentas</h4>
                 </div>
 
                 <div class="card-body">
                     @if (Model.HasError)
                     {
-                        <div class="alert alert-danger alert-dismissible fade show" role="alert">
-                            <p>@Model?.Error</p>
+                        <div class="alert alert-danger alert-dismissible fade show alert-pagos-danger" role="alert">
+                            <p><i class="bi bi-exclamation-octagon me-2"></i>@Model?.Error</p>
                         </div>
                     }
 
                     @if (!string.IsNullOrWhiteSpace(ViewBag.Message))
                     {
                         <div class="@ViewBag.MessageType alert-dismissible fade show" role="alert">
-                            <p>@ViewBag.Message</p>
+                            <p><i class="bi bi-info-circle me-2"></i>@ViewBag.Message</p>
                         </div>
                     }
 
                     <form method="post" asp-action="Index" asp-controller="Transfer">
                         <div class="mb-3">
-                            <label asp-for="OriginProductId" class="form-label">Cuenta de origen</label>
-                            <select asp-for="OriginProductId" class="form-select">
+                            <label asp-for="OriginProductId" class="form-label">
+                                <i class="bi bi-building me-2"></i>Cuenta de origen
+                            </label>
+                            <select asp-for="OriginProductId" class="form-select bank-pagos-input">
                                 <option value="0">--Seleccionar--</option>
                                 @if (cuentas != null && cuentas.Count > 0)
                                 {
@@ -46,8 +48,10 @@
                         </div>
 
                         <div class="mb-3">
-                            <label asp-for="DestinationProductId" class="form-label">Cuentas de destino</label>
-                            <select asp-for="DestinationProductId" class="form-select">
+                            <label asp-for="DestinationProductId" class="form-label">
+                                <i class="bi bi-building me-2"></i>Cuentas de destino
+                            </label>
+                            <select asp-for="DestinationProductId" class="form-select bank-pagos-input">
                                 <option value="0">--Seleccionar--</option>
                                 @if (cuentas != null && cuentas.Count > 0)
                                 {
@@ -63,15 +67,20 @@
                         </div>
 
                         <div class="mb-3">
-                            <label asp-for="Amount" class="form-label">Monto:</label>
-                            <input step="any" type="number" asp-for="Amount" class="form-control" />
+                            <label asp-for="Amount" class="form-label">
+                                <i class="bi bi-currency-dollar me-2"></i>Monto:
+                            </label>
+                            <input step="any" type="number" asp-for="Amount" class="form-control bank-pagos-input" />
                             <span asp-validation-for="Amount" class="text-danger"></span>
                         </div>
 
-                        <button class="btn btn-primary w-100" type="submit">Transferir dinero</button>
+                        <button class="btn btn-primary w-100 bank-btn-pagos-primary" type="submit">
+                            <i class="bi bi-send me-2"></i>Transferir dinero
+                        </button>
                     </form>
                 </div>
             </div>
         </div>
     </div>
 </div>
+

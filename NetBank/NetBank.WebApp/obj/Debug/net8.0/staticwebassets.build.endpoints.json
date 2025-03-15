@@ -85,6 +85,88 @@
       ]
     },
     {
+      "Route": "css/Pagos.css",
+      "AssetFile": "css/Pagos.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "874"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Y1cO3MedAZyP5+g41YLjPkyzeVBBpxhWN+n/sw+tb7U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 16:15:05 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Y1cO3MedAZyP5+g41YLjPkyzeVBBpxhWN+n/sw+tb7U="
+        }
+      ]
+    },
+    {
+      "Route": "css/Pagos.hv34s02kid.css",
+      "AssetFile": "css/Pagos.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "874"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Y1cO3MedAZyP5+g41YLjPkyzeVBBpxhWN+n/sw+tb7U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 16:15:05 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hv34s02kid"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Y1cO3MedAZyP5+g41YLjPkyzeVBBpxhWN+n/sw+tb7U="
+        },
+        {
+          "Name": "label",
+          "Value": "css/Pagos.css"
+        }
+      ]
+    },
+    {
       "Route": "css/Register.css",
       "AssetFile": "css/Register.css",
       "Selectors": [],

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "L9iuLYWHbOD4zd6R3CB7ryiI2pgCL83dy15i3/QHHI0=",
+  "Hash": "Eo5L6R92C96n3nxqSkXzovgVCjuH2jVKvsPteaYYvVM=",
   "Source": "NetBank.WebApp",
   "BasePath": "_content/NetBank.WebApp",
   "Mode": "Default",
@@ -57,6 +57,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\DELL\\Desktop\\New folder\\NetBank\\NetBank.WebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\NetBank.WebApp.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\Desktop\\New folder\\NetBank\\NetBank.WebApp\\wwwroot\\css\\Pagos.css",
+      "SourceId": "NetBank.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\New folder\\NetBank\\NetBank.WebApp\\wwwroot\\",
+      "BasePath": "_content/NetBank.WebApp",
+      "RelativePath": "css/Pagos#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hv34s02kid",
+      "Integrity": "Y1cO3MedAZyP5+g41YLjPkyzeVBBpxhWN+n/sw+tb7U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Pagos.css"
     },
     {
       "Identity": "C:\\Users\\DELL\\Desktop\\New folder\\NetBank\\NetBank.WebApp\\wwwroot\\css\\Register.css",
@@ -1341,6 +1362,88 @@
     }
   ],
   "Endpoints": [
+    {
+      "Route": "css/Pagos.css",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\New folder\\NetBank\\NetBank.WebApp\\wwwroot\\css\\Pagos.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "874"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Y1cO3MedAZyP5+g41YLjPkyzeVBBpxhWN+n/sw+tb7U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 16:15:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Y1cO3MedAZyP5+g41YLjPkyzeVBBpxhWN+n/sw+tb7U="
+        }
+      ]
+    },
+    {
+      "Route": "css/Pagos.hv34s02kid.css",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\New folder\\NetBank\\NetBank.WebApp\\wwwroot\\css\\Pagos.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "874"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Y1cO3MedAZyP5+g41YLjPkyzeVBBpxhWN+n/sw+tb7U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 16:15:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hv34s02kid"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Pagos.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Y1cO3MedAZyP5+g41YLjPkyzeVBBpxhWN+n/sw+tb7U="
+        }
+      ]
+    },
     {
       "Route": "css/Register.css",
       "AssetFile": "C:\\Users\\DELL\\Desktop\\New folder\\NetBank\\NetBank.WebApp\\wwwroot\\css\\Register.css",
