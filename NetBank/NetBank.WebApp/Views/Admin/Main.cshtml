@@ -7,39 +7,44 @@
 @model List<UserViewModel>;
 
 <div class="container mt-4">
-    <div class="card shadow-sm">
-        <div class="card-header d-flex justify-content-between align-items-center">
-            <h4 class="mb-0">Administración de usuarios</h4>
-            <a asp-action="Register" asp-controller="User" class="btn btn-primary">Crear usuario</a>
+    <div class="card shadow-sm admin-card">
+        <div class="card-header d-flex justify-content-between align-items-center bank-navbar text-white">
+            <h4 class="mb-0 text-bank-accent">
+                <i class="bi bi-shield-lock me-2"></i>Administración de Usuarios
+            </h4>
+            <a asp-action="Register" asp-controller="User" class="btn btn-logout">
+                <i class="bi bi-person-plus me-2"></i>Nuevo Usuario
+            </a>
         </div>
 
         <div class="card-body">
             @if (ViewBag.HasError)
             {
-                <div class="alert alert-danger fade show" role="alert">
-                    <span>@ViewBag.Error</span>
+                <div class="alert alert-danger fade show mb-4" role="alert">
+                    <i class="bi bi-exclamation-circle-fill me-2"></i><span>@ViewBag.Error</span>
                 </div>
             }
 
             <div class="table-responsive mt-3">
-                <table class="table table-bordered table-striped table-hover align-middle">
-                    <thead class="table-dark">
+                <table class="table admin-table table-hover align-middle">
+                    <thead>
                         <tr>
-                            <th>Nombre</th>
+                            <th class="ps-4">Nombre</th>
                             <th>Apellido</th>
                             <th>Cédula</th>
                             <th>Correo</th>
                             <th>Estado</th>
                             <th>Rol</th>
-                            <th>Acciones</th>
+                            <th class="pe-4" style="min-width: 220px;">Acciones</th> <!-- Ancho mínimo para acciones -->
                         </tr>
                     </thead>
                     <tbody>
                         @if (Model == null || Model.Count == 0)
                         {
                             <tr>
-                                <td colspan="7" class="text-center fw-bold">
-                                    No hay usuarios en el sistema
+                                <td colspan="7" class="text-center py-4">
+                                    <i class="bi bi-people display-6 text-bank-secondary mb-3 d-block"></i>
+                                    <span class="text-bank-secondary">No hay usuarios registrados</span>
                                 </td>
                             </tr>
                         }
@@ -48,47 +53,52 @@
                             @foreach (var usuario in Model)
                             {
                                 <tr>
-                                    <td>@usuario.Name</td>
+                                    <td class="ps-4">@usuario.Name</td>
                                     <td>@usuario.LastName</td>
                                     <td>@usuario.Identification</td>
                                     <td>@usuario.Email</td>
                                     <td>
-                                        <span class="p-1 px-2 text-white @(usuario.IsActive ? "bg-success" : "bg-danger")">
+                                        <span class="status-badge @(usuario.IsActive ? "status-badge--active" : "status-badge--inactive")">
                                             @(usuario.IsActive ? "Activo" : "Inactivo")
                                         </span>
                                     </td>
                                     <td>
-                                        <span class="p-1 px-2 @(usuario.Rol == (int)Roles.Admin ? "bg-primary text-white" : "bg-warning")">
+                                        <span class="role-badge @(usuario.Rol == (int)Roles.Admin ? "role-badge--admin" : "role-badge--client")">
                                             @(usuario.Rol == (int)Roles.Admin ? "Administrador" : "Cliente")
                                         </span>
                                     </td>
-                                    <td>
-                                        <button type="button"
-                                                class="btn @(usuario.IsActive ? "btn-danger" : "btn-success")"
-                                                data-id="@usuario.Id"
-                                                data-username="@usuario.UserName"
-                                                data-action="@(usuario.IsActive ? "inactivar" : "activar")"
-                                                data-bs-toggle="modal"
-                                                data-bs-target="#confirmModal">
-                                            @(usuario.IsActive ? "Inactivar" : "Activar")
-                                        </button>
+                                    <td class="pe-4 admin-actions">
+                                        <div class="d-flex gap-2 flex-wrap">
+                                            <button type="button"
+                                                    class="btn @(usuario.IsActive ? "btn-danger" : "btn-success") btn-sm d-inline-flex align-items-center gap-2"
+                                                    data-id="@usuario.Id"
+                                                    data-username="@usuario.UserName"
+                                                    data-action="@(usuario.IsActive ? "inactivar" : "activar")"
+                                                    data-bs-toggle="modal"
+                                                    data-bs-target="#confirmModal">
+                                                <i class="bi @(usuario.IsActive ? "bi-person-slash" : "bi-person-check")"></i>
+                                                <span class="d-none d-md-inline">@(usuario.IsActive ? "Inactivar" : "Activar")</span>
+                                            </button>
 
-                                        <a class="btn btn-warning"
-                                           asp-action="Edit"
-                                           asp-controller="User"
-                                           asp-route-id="@usuario.Id">
-                                            Editar
-                                        </a>
-
-                                        @if (usuario.Rol == (int)Roles.Client && usuario.UserName != "basicClient")
-                                        {
-                                            <a class="btn btn-secondary text-white"
-                                               asp-action="Product"
-                                               asp-controller="Product"
+                                            <a class="btn btn-warning btn-sm d-inline-flex align-items-center gap-2"
+                                               asp-action="Edit"
+                                               asp-controller="User"
                                                asp-route-id="@usuario.Id">
-                                                Productos
+                                                <i class="bi bi-pencil-square"></i>
+                                                <span class="d-none d-md-inline">Editar</span>
                                             </a>
-                                        }
+
+                                            @if (usuario.Rol == (int)Roles.Client && usuario.UserName != "basicClient")
+                                            {
+                                                <a class="btn btn-secondary btn-sm text-white d-inline-flex align-items-center gap-2"
+                                                   asp-action="Product"
+                                                   asp-controller="Product"
+                                                   asp-route-id="@usuario.Id">
+                                                    <i class="bi bi-wallet2"></i>
+                                                    <span class="d-none d-md-inline">Productos</span>
+                                                </a>
+                                            }
+                                        </div>
                                     </td>
                                 </tr>
                             }
@@ -100,21 +110,23 @@
     </div>
 </div>
 
-<div class="modal fade" id="confirmModal" tabindex="-1" aria-labelledby="confirmModalLabel" aria-hidden="true">
+<div class="modal fade admin-modal" id="confirmModal" tabindex="-1" aria-labelledby="confirmModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="confirmModalLabel">¿Está seguro?</h5>
+                <h5 class="modal-title text-bank-accent" id="confirmModalLabel">
+                    <i class="bi bi-exclamation-triangle me-2"></i>Confirmar acción
+                </h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
             </div>
             <div class="modal-body">
-                Confirme si desea proceder con la acción.
-
+                <p class="mb-1">¿Está seguro que desea proceder con esta acción?</p>
+                <small class="text-bank-secondary" id="modalUsername"></small>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
-                <a id="inactiveLinkUser" class="btn btn-primary" asp-action="Inactivate" asp-controller="Admin" asp-route-id="">
-                    Sí
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                <a id="inactiveLinkUser" class="btn btn-logout" asp-action="Inactivate" asp-controller="Admin" asp-route-id="">
+                    Confirmar
                 </a>
             </div>
         </div>

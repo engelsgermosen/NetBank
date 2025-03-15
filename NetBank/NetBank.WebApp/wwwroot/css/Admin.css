@@ -1,0 +1,67 @@
+﻿/* ADMINISTRACIÓN DE USUARIOS - ESTILOS ESPECÍFICOS */
+.admin-card {
+    border: 1px solid rgba(15, 42, 61, 0.1);
+    border-radius: 0.75rem;
+}
+
+.admin-table {
+    --bs-table-bg: transparent;
+    --bs-table-border-color: rgba(15, 42, 61, 0.1);
+}
+
+    .admin-table thead th {
+        background-color: #F8F9FA;
+        color: #0F2A3D;
+        border-bottom: 2px solid #D4A418;
+    }
+
+    .admin-table tr:hover {
+        background-color: rgba(15, 42, 61, 0.03);
+    }
+
+.status-badge {
+    padding: 0.4rem 0.75rem;
+    border-radius: 0.5rem;
+    font-size: 0.875rem;
+}
+
+.status-badge--active {
+    background-color: #D1E7DD !important;
+    color: #0F5132 !important;
+}
+
+.status-badge--inactive {
+    background-color: #F8D7DA !important;
+    color: #842029 !important;
+}
+
+.role-badge {
+    padding: 0.4rem 0.75rem;
+    border-radius: 0.5rem;
+    font-size: 0.875rem;
+}
+
+.role-badge--admin {
+    background-color: #CFE2FF !important;
+    color: #052C65 !important;
+}
+
+.role-badge--client {
+    background-color: #FFF3CD !important;
+    color: #664D03 !important;
+}
+
+.admin-actions .btn {
+    padding: 0.375rem 0.75rem;
+    transition: all 0.2s ease;
+}
+
+.admin-modal .modal-header {
+    background-color: #0F2A3D;
+    color: #D4A418;
+    border-bottom: 1px solid #D4A418;
+}
+
+.admin-modal .btn-close {
+    filter: invert(85%);
+}

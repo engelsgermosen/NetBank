@@ -10,44 +10,56 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-12 col-md-6 mx-auto mt-4">
-
-            <form asp-action="Create" asp-controller="Product" method="post">
-
+            <form asp-action="Create" asp-controller="Product" method="post" class="shadow p-4 rounded bg-light">
+                <!-- Campo para Tipo de Producto -->
                 <div class="mb-3">
-                    <label asp-for="ProductType" class="form-label">Tipo de producto</label>
+                    <label asp-for="ProductType" class="form-label">
+                        <i class="bi bi-card-list"></i> Tipo de producto
+                    </label>
                     <select id="productTypeSelect" asp-for="ProductType" class="form-select">
-                        <option value="">--Seleccionar--</option>
+                        <option value="">-- Seleccionar --</option>
                         <option value="1">Cuenta de ahorro</option>
-                        <option value="2">Tarjeta de credito</option>
-                        <option value="3">Prestamo</option>  
-                    </select>     
+                        <option value="2">Tarjeta de crédito</option>
+                        <option value="3">Préstamo</option>
+                    </select>
                 </div>
 
-                <div id="cuentaAhorro" class="mb-3 d-none";">
-                    <label asp-for="Balance" class="form-label">Saldo: </label>
+                <!-- Campo para Cuenta de Ahorro -->
+                <div id="cuentaAhorro" class="mb-3 d-none">
+                    <label asp-for="Balance" class="form-label">
+                        <i class="bi bi-wallet2"></i> Saldo:
+                    </label>
                     <input asp-for="Balance" class="form-control" />
                 </div>
 
                 <!-- Campo para Tarjeta de Crédito -->
                 <div id="tarjetaCredito" class="mb-3 d-none">
-                    <label asp-for="CreditLimit" class="form-label">Límite de Crédito</label>
+                    <label asp-for="CreditLimit" class="form-label">
+                        <i class="bi bi-credit-card"></i> Límite de Crédito:
+                    </label>
                     <input asp-for="CreditLimit" class="form-control" />
                 </div>
 
                 <!-- Campo para Préstamo -->
                 <div id="prestamo" class="mb-3 d-none">
-                    <label asp-for="AmountOwed" class="form-label">Monto del Préstamo</label>
+                    <label asp-for="AmountOwed" class="form-label">
+                        <i class="bi bi-cash-coin"></i> Monto del Préstamo:
+                    </label>
                     <input asp-for="AmountOwed" class="form-control" />
                 </div>
 
-                <input asp-for="UserId" type="hidden"/>
+                <input asp-for="UserId" type="hidden" />
 
-                <div class="btn-group float-end">
-                    <a asp-route-id="@Model.UserId" asp-action="Product" asp-controller="Product" class="btn btn-warning">Volver atras</a>
-                    <button type="submit" class="btn btn-primary">Guardar</button>
+                
+                <div class="float-end mt-4 p-1">
+                    <a asp-route-id="@Model.UserId" asp-action="Product" asp-controller="Product" class="btn btn-warning">
+                        <i class="bi bi-arrow-left"></i> Volver atrás
+                    </a>
+                    <button type="submit" class="btn btn-primary">
+                        <i class="bi bi-save"></i> Guardar
+                    </button>
                 </div>
             </form>
-
         </div>
     </div>
 </div>

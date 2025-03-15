@@ -41,3 +41,15 @@
     border-left: 4px solid #d9534f;
     color: #721c24;
 }
+
+/*alguito para el product*/
+
+.product {
+    border: 1px solid transparent;
+    border-radius: 12px;
+}
+
+    .product:hover {
+        transition: all 0.3s ease;
+        transform: translateY(-5px);
+    }

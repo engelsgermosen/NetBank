@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NetBank.Core.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ae280eec88d1d7f096b5ff53d0a52f848bcaf492")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a3393641f8880cbcbc5e0e2e586cafba9f7167c8")]
 [assembly: System.Reflection.AssemblyProductAttribute("NetBank.Core.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NetBank.Core.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
