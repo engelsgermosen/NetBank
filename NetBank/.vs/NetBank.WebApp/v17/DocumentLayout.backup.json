@@ -1,9 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\mreng\\OneDrive\\Escritorio\\PracticasP3\\NetBank\\NetBank\\",
+  "WorkspaceRootPath": "C:\\Users\\DELL\\Desktop\\New folder\\NetBank\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F38CEEF2-B199-4BEE-8EFB-9348890CD23C}|NetBank.WebApp\\NetBank.WebApp.csproj|c:\\users\\mreng\\onedrive\\escritorio\\practicasp3\\netbank\\netbank\\netbank.webapp\\views\\transfer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{F38CEEF2-B199-4BEE-8EFB-9348890CD23C}|NetBank.WebApp\\NetBank.WebApp.csproj|c:\\users\\dell\\desktop\\new folder\\netbank\\netbank.webapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F38CEEF2-B199-4BEE-8EFB-9348890CD23C}|NetBank.WebApp\\NetBank.WebApp.csproj|solutionrelative:netbank.webapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F38CEEF2-B199-4BEE-8EFB-9348890CD23C}|NetBank.WebApp\\NetBank.WebApp.csproj|c:\\users\\dell\\desktop\\new folder\\netbank\\netbank.webapp\\views\\transfer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F38CEEF2-B199-4BEE-8EFB-9348890CD23C}|NetBank.WebApp\\NetBank.WebApp.csproj|solutionrelative:netbank.webapp\\views\\transfer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -23,10 +27,23 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\New folder\\NetBank\\NetBank.WebApp\\appsettings.json",
+              "RelativeDocumentMoniker": "NetBank.WebApp\\appsettings.json",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\New folder\\NetBank\\NetBank.WebApp\\appsettings.json",
+              "RelativeToolTip": "NetBank.WebApp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAACJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-15T16:01:17.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\mreng\\OneDrive\\Escritorio\\PracticasP3\\NetBank\\NetBank\\NetBank.WebApp\\Views\\Transfer\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\New folder\\NetBank\\NetBank.WebApp\\Views\\Transfer\\Index.cshtml",
               "RelativeDocumentMoniker": "NetBank.WebApp\\Views\\Transfer\\Index.cshtml",
-              "ToolTip": "C:\\Users\\mreng\\OneDrive\\Escritorio\\PracticasP3\\NetBank\\NetBank\\NetBank.WebApp\\Views\\Transfer\\Index.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\New folder\\NetBank\\NetBank.WebApp\\Views\\Transfer\\Index.cshtml",
               "RelativeToolTip": "NetBank.WebApp\\Views\\Transfer\\Index.cshtml",
               "ViewState": "AgIAAC0AAAAAAAAAAAAAAD4AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
