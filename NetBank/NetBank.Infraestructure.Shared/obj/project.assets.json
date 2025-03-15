@@ -1536,11 +1536,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.Infraestructure.Shared\\NetBank.Infraestructure.Shared.csproj",
+      "projectUniqueName": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.Infraestructure.Shared\\NetBank.Infraestructure.Shared.csproj",
       "projectName": "NetBank.Infraestructure.Shared",
-      "projectPath": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.Infraestructure.Shared\\NetBank.Infraestructure.Shared.csproj",
+      "projectPath": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.Infraestructure.Shared\\NetBank.Infraestructure.Shared.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.Infraestructure.Shared\\obj\\",
+      "outputPath": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.Infraestructure.Shared\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1561,11 +1561,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.Core.Application\\NetBank.Core.Application.csproj": {
-              "projectPath": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.Core.Application\\NetBank.Core.Application.csproj"
+            "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.Core.Application\\NetBank.Core.Application.csproj": {
+              "projectPath": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.Core.Application\\NetBank.Core.Application.csproj"
             },
-            "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.Core.Domain\\NetBank.Core.Domain.csproj": {
-              "projectPath": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.Core.Domain\\NetBank.Core.Domain.csproj"
+            "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.Core.Domain\\NetBank.Core.Domain.csproj": {
+              "projectPath": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.Core.Domain\\NetBank.Core.Domain.csproj"
             }
           }
         }

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.Core.Domain\\NetBank.Core.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.Core.Domain\\NetBank.Core.Domain.csproj",
       "projectName": "NetBank.Core.Domain",
-      "projectPath": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.Core.Domain\\NetBank.Core.Domain.csproj",
+      "projectPath": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.Core.Domain\\NetBank.Core.Domain.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.Core.Domain\\obj\\",
+      "outputPath": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.Core.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
