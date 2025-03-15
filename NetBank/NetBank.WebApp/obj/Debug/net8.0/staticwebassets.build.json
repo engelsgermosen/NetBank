@@ -1,6 +1,10 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "Hash": "p3n+l3T+eHJVQksxoADeC44kgS2tQpYkl96/4B2NTGY=",
+=======
+  "Hash": "w9LlTvQVOJNcyseOHnfCcUjz0AQNzIq4QRHveyGGXrs=",
+>>>>>>> main
   "Source": "NetBank.WebApp",
   "BasePath": "_content/NetBank.WebApp",
   "Mode": "Default",
@@ -10,17 +14,28 @@
     {
       "Name": "NetBank.WebApp\\wwwroot",
       "Source": "NetBank.WebApp",
+<<<<<<< HEAD
       "ContentRoot": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\",
+=======
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\",
+>>>>>>> main
       "BasePath": "_content/NetBank.WebApp",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\NetBank.WebApp.styles.css",
       "SourceId": "NetBank.WebApp",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+=======
+      "Identity": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\NetBank.WebApp.styles.css",
+      "SourceId": "NetBank.WebApp",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+>>>>>>> main
       "BasePath": "_content/NetBank.WebApp",
       "RelativePath": "NetBank.WebApp#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
@@ -35,6 +50,7 @@
       "Integrity": "4wBhz0/ZOSEptleDAGXPZEDZ8lrHKZty41nz0EsSl10=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\NetBank.WebApp.styles.css"
     },
     {
@@ -42,6 +58,15 @@
       "SourceId": "NetBank.WebApp",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+=======
+      "OriginalItemSpec": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\NetBank.WebApp.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\NetBank.WebApp.bundle.scp.css",
+      "SourceId": "NetBank.WebApp",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+>>>>>>> main
       "BasePath": "_content/NetBank.WebApp",
       "RelativePath": "NetBank.WebApp#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
@@ -56,6 +81,7 @@
       "Integrity": "4wBhz0/ZOSEptleDAGXPZEDZ8lrHKZty41nz0EsSl10=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\NetBank.WebApp.bundle.scp.css"
     },
     {
@@ -63,6 +89,15 @@
       "SourceId": "NetBank.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\",
+=======
+      "OriginalItemSpec": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\NetBank.WebApp.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\css\\site.css",
+      "SourceId": "NetBank.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\",
+>>>>>>> main
       "BasePath": "_content/NetBank.WebApp",
       "RelativePath": "css/site#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -80,10 +115,17 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\favicon.ico",
       "SourceId": "NetBank.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\favicon.ico",
+      "SourceId": "NetBank.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\",
+>>>>>>> main
       "BasePath": "_content/NetBank.WebApp",
       "RelativePath": "favicon#[.{fingerprint}]?.ico",
       "AssetKind": "All",
@@ -101,10 +143,17 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\js\\site.js",
       "SourceId": "NetBank.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\js\\site.js",
+      "SourceId": "NetBank.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\",
+>>>>>>> main
       "BasePath": "_content/NetBank.WebApp",
       "RelativePath": "js/site#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -122,10 +171,17 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "NetBank.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "SourceId": "NetBank.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\",
+>>>>>>> main
       "BasePath": "_content/NetBank.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -143,10 +199,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "NetBank.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "SourceId": "NetBank.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\",
+>>>>>>> main
       "BasePath": "_content/NetBank.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -164,10 +227,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "NetBank.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "SourceId": "NetBank.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\",
+>>>>>>> main
       "BasePath": "_content/NetBank.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -185,10 +255,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "NetBank.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "SourceId": "NetBank.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\",
+>>>>>>> main
       "BasePath": "_content/NetBank.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -206,10 +283,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "NetBank.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "SourceId": "NetBank.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\",
+>>>>>>> main
       "BasePath": "_content/NetBank.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -227,10 +311,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "NetBank.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "SourceId": "NetBank.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\",
+>>>>>>> main
       "BasePath": "_content/NetBank.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -248,10 +339,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "NetBank.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "SourceId": "NetBank.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\",
+>>>>>>> main
       "BasePath": "_content/NetBank.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -269,10 +367,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "NetBank.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "SourceId": "NetBank.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\",
+>>>>>>> main
       "BasePath": "_content/NetBank.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -290,10 +395,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "NetBank.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "SourceId": "NetBank.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\",
+>>>>>>> main
       "BasePath": "_content/NetBank.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -311,10 +423,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "NetBank.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "SourceId": "NetBank.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\",
+>>>>>>> main
       "BasePath": "_content/NetBank.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -332,10 +451,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "NetBank.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "SourceId": "NetBank.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\",
+>>>>>>> main
       "BasePath": "_content/NetBank.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -353,10 +479,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "NetBank.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "SourceId": "NetBank.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\",
+>>>>>>> main
       "BasePath": "_content/NetBank.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -374,10 +507,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "NetBank.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "SourceId": "NetBank.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\",
+>>>>>>> main
       "BasePath": "_content/NetBank.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -395,10 +535,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "NetBank.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "SourceId": "NetBank.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\",
+>>>>>>> main
       "BasePath": "_content/NetBank.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -416,10 +563,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "NetBank.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "SourceId": "NetBank.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\",
+>>>>>>> main
       "BasePath": "_content/NetBank.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -437,10 +591,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "NetBank.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "SourceId": "NetBank.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\",
+>>>>>>> main
       "BasePath": "_content/NetBank.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -458,10 +619,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "NetBank.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "SourceId": "NetBank.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\",
+>>>>>>> main
       "BasePath": "_content/NetBank.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -479,10 +647,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "NetBank.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "SourceId": "NetBank.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\",
+>>>>>>> main
       "BasePath": "_content/NetBank.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -500,10 +675,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "NetBank.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "SourceId": "NetBank.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\",
+>>>>>>> main
       "BasePath": "_content/NetBank.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -521,10 +703,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "NetBank.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "SourceId": "NetBank.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\",
+>>>>>>> main
       "BasePath": "_content/NetBank.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -542,10 +731,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "NetBank.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "SourceId": "NetBank.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\",
+>>>>>>> main
       "BasePath": "_content/NetBank.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -563,10 +759,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "NetBank.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "SourceId": "NetBank.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\",
+>>>>>>> main
       "BasePath": "_content/NetBank.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -584,10 +787,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "NetBank.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "SourceId": "NetBank.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\",
+>>>>>>> main
       "BasePath": "_content/NetBank.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -605,10 +815,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "NetBank.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "SourceId": "NetBank.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\",
+>>>>>>> main
       "BasePath": "_content/NetBank.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -626,10 +843,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "NetBank.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "SourceId": "NetBank.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\",
+>>>>>>> main
       "BasePath": "_content/NetBank.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -647,10 +871,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "NetBank.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "SourceId": "NetBank.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\",
+>>>>>>> main
       "BasePath": "_content/NetBank.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -668,10 +899,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "NetBank.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "SourceId": "NetBank.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\",
+>>>>>>> main
       "BasePath": "_content/NetBank.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -689,10 +927,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "NetBank.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "SourceId": "NetBank.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\",
+>>>>>>> main
       "BasePath": "_content/NetBank.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -710,10 +955,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "NetBank.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "SourceId": "NetBank.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\",
+>>>>>>> main
       "BasePath": "_content/NetBank.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -731,10 +983,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "NetBank.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "SourceId": "NetBank.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\",
+>>>>>>> main
       "BasePath": "_content/NetBank.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -752,10 +1011,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "NetBank.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "SourceId": "NetBank.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\",
+>>>>>>> main
       "BasePath": "_content/NetBank.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -773,10 +1039,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "NetBank.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "SourceId": "NetBank.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\",
+>>>>>>> main
       "BasePath": "_content/NetBank.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -794,10 +1067,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "NetBank.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "SourceId": "NetBank.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\",
+>>>>>>> main
       "BasePath": "_content/NetBank.WebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -815,10 +1095,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "NetBank.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "SourceId": "NetBank.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\",
+>>>>>>> main
       "BasePath": "_content/NetBank.WebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -836,10 +1123,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "NetBank.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "SourceId": "NetBank.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\",
+>>>>>>> main
       "BasePath": "_content/NetBank.WebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -857,10 +1151,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "NetBank.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "SourceId": "NetBank.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\",
+>>>>>>> main
       "BasePath": "_content/NetBank.WebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -878,10 +1179,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "NetBank.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "SourceId": "NetBank.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\",
+>>>>>>> main
       "BasePath": "_content/NetBank.WebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -899,10 +1207,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "NetBank.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "SourceId": "NetBank.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\",
+>>>>>>> main
       "BasePath": "_content/NetBank.WebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -920,10 +1235,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "NetBank.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "SourceId": "NetBank.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\",
+>>>>>>> main
       "BasePath": "_content/NetBank.WebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -941,10 +1263,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "NetBank.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "SourceId": "NetBank.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\",
+>>>>>>> main
       "BasePath": "_content/NetBank.WebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -962,10 +1291,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "NetBank.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "SourceId": "NetBank.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\",
+>>>>>>> main
       "BasePath": "_content/NetBank.WebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -983,10 +1319,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "NetBank.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "SourceId": "NetBank.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\",
+>>>>>>> main
       "BasePath": "_content/NetBank.WebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1004,10 +1347,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "NetBank.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "SourceId": "NetBank.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\",
+>>>>>>> main
       "BasePath": "_content/NetBank.WebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1025,10 +1375,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "NetBank.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "SourceId": "NetBank.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\",
+>>>>>>> main
       "BasePath": "_content/NetBank.WebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1046,10 +1403,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "NetBank.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "SourceId": "NetBank.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\",
+>>>>>>> main
       "BasePath": "_content/NetBank.WebApp",
       "RelativePath": "lib/bootstrap/LICENSE#[.{fingerprint}]?",
       "AssetKind": "All",
@@ -1067,10 +1431,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "NetBank.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "SourceId": "NetBank.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\",
+>>>>>>> main
       "BasePath": "_content/NetBank.WebApp",
       "RelativePath": "lib/jquery/dist/jquery#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1088,10 +1459,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "NetBank.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "SourceId": "NetBank.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\",
+>>>>>>> main
       "BasePath": "_content/NetBank.WebApp",
       "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1109,10 +1487,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "NetBank.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "SourceId": "NetBank.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\",
+>>>>>>> main
       "BasePath": "_content/NetBank.WebApp",
       "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1130,10 +1515,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "NetBank.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "SourceId": "NetBank.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\",
+>>>>>>> main
       "BasePath": "_content/NetBank.WebApp",
       "RelativePath": "lib/jquery/LICENSE#[.{fingerprint}]?.txt",
       "AssetKind": "All",
@@ -1151,10 +1543,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "NetBank.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "SourceId": "NetBank.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\",
+>>>>>>> main
       "BasePath": "_content/NetBank.WebApp",
       "RelativePath": "lib/jquery-validation/dist/additional-methods#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1172,10 +1571,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "NetBank.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "SourceId": "NetBank.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\",
+>>>>>>> main
       "BasePath": "_content/NetBank.WebApp",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1193,10 +1599,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "NetBank.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "SourceId": "NetBank.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\",
+>>>>>>> main
       "BasePath": "_content/NetBank.WebApp",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1214,10 +1627,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "NetBank.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "SourceId": "NetBank.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\",
+>>>>>>> main
       "BasePath": "_content/NetBank.WebApp",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1235,10 +1655,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "NetBank.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "SourceId": "NetBank.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\",
+>>>>>>> main
       "BasePath": "_content/NetBank.WebApp",
       "RelativePath": "lib/jquery-validation/LICENSE#[.{fingerprint}]?.md",
       "AssetKind": "All",
@@ -1256,10 +1683,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "NetBank.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "SourceId": "NetBank.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\",
+>>>>>>> main
       "BasePath": "_content/NetBank.WebApp",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1277,10 +1711,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "NetBank.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "SourceId": "NetBank.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\",
+>>>>>>> main
       "BasePath": "_content/NetBank.WebApp",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1298,10 +1739,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "NetBank.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "SourceId": "NetBank.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\",
+>>>>>>> main
       "BasePath": "_content/NetBank.WebApp",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE#[.{fingerprint}]?.txt",
       "AssetKind": "All",
@@ -1322,7 +1770,11 @@
   "Endpoints": [
     {
       "Route": "css/site.aigktnoqq4.css",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\css\\site.css",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\css\\site.css",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1343,7 +1795,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 20:33:15 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -1367,7 +1823,11 @@
     },
     {
       "Route": "css/site.css",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\css\\site.css",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\css\\site.css",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1388,7 +1848,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 20:33:15 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -1404,7 +1868,11 @@
     },
     {
       "Route": "favicon.61n19gt1b8.ico",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\favicon.ico",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\favicon.ico",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1425,7 +1893,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -1449,7 +1921,11 @@
     },
     {
       "Route": "favicon.ico",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\favicon.ico",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\favicon.ico",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1470,7 +1946,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -1486,7 +1966,11 @@
     },
     {
       "Route": "js/site.04kdrt9q58.js",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\js\\site.js",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\js\\site.js",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1507,7 +1991,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -1531,7 +2019,11 @@
     },
     {
       "Route": "js/site.js",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\js\\site.js",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\js\\site.js",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1552,7 +2044,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -1568,7 +2064,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1589,7 +2089,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -1605,7 +2109,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css.73kdqttayv.map",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1626,7 +2134,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -1650,7 +2162,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css.map",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1671,7 +2187,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -1687,7 +2207,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.6gzpyzhau4.css",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1708,7 +2232,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -1732,7 +2260,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1753,7 +2285,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -1769,7 +2305,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css.8inm30yfxf.map",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1790,7 +2330,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -1814,7 +2358,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css.map",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1835,7 +2383,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -1851,7 +2403,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.ozu22stjof.css",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1872,7 +2428,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -1896,7 +2456,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1917,7 +2481,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -1933,7 +2501,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.4gxs3k148c.map",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1954,7 +2526,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -1978,7 +2554,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1999,7 +2579,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -2015,7 +2599,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.gjcw7pocpk.css",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2036,7 +2624,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -2060,7 +2652,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.6l4ir0ityv.css",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2081,7 +2677,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -2105,7 +2705,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2126,7 +2730,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -2142,7 +2750,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.fctod5rc9n.map",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2163,7 +2775,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -2187,7 +2803,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2208,7 +2828,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -2224,7 +2848,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2245,7 +2873,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -2261,7 +2893,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2282,7 +2918,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -2298,7 +2938,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css.st1cbwfwo5.map",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2319,7 +2963,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -2343,7 +2991,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.5p029spbuu.css",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2364,7 +3016,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -2388,7 +3044,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2409,7 +3069,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -2425,7 +3089,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css.5vj65cig9w.map",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2446,7 +3114,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -2470,7 +3142,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2491,7 +3167,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -2507,7 +3187,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.nakmwdwsxp.css",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2528,7 +3212,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -2552,7 +3240,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2573,7 +3265,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -2589,7 +3285,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.2q4vfeazbq.map",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2610,7 +3310,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -2634,7 +3338,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2655,7 +3363,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -2671,7 +3383,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.e6q6xbwqzk.css",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2692,7 +3408,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -2716,7 +3436,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2737,7 +3461,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -2753,7 +3481,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2774,7 +3506,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -2790,7 +3526,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.o371a8zbv2.map",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2811,7 +3551,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -2835,7 +3579,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.dy6jgresuo.css",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2856,7 +3604,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -2880,7 +3632,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2901,7 +3657,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -2917,7 +3677,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css.jeal3x0ldm.map",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2938,7 +3702,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -2962,7 +3730,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2983,7 +3755,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -2999,7 +3775,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3020,7 +3800,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -3036,7 +3820,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3057,7 +3845,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -3073,7 +3865,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.okkk44j0xs.map",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3094,7 +3890,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -3118,7 +3918,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.z7kmom2977.css",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3139,7 +3943,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -3163,7 +3971,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.mk8rdyw69w.css",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3184,7 +3996,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -3208,7 +4024,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.97yrjpyf9r.css",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3229,7 +4049,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -3253,7 +4077,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3274,7 +4102,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -3290,7 +4122,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.cwzlr5n8x4.map",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3311,7 +4147,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -3335,7 +4175,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3356,7 +4200,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -3372,7 +4220,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3393,7 +4245,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -3409,7 +4265,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3430,7 +4290,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -3446,7 +4310,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.wmug9u23qg.map",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3467,7 +4335,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -3491,7 +4363,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.y53cy5s2zj.css",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3512,7 +4388,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -3536,7 +4416,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3557,7 +4441,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -3573,7 +4461,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css.j75batdsum.map",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3594,7 +4486,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -3618,7 +4514,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3639,7 +4539,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -3655,7 +4559,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.2yn17lgxub.css",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3676,7 +4584,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -3700,7 +4612,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3721,7 +4637,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -3737,7 +4657,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3758,7 +4682,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -3774,7 +4702,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.vy0bq9ydhf.map",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3795,7 +4727,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -3819,7 +4755,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3840,7 +4780,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -3856,7 +4800,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.ab1c3rmv7g.map",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3877,7 +4825,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -3901,7 +4853,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3922,7 +4878,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -3938,7 +4898,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3959,7 +4923,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -3975,7 +4943,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.56d2bn4wt9.map",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3996,7 +4968,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -4020,7 +4996,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4041,7 +5021,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -4057,7 +5041,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.ik6i2hrs65.css",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4078,7 +5066,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -4102,7 +5094,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.ophe14yye5.css",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4123,7 +5119,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -4147,7 +5147,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.z9shlbduue.css",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4168,7 +5172,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -4192,7 +5200,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.1piudyfv7h.js",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4213,7 +5225,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -4237,7 +5253,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.f6zq8v6eb3.js",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4258,7 +5278,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -4282,7 +5306,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4303,7 +5331,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -4319,7 +5351,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js.kbynt5jhd9.map",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4340,7 +5376,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -4364,7 +5404,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4385,7 +5429,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -4401,7 +5449,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.89qbw8ngem.js",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4422,7 +5474,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -4446,7 +5502,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4467,7 +5527,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -4483,7 +5547,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.c2nslu3uf3.map",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4504,7 +5572,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -4528,7 +5600,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4549,7 +5625,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -4565,7 +5645,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4586,7 +5670,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -4602,7 +5690,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js.2lgwfvgpvi.map",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4623,7 +5715,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -4647,7 +5743,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4668,7 +5768,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -4684,7 +5788,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.jqwzsa9uv6.js",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4705,7 +5813,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -4729,7 +5841,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4750,7 +5866,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -4766,7 +5886,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4787,7 +5911,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -4803,7 +5931,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js.wsezl0heh6.map",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4824,7 +5956,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -4848,7 +5984,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.n5w6o92d9r.js",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4869,7 +6009,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -4893,7 +6037,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4914,7 +6062,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -4930,7 +6082,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js.6ukhryfubh.map",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4951,7 +6107,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -4975,7 +6135,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js.map",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4996,7 +6160,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -5012,7 +6180,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.4908xmbfjr.js",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5033,7 +6205,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -5057,7 +6233,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5078,7 +6258,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -5094,7 +6278,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js.map",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5115,7 +6303,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -5131,7 +6323,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js.u33ctipx7g.map",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5152,7 +6348,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -5176,7 +6376,11 @@
     },
     {
       "Route": "lib/bootstrap/LICENSE",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\LICENSE",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\LICENSE",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5197,7 +6401,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -5213,7 +6421,11 @@
     },
     {
       "Route": "lib/bootstrap/LICENSE.81b7ukuj9c",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\LICENSE",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\bootstrap\\LICENSE",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5234,7 +6446,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -5258,7 +6474,11 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.7s2n0ol71w.js",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5279,7 +6499,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -5303,7 +6527,11 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.js",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5324,7 +6552,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -5340,7 +6572,11 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.5pze98is44.map",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5361,7 +6597,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -5385,7 +6625,11 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.ehgnz7f14e.js",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5406,7 +6650,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -5430,7 +6678,11 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.js",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5451,7 +6703,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -5467,7 +6723,11 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.map",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5488,7 +6748,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -5504,7 +6768,11 @@
     },
     {
       "Route": "lib/jquery/LICENSE.mlv21k5csn.txt",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5525,7 +6793,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -5549,7 +6821,11 @@
     },
     {
       "Route": "lib/jquery/LICENSE.txt",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5570,7 +6846,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -5586,7 +6866,11 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.ay5nd8zt9x.js",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5607,7 +6891,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -5631,7 +6919,11 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.js",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5652,7 +6944,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -5668,7 +6964,11 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.min.9oaff4kq20.js",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5689,7 +6989,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -5713,7 +7017,11 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.min.js",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5734,7 +7042,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -5750,7 +7062,11 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.6d0lkjaslc.js",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5771,7 +7087,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -5795,7 +7115,11 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.js",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5816,7 +7140,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -5832,7 +7160,11 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.min.js",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5853,7 +7185,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -5869,7 +7205,11 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.min.l1zq2mitth.js",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5890,7 +7230,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -5914,7 +7258,11 @@
     },
     {
       "Route": "lib/jquery-validation/LICENSE.md",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5935,7 +7283,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -5951,7 +7303,11 @@
     },
     {
       "Route": "lib/jquery-validation/LICENSE.x0q3zqp4vz.md",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5972,7 +7328,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -5996,7 +7356,11 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.03hjc8e09r.js",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6017,7 +7381,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -6041,7 +7409,11 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6062,7 +7434,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -6078,7 +7454,11 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.48y08845bh.js",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6099,7 +7479,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -6123,7 +7507,11 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6144,7 +7532,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -6160,7 +7552,11 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/LICENSE.356vix0kms.txt",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6181,7 +7577,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -6205,7 +7605,11 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/LICENSE.txt",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6226,7 +7630,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 04:03:26 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -6242,7 +7650,11 @@
     },
     {
       "Route": "NetBank.WebApp.bundle.scp.css",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\NetBank.WebApp.bundle.scp.css",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\NetBank.WebApp.bundle.scp.css",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6263,7 +7675,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 20:45:03 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -6279,7 +7695,11 @@
     },
     {
       "Route": "NetBank.WebApp.styles.css",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\NetBank.WebApp.styles.css",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\NetBank.WebApp.styles.css",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6300,7 +7720,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 20:45:03 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -6316,7 +7740,11 @@
     },
     {
       "Route": "NetBank.WebApp.v9gmp7tg9t.bundle.scp.css",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\NetBank.WebApp.bundle.scp.css",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\NetBank.WebApp.bundle.scp.css",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6337,7 +7765,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 20:45:03 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",
@@ -6361,7 +7793,11 @@
     },
     {
       "Route": "NetBank.WebApp.v9gmp7tg9t.styles.css",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\NetBank.WebApp.styles.css",
+=======
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\NetBank.WebApp.styles.css",
+>>>>>>> main
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6382,7 +7818,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 20:45:03 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 21:06:40 GMT"
+>>>>>>> main
         },
         {
           "Name": "Cache-Control",

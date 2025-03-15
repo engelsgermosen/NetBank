@@ -1,10 +1,30 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "WorkspaceRootPath": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\",
   "Documents": [
     {
       "AbsoluteMoniker": "D:0:0:{F38CEEF2-B199-4BEE-8EFB-9348890CD23C}|NetBank.WebApp\\NetBank.WebApp.csproj|c:\\users\\dell\\desktop\\1\\netbank\\netbank.webapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{F38CEEF2-B199-4BEE-8EFB-9348890CD23C}|NetBank.WebApp\\NetBank.WebApp.csproj|solutionrelative:netbank.webapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+=======
+  "WorkspaceRootPath": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F38CEEF2-B199-4BEE-8EFB-9348890CD23C}|NetBank.WebApp\\NetBank.WebApp.csproj|c:\\users\\dell\\desktop\\2\\netbank\\netbank.webapp\\views\\admin\\main.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F38CEEF2-B199-4BEE-8EFB-9348890CD23C}|NetBank.WebApp\\NetBank.WebApp.csproj|solutionrelative:netbank.webapp\\views\\admin\\main.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F38CEEF2-B199-4BEE-8EFB-9348890CD23C}|NetBank.WebApp\\NetBank.WebApp.csproj|c:\\users\\dell\\desktop\\2\\netbank\\netbank.webapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F38CEEF2-B199-4BEE-8EFB-9348890CD23C}|NetBank.WebApp\\NetBank.WebApp.csproj|solutionrelative:netbank.webapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F38CEEF2-B199-4BEE-8EFB-9348890CD23C}|NetBank.WebApp\\NetBank.WebApp.csproj|c:\\users\\dell\\desktop\\2\\netbank\\netbank.webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F38CEEF2-B199-4BEE-8EFB-9348890CD23C}|NetBank.WebApp\\NetBank.WebApp.csproj|solutionrelative:netbank.webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F38CEEF2-B199-4BEE-8EFB-9348890CD23C}|NetBank.WebApp\\NetBank.WebApp.csproj|c:\\users\\dell\\desktop\\2\\netbank\\netbank.webapp\\middlewares\\loginauthorize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F38CEEF2-B199-4BEE-8EFB-9348890CD23C}|NetBank.WebApp\\NetBank.WebApp.csproj|solutionrelative:netbank.webapp\\middlewares\\loginauthorize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> main
     }
   ],
   "DocumentGroupContainers": [
@@ -19,6 +39,7 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+<<<<<<< HEAD
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\NetBank.WebApp\\appsettings.json",
               "RelativeDocumentMoniker": "NetBank.WebApp\\appsettings.json",
@@ -27,6 +48,55 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-03-13T20:43:46.498Z",
+=======
+              "Title": "Main.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\Views\\Admin\\Main.cshtml",
+              "RelativeDocumentMoniker": "NetBank.WebApp\\Views\\Admin\\Main.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\Views\\Admin\\Main.cshtml",
+              "RelativeToolTip": "NetBank.WebApp\\Views\\Admin\\Main.cshtml",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAYwJAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-13T21:14:00.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\appsettings.json",
+              "RelativeDocumentMoniker": "NetBank.WebApp\\appsettings.json",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\appsettings.json",
+              "RelativeToolTip": "NetBank.WebApp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAACJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-13T21:07:24.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\Program.cs",
+              "RelativeDocumentMoniker": "NetBank.WebApp\\Program.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\Program.cs",
+              "RelativeToolTip": "NetBank.WebApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T21:07:21.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginAuthorize.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\Middlewares\\LoginAuthorize.cs",
+              "RelativeDocumentMoniker": "NetBank.WebApp\\Middlewares\\LoginAuthorize.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.WebApp\\Middlewares\\LoginAuthorize.cs",
+              "RelativeToolTip": "NetBank.WebApp\\Middlewares\\LoginAuthorize.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAD4vxwAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T20:21:46.035Z",
+>>>>>>> main
               "EditorCaption": ""
             }
           ]
