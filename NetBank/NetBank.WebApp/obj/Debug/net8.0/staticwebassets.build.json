@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "50GsU98jdDPErAkyWFgWQCuA5X7dXBQ9m11F18WCNkc=",
+  "Hash": "RVfgbaOcdQR5bjhMhsjCsxm4T5FarYu9H7Tc9NJom+0=",
   "Source": "NetBank.WebApp",
   "BasePath": "_content/NetBank.WebApp",
   "Mode": "Default",
@@ -59,6 +59,27 @@
       "OriginalItemSpec": "C:\\Users\\mreng\\OneDrive\\Escritorio\\PracticasP3\\NetBank\\NetBank\\NetBank.WebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\NetBank.WebApp.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\mreng\\OneDrive\\Escritorio\\PracticasP3\\NetBank\\NetBank\\NetBank.WebApp\\wwwroot\\css\\Register.css",
+      "SourceId": "NetBank.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mreng\\OneDrive\\Escritorio\\PracticasP3\\NetBank\\NetBank\\NetBank.WebApp\\wwwroot\\",
+      "BasePath": "_content/NetBank.WebApp",
+      "RelativePath": "css/Register#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "97msht9gds",
+      "Integrity": "m8sa7wsJJCLLvk4O4IoZ01fdP4ZrsKyfFHKbEWhsaAo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Register.css"
+    },
+    {
       "Identity": "C:\\Users\\mreng\\OneDrive\\Escritorio\\PracticasP3\\NetBank\\NetBank\\NetBank.WebApp\\wwwroot\\css\\site.css",
       "SourceId": "NetBank.WebApp",
       "SourceType": "Discovered",
@@ -73,8 +94,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "aigktnoqq4",
-      "Integrity": "kolww+984AVqrvUZ2CwtlIbfpI7bQwztXJ7OV6929jw=",
+      "Fingerprint": "2m0g9zmwyc",
+      "Integrity": "5iPEQ8T9rk/aotT9OVFyHk/XCPvzNaPQnzY4pXr6q0I=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -1321,8 +1342,8 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.aigktnoqq4.css",
-      "AssetFile": "C:\\Users\\mreng\\OneDrive\\Escritorio\\PracticasP3\\NetBank\\NetBank\\NetBank.WebApp\\wwwroot\\css\\site.css",
+      "Route": "css/Register.97msht9gds.css",
+      "AssetFile": "C:\\Users\\mreng\\OneDrive\\Escritorio\\PracticasP3\\NetBank\\NetBank\\NetBank.WebApp\\wwwroot\\css\\Register.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1331,7 +1352,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2510"
+          "Value": "799"
         },
         {
           "Name": "Content-Type",
@@ -1339,11 +1360,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"kolww+984AVqrvUZ2CwtlIbfpI7bQwztXJ7OV6929jw=\""
+          "Value": "\"m8sa7wsJJCLLvk4O4IoZ01fdP4ZrsKyfFHKbEWhsaAo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 19:16:42 GMT"
+          "Value": "Sat, 15 Mar 2025 15:50:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1353,7 +1374,89 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "aigktnoqq4"
+          "Value": "97msht9gds"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Register.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-m8sa7wsJJCLLvk4O4IoZ01fdP4ZrsKyfFHKbEWhsaAo="
+        }
+      ]
+    },
+    {
+      "Route": "css/Register.css",
+      "AssetFile": "C:\\Users\\mreng\\OneDrive\\Escritorio\\PracticasP3\\NetBank\\NetBank\\NetBank.WebApp\\wwwroot\\css\\Register.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "799"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m8sa7wsJJCLLvk4O4IoZ01fdP4ZrsKyfFHKbEWhsaAo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 15:50:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-m8sa7wsJJCLLvk4O4IoZ01fdP4ZrsKyfFHKbEWhsaAo="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.2m0g9zmwyc.css",
+      "AssetFile": "C:\\Users\\mreng\\OneDrive\\Escritorio\\PracticasP3\\NetBank\\NetBank\\NetBank.WebApp\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2540"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5iPEQ8T9rk/aotT9OVFyHk/XCPvzNaPQnzY4pXr6q0I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 15:55:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2m0g9zmwyc"
         },
         {
           "Name": "label",
@@ -1361,7 +1464,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-kolww+984AVqrvUZ2CwtlIbfpI7bQwztXJ7OV6929jw="
+          "Value": "sha256-5iPEQ8T9rk/aotT9OVFyHk/XCPvzNaPQnzY4pXr6q0I="
         }
       ]
     },
@@ -1376,7 +1479,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2510"
+          "Value": "2540"
         },
         {
           "Name": "Content-Type",
@@ -1384,11 +1487,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"kolww+984AVqrvUZ2CwtlIbfpI7bQwztXJ7OV6929jw=\""
+          "Value": "\"5iPEQ8T9rk/aotT9OVFyHk/XCPvzNaPQnzY4pXr6q0I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 19:16:42 GMT"
+          "Value": "Sat, 15 Mar 2025 15:55:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1398,7 +1501,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-kolww+984AVqrvUZ2CwtlIbfpI7bQwztXJ7OV6929jw="
+          "Value": "sha256-5iPEQ8T9rk/aotT9OVFyHk/XCPvzNaPQnzY4pXr6q0I="
         }
       ]
     },
@@ -6263,7 +6366,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 14 Mar 2025 15:42:05 GMT"
+          "Value": "Sat, 15 Mar 2025 15:51:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6300,7 +6403,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 14 Mar 2025 15:42:05 GMT"
+          "Value": "Sat, 15 Mar 2025 15:51:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6337,7 +6440,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 14 Mar 2025 15:42:05 GMT"
+          "Value": "Sat, 15 Mar 2025 15:51:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6382,7 +6485,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 14 Mar 2025 15:42:05 GMT"
+          "Value": "Sat, 15 Mar 2025 15:51:18 GMT"
         },
         {
           "Name": "Cache-Control",
