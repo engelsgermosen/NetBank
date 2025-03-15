@@ -74,7 +74,9 @@ html {
 }
 
 
-
+main{
+    min-height:80vh;
+}
 
 
 .bank-footer {

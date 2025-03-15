@@ -1,0 +1,43 @@
+﻿.bank-card {
+    border: 2px solid #0F2A3D;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+
+.bank-card-header {
+    background-color: #0F2A3D;
+}
+
+
+.bank-input {
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    padding: 0.75rem 1.25rem;
+    transition: all 0.3s ease;
+}
+
+    .bank-input:focus {
+        border-color: #D4A418;
+        box-shadow: 0 0 0 3px rgba(212, 164, 24, 0.1);
+    }
+
+.bank-btn-primary {
+    background: #0F2A3D;
+    border: 2px solid #D4A418;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+}
+
+    .bank-btn-primary:hover {
+        background: #D4A418;
+        color: #0F2A3D !important;
+        transform: translateY(-2px);
+    }
+
+.alert-danger {
+    background: #f8d7da;
+    border-left: 4px solid #d9534f;
+    color: #721c24;
+}
