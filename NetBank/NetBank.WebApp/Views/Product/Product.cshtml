@@ -13,19 +13,19 @@
         @if (!string.IsNullOrWhiteSpace(ViewBag.Message))
         {
             <div class="col-12 col-lg-8 mx-auto alert text-dark @ViewBag.MessageType" role="alert">
-                @ViewBag.Message
+                <i class="bi bi-info-circle-fill text-primary me-2"></i> @ViewBag.Message
             </div>
         }
     </div>
 
     <!-- Botón para agregar producto -->
     <div class="row mb-3">
-        <div class="col-12">
+        <div class="col-12 ">
             <a asp-action="Create"
                asp-controller="Product"
                asp-route-userId="@Model?.FirstOrDefault()?.UserId"
-               class="btn btn-primary float-end">
-                Agregar producto
+               class="btn bank-btn-pagos-primary text-white float-end">
+                <i class="bi bi-plus-lg"></i> Agregar producto
             </a>
         </div>
     </div>
@@ -37,9 +37,9 @@
             @foreach (var i in Model)
             {
                 <div class="col-12 col-md-6 col-lg-4">
-                    <div class="card shadow-sm h-100">
-                        <div class="card-header d-flex justify-content-between align-items-center">
-                            <h5 class="mb-0">@i.ProductType</h5>
+                    <div class="card shadow-lg h-100 pagos-card product">
+                        <div class="card-header d-flex justify-content-between align-items-center bank-pagos-header text-white">
+                            <h5 class="mb-0"><i class="bi bi-bank text-white"></i> @i.ProductType</h5>
                             @if (i.ProductType == ProductType.CuentaAhorro && i.IsMain)
                             {
                                 <span class="bg-success text-white p-2 rounded">Principal</span>

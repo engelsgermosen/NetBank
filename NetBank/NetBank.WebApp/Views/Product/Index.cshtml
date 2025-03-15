@@ -7,29 +7,36 @@
 }
 
 <div class="container my-5">
-    <h2 class="text-center mb-4">Mis Productos</h2>
+    <h2 class="text-center mb-4 p-3 text-white border rounded shadow-sm bank-pagos-header">
+        <i class="bi bi-card-list text-info"></i> Mis Productos
+    </h2>
+
+
     <div class="row">
         @if (!string.IsNullOrWhiteSpace(ViewBag.Message))
         {
-            <div class="col-10 col-md-5 mx-auto alert text-dark @ViewBag.MessageType" role="alert">
-                @ViewBag.Message
+            <div class="col-10 col-md-5 mx-auto alert alert-light text-dark border border-primary" role="alert">
+                <i class="bi bi-info-circle-fill text-primary me-2"></i> @ViewBag.Message
             </div>
+
         }
     </div>
+
     @if (Model != null && Model.Any())
     {
         <div class="row row-cols-1 row-cols-md-3 g-4">
             @foreach (var product in Model)
             {
                 <div class="col">
-                    <div class="card h-100 shadow-sm">
-
+                    <div class="card h-100 shadow-lg product">
 
                         @switch (product.ProductType)
                         {
                             case ProductType.CuentaAhorro:
-                                <div class="card-header bg-success text-center text-white">
-                                    <h3>Cuenta de Ahorro</h3>
+                                <div class="card-header bg-success text-white text-center p-3">
+                                    <h3 class="mb-0 text-uppercase">
+                                        <i class="bi bi-piggy-bank me-2"></i> Cuenta de Ahorro
+                                    </h3>
                                 </div>
                                 <div class="card-body">
                                     <h5 class="card-title">
@@ -53,8 +60,10 @@
                                 break;
 
                             case ProductType.CreditCard:
-                                <div class="card-header bg-primary text-center text-white">
-                                    <h3>Tarjeta de Credito</h3>
+                                <div class="card-header bg-primary text-white text-center p-3">
+                                    <h3 class="mb-0 text-uppercase">
+                                        <i class="bi bi-credit-card-2-front me-2"></i> Tarjeta de Crédito
+                                    </h3>
                                 </div>
 
                                 <div class="card-body">
@@ -65,7 +74,6 @@
                                         }
                                     </h5>
 
-
                                     @if (product.CreditLimit.HasValue)
                                     {
                                         <p class="card-text">
@@ -73,17 +81,19 @@
                                         </p>
                                     }
                                     <p class="card-text">
-                                        <strong>Disponible:</strong> @((product.CreditLimit - product.AmountOwed) <= 0 ? 0 : (product.CreditLimit - product.AmountOwed))
+                                        <strong>Disponible:</strong> @((product.CreditLimit - product.AmountOwed) <= 0 ? 0 : (product.CreditLimit - product.AmountOwed)) DOP
                                     </p>
                                     <p class="card-text">
-                                        <strong>Usted debe:</strong> @product.AmountOwed
+                                        <strong>Usted debe:</strong> @product.AmountOwed DOP
                                     </p>
                                 </div>
                                 break;
 
                             case ProductType.Prestamo:
-                                <div class="card-header bg-secondary text-center text-white">
-                                    <h3>Prestamos</h3>
+                                <div class="card-header bg-danger text-white text-center p-3">
+                                    <h3 class="mb-0 text-uppercase">
+                                        <i class="bi bi-cash-coin me-2"></i> Préstamo
+                                    </h3>
                                 </div>
 
                                 <div class="card-body">
@@ -105,16 +115,11 @@
                                         </p>
                                     }
                                 </div>
-                            break;
-                        
+                                break;
                         }
 
-                        
                         <div class="card-footer text-muted">
-                            @*agregue un cambio aqui de mientras que es mostrar el numero de cuenta, ya que de mientras el numero de cuenta al ser unico sera tambien
-                                su identificador unico, el cambio es mostra el numero de cuenta en vez del id
-                            *@
-                            Numero de cuenta: @product.AccountNumber
+                            <strong>Número de cuenta:</strong> @product.AccountNumber
                         </div>
                     </div>
                 </div>
@@ -123,8 +128,9 @@
     }
     else
     {
-        <div class="alert alert-info" role="alert">
-            No hay productos disponibles para este usuario.
+        <div class="col-10 col-md-5 mx-auto alert alert-light text-dark border border-primary" role="alert">
+            <i class="bi bi-info-circle-fill text-primary me-2"></i> No hay productos disponibles para este usuario.
         </div>
+
     }
 </div>
