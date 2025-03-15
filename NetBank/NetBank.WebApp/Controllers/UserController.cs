@@ -120,8 +120,12 @@ namespace NetBank.WebApp.Controllers
         [HttpPost]
         public async Task<IActionResult> Edit(UpdateUserViewModel userVm)
         {
-            ModelState.Remove(nameof(userVm.Password));
-            ModelState.Remove(nameof(userVm.ConfirmPassword));
+            if(string.IsNullOrWhiteSpace(userVm.Password) || string.IsNullOrWhiteSpace(userVm.ConfirmPassword))
+            {
+                ModelState.Remove(nameof(userVm.Password));
+                ModelState.Remove(nameof(userVm.ConfirmPassword));
+            }
+            
 
             if (!ModelState.IsValid)
             {

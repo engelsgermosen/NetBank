@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "8SMNcjkSzhw=",
   "success": true,
   "projectFilePath": "C:\\Users\\DELL\\Desktop\\2\\NetBank\\NetBank.Core.Domain\\NetBank.Core.Domain.csproj",
+=======
+  "dgSpecHash": "3Vtp7z/ev5o=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mreng\\OneDrive\\Escritorio\\PracticasP3\\NetBank\\NetBank\\NetBank.Core.Domain\\NetBank.Core.Domain.csproj",
+>>>>>>> 34590df58e9f2c14e79e1a67f054416d1d196271
   "expectedPackageFiles": [],
   "logs": []
 }

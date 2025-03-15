@@ -8,13 +8,11 @@
 
 <div class="container mt-4">
     <div class="card shadow-sm">
-        <!-- Encabezado de la card -->
         <div class="card-header d-flex justify-content-between align-items-center">
             <h4 class="mb-0">Administración de usuarios</h4>
             <a asp-action="Register" asp-controller="User" class="btn btn-primary">Crear usuario</a>
         </div>
 
-        <!-- Cuerpo de la card -->
         <div class="card-body">
             @if (ViewBag.HasError)
             {

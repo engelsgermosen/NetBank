@@ -1,6 +1,7 @@
 {
   "Version": 1,
 <<<<<<< HEAD
+<<<<<<< HEAD
   "WorkspaceRootPath": "C:\\Users\\DELL\\Desktop\\1\\NetBank\\",
   "Documents": [
     {
@@ -27,6 +28,10 @@
 >>>>>>> main
     }
   ],
+=======
+  "WorkspaceRootPath": "C:\\Users\\mreng\\OneDrive\\Escritorio\\PracticasP3\\NetBank\\NetBank\\",
+  "Documents": [],
+>>>>>>> 34590df58e9f2c14e79e1a67f054416d1d196271
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -34,9 +39,10 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": -1,
           "Children": [
             {
+<<<<<<< HEAD
               "$type": "Document",
               "DocumentIndex": 0,
 <<<<<<< HEAD
@@ -98,6 +104,10 @@
               "WhenOpened": "2025-03-13T20:21:46.035Z",
 >>>>>>> main
               "EditorCaption": ""
+=======
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+>>>>>>> 34590df58e9f2c14e79e1a67f054416d1d196271
             }
           ]
         }

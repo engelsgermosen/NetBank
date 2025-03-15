@@ -11,7 +11,6 @@
         public string Email { get; set; }
         public string UserName { get; set; }
 
-        public string OldPass { get; set; }
         public string Password { get; set; }
 
         public decimal? AditionalAmount { get; set; }

@@ -12,8 +12,8 @@ using NetBank.Infraestructure.Persistence.Context;
 namespace NetBank.Infraestructure.Persistence.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250313182437_InitialMigration")]
-    partial class InitialMigration
+    [Migration("20250314014706_InitialMigraiton")]
+    partial class InitialMigraiton
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -103,6 +103,9 @@ namespace NetBank.Infraestructure.Persistence.Migrations
 
                     b.Property<decimal?>("CreditLimit")
                         .HasColumnType("decimal(14,4)");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
 
                     b.Property<bool>("IsMain")
                         .HasColumnType("bit");

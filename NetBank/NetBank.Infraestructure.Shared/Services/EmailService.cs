@@ -34,9 +34,9 @@ namespace NetBank.Infraestructure.Shared.Services
                 await smtp.SendAsync(email);
                 await smtp.DisconnectAsync(true);
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-                throw new Exception(ex.Message);
+                //
             }
         }
     }
