@@ -10,31 +10,36 @@
 <div class="container my-5">
     <div class="row justify-content-center">
         <div class="col-12 col-md-6">
-            <div class="card shadow-sm">
-                <div class="card-header bg-primary text-white">
-                    <h4 class="mb-0">Avances de efectivo</h4>
+            <div class="card shadow-lg pagos-card">
+                <div class="card-header bank-pagos-header text-white py-4">
+                    <h4 class="mb-0 text-center">
+                        <i class="bi bi-cash-stack me-2"></i>Avances de efectivo
+                    </h4>
                 </div>
 
-                <div class="card-body">
+                <div class="card-body p-4">
                     @if (Model.HasError)
                     {
-                        <div class="alert alert-danger alert-dismissible fade show" role="alert">
-                            <p>@Model?.Error</p>
+                        <div class="alert alert-danger alert-dismissible fade show mb-4" role="alert">
+                            <i class="bi bi-exclamation-triangle me-2"></i> @Model?.Error
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                         </div>
                     }
 
                     <form method="post" asp-action="Index" asp-controller="CashAdvance">
                         <div class="mb-3">
-                            <label asp-for="OriginProductId" class="form-label">Tarjetas de crédito</label>
-                            <select asp-for="OriginProductId" class="form-select">
+                            <label asp-for="OriginProductId" class="form-label">
+                                <i class="bi bi-credit-card-2-back me-2"></i>Tarjetas de crédito
+                            </label>
+                            <select asp-for="OriginProductId" class="form-select bank-pagos-input">
                                 <option value="0">--Seleccionar--</option>
                                 @if (tarjetas != null && tarjetas.Count > 0)
                                 {
                                     @foreach (var i in tarjetas)
                                     {
                                         <option value="@i.AccountNumber">
-                                            Tarjeta: @i.AccountNumber
-                                            - Disponible: @((i.CreditLimit - i.AmountOwed) <= 0 ? 0 : (i.CreditLimit - i.AmountOwed)) DOP
+                                            Tarjeta: @i.AccountNumber - Disponible:
+                                            @((i.CreditLimit - i.AmountOwed) <= 0 ? 0 : (i.CreditLimit - i.AmountOwed)) DOP
                                         </option>
                                     }
                                 }
@@ -43,16 +48,17 @@
                         </div>
 
                         <div class="mb-3">
-                            <label asp-for="DestinationProductId" class="form-label">Cuentas de ahorro</label>
-                            <select asp-for="DestinationProductId" class="form-select">
+                            <label asp-for="DestinationProductId" class="form-label">
+                                <i class="bi bi-piggy-bank me-2"></i>Cuentas de ahorro
+                            </label>
+                            <select asp-for="DestinationProductId" class="form-select bank-pagos-input">
                                 <option value="0">--Seleccionar--</option>
                                 @if (cuentas != null && cuentas.Count > 0)
                                 {
                                     @foreach (var i in cuentas)
                                     {
                                         <option value="@i.AccountNumber">
-                                            Cuenta: @i.AccountNumber
-                                            - Balance: @i.Balance DOP
+                                            Cuenta: @i.AccountNumber - Balance: @i.Balance DOP
                                         </option>
                                     }
                                 }
@@ -61,15 +67,20 @@
                         </div>
 
                         <div class="mb-3">
-                            <label asp-for="Amount" class="form-label">Monto:</label>
-                            <input step="any" type="number" asp-for="Amount" class="form-control" />
+                            <label asp-for="Amount" class="form-label">
+                                <i class="bi bi-currency-exchange me-2"></i>Monto:
+                            </label>
+                            <input step="any" type="number" asp-for="Amount" class="form-control bank-pagos-input" />
                             <span asp-validation-for="Amount" class="text-danger"></span>
                         </div>
 
-                        <button class="btn btn-primary w-100" type="submit">Avanzar dinero</button>
+                        <button class="btn btn-primary w-100 bank-btn-pagos-primary" type="submit">
+                            <i class="bi bi-arrow-right-circle me-2"></i>Avanzar dinero
+                        </button>
                     </form>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
