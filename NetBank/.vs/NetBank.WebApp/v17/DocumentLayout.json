@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\mreng\\OneDrive\\Escritorio\\PracticasP3\\NetBank\\NetBank\\",
+  "WorkspaceRootPath": "C:\\Users\\DELL\\Desktop\\New folder\\NetBank\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F38CEEF2-B199-4BEE-8EFB-9348890CD23C}|NetBank.WebApp\\NetBank.WebApp.csproj|c:\\users\\mreng\\onedrive\\escritorio\\practicasp3\\netbank\\netbank\\netbank.webapp\\views\\transfer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F38CEEF2-B199-4BEE-8EFB-9348890CD23C}|NetBank.WebApp\\NetBank.WebApp.csproj|solutionrelative:netbank.webapp\\views\\transfer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F38CEEF2-B199-4BEE-8EFB-9348890CD23C}|NetBank.WebApp\\NetBank.WebApp.csproj|c:\\users\\dell\\desktop\\new folder\\netbank\\netbank.webapp\\views\\payment\\express.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F38CEEF2-B199-4BEE-8EFB-9348890CD23C}|NetBank.WebApp\\NetBank.WebApp.csproj|solutionrelative:netbank.webapp\\views\\payment\\express.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -13,7 +13,7 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
+          "DockedWidth": 231,
           "SelectedChildIndex": 1,
           "Children": [
             {
@@ -23,14 +23,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\mreng\\OneDrive\\Escritorio\\PracticasP3\\NetBank\\NetBank\\NetBank.WebApp\\Views\\Transfer\\Index.cshtml",
-              "RelativeDocumentMoniker": "NetBank.WebApp\\Views\\Transfer\\Index.cshtml",
-              "ToolTip": "C:\\Users\\mreng\\OneDrive\\Escritorio\\PracticasP3\\NetBank\\NetBank\\NetBank.WebApp\\Views\\Transfer\\Index.cshtml",
-              "RelativeToolTip": "NetBank.WebApp\\Views\\Transfer\\Index.cshtml",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAAD4AAAAeAAAAAAAAAA==",
+              "Title": "Express.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\New folder\\NetBank\\NetBank.WebApp\\Views\\Payment\\Express.cshtml",
+              "RelativeDocumentMoniker": "NetBank.WebApp\\Views\\Payment\\Express.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\New folder\\NetBank\\NetBank.WebApp\\Views\\Payment\\Express.cshtml",
+              "RelativeToolTip": "NetBank.WebApp\\Views\\Payment\\Express.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAUwCQAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-15T15:57:36.418Z",
+              "WhenOpened": "2025-03-15T16:44:52.337Z",
               "EditorCaption": ""
             }
           ]

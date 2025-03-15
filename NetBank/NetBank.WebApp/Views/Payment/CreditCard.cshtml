@@ -6,26 +6,29 @@
 @model SavePaymentViewModel;
 
 
-<div class="container">
+<div class="container my-5">
     <div class="row justify-content-center">
-        <div class="col-12 col-md-8 mt-5">
-            <div class="card shadow">
-                <div class="card-header bg-primary text-white">
-                    <h4 class="mb-0 text-center">Pago de Targeta de Credito</h4>
+        <div class="col-12 col-md-8 mt-2">
+            <div class="card shadow-lg pagos-card">
+                <div class="card-header bank-pagos-header text-white py-4">
+                    <h4 class="mb-0 text-center">
+                        <i class="bi bi-credit-card me-2"></i>Pago de Tarjeta de Credito
+                    </h4>
                 </div>
-                <div class="card-body">
+                <div class="card-body p-4">
                     @if (Model.HasError)
                     {
-                        <div class="alert alert-danger alert-dismissible fade show" role="alert">
-                            @Model.Error
+                        <div class="alert alert-danger alert-dismissible fade show mb-4" role="alert">
+                            <i class="bi bi-exclamation-octagon me-2"></i>@Model.Error
                             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                         </div>
                     }
                     <form asp-controller="Payment" asp-action="CreditCard" method="post">
-                        
                         <div class="mb-3">
-                            <label class="form-label" asp-for="DestinationAccountNumber">Tarjeta a pagar: </label>
-                            <select class="form-select" asp-for="DestinationAccountNumber">
+                            <label class="form-label" asp-for="DestinationAccountNumber">
+                                <i class="bi bi-credit-card me-2"></i>Tarjeta a pagar:
+                            </label>
+                            <select class="form-select bank-pagos-input" asp-for="DestinationAccountNumber">
                                 <option value="0">--Seleccionar--</option>
                                 @if (Model.CreditCards != null && Model.CreditCards.Count > 0)
                                 {
@@ -41,8 +44,10 @@
                         </div>
 
                         <div class="mb-3">
-                            <label class="form-label" asp-for="OriginAccountNumber">Cuenta de Origen: </label>
-                            <select class="form-select" asp-for="OriginAccountNumber">
+                            <label class="form-label" asp-for="OriginAccountNumber">
+                                <i class="bi bi-building me-2"></i>Cuenta de Origen:
+                            </label>
+                            <select class="form-select bank-pagos-input" asp-for="OriginAccountNumber">
                                 <option value="0">--Seleccionar--</option>
                                 @if (Model.Accounts != null && Model.Accounts.Count > 0)
                                 {
@@ -58,12 +63,16 @@
                         </div>
 
                         <div class="mb-3">
-                            <label class="form-label" asp-for="Amonut">Monto:</label>
-                            <input step="any" type="number" asp-for="Amonut" class="form-control" />
+                            <label class="form-label" asp-for="Amonut">
+                                <i class="bi bi-currency-dollar me-2"></i>Monto:
+                            </label>
+                            <input step="any" type="number" asp-for="Amonut" class="form-control bank-pagos-input" />
                             <span class="text-danger" asp-validation-for="Amonut"></span>
                         </div>
-                       
-                        <button type="submit" class="btn btn-success w-100">Pagar</button>
+
+                        <button type="submit" class="btn btn-success w-100 bank-btn-pagos-primary">
+                            <i class="bi bi-send me-2"></i>Pagar
+                        </button>
                     </form>
                 </div>
             </div>
